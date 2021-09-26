@@ -1,1 +1,1 @@
-# wif_website
+# SLIIT Women In FOSS Community Website

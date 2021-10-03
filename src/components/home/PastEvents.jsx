@@ -23,7 +23,7 @@ export default class PastEvents extends Component {
                                     data-aos="zoom-in"
                                     data-aos-delay="100"
                                 >
-                                    <img class="fa fa-diamond" src={app1} alt={blog image}/>
+                                    <img class="fa fa-diamond" src={app1} alt="blog image"/>
                                     <div class="card-body">
                                         <h5 class="card-title">
                                             Past Event Title

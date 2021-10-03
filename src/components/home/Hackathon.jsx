@@ -35,7 +35,7 @@ export default class Hackathon extends Component {
                                     </p>
                                     <a
                                         href="https://herhelloworld.sliitfoss.org"
-                                        target="_blank"
+                                        target="_blank" rel="noreferrer"
                                     >
                                         {' '}
                                         <button

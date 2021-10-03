@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import aboutImage from '../../assets/img/other/about-img.svg'
 import extra1 from '../../assets/img/other/about-extra-1.svg'
 import extra2 from '../../assets/img/other/about-extra-2.svg'
 

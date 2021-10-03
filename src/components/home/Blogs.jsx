@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import app1 from '../../assets/img/portfolio/app1.jpg'
 
 export default class Blogs extends Component {
     render() {
@@ -30,7 +29,7 @@ export default class Blogs extends Component {
                                         ></i>
                                     </div>
                                     <h4 class="title">
-                                        <a href="">Lorem Ipsum</a>
+                                        <a href="!#">Lorem Ipsum</a>
                                     </h4>
                                     <p class="description">
                                         Voluptatum deleniti atque corrupti quos
@@ -52,7 +51,7 @@ export default class Blogs extends Component {
                                         ></i>
                                     </div>
                                     <h4 class="title">
-                                        <a href="">Dolor Sitema</a>
+                                        <a href="!#">Dolor Sitema</a>
                                     </h4>
                                     <p class="description">
                                         Minim veniam, quis nostrud exercitation
@@ -75,7 +74,7 @@ export default class Blogs extends Component {
                                         ></i>
                                     </div>
                                     <h4 class="title">
-                                        <a href="">Sed ut perspiciatis</a>
+                                        <a href="!#">Sed ut perspiciatis</a>
                                     </h4>
                                     <p class="description">
                                         Duis aute irure dolor in reprehenderit
@@ -97,7 +96,7 @@ export default class Blogs extends Component {
                                         ></i>
                                     </div>
                                     <h4 class="title">
-                                        <a href="">Magni Dolores</a>
+                                        <a href="!#">Magni Dolores</a>
                                     </h4>
                                     <p class="description">
                                         Excepteur sint occaecat cupidatat non
@@ -120,7 +119,7 @@ export default class Blogs extends Component {
                                         ></i>
                                     </div>
                                     <h4 class="title">
-                                        <a href="">Nemo Enim</a>
+                                        <a href="!#">Nemo Enim</a>
                                     </h4>
                                     <p class="description">
                                         At vero eos et accusamus et iusto odio
@@ -142,7 +141,7 @@ export default class Blogs extends Component {
                                         ></i>
                                     </div>
                                     <h4 class="title">
-                                        <a href="">Eiusmod Tempor</a>
+                                        <a href="!#">Eiusmod Tempor</a>
                                     </h4>
                                     <p class="description">
                                         Et harum quidem rerum facilis est et

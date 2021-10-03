@@ -23,7 +23,7 @@ export default class PastEvents extends Component {
                                     data-aos="zoom-in"
                                     data-aos-delay="100"
                                 >
-                                    <img class="fa fa-diamond" src={app1} />
+                                    <img class="fa fa-diamond" src={app1} alt={blog image}/>
                                     <div class="card-body">
                                         <h5 class="card-title">
                                             Past Event Title
@@ -34,7 +34,7 @@ export default class PastEvents extends Component {
                                             eaque omnis sint aut. Ducimus
                                             dolorum aspernatur.
                                         </p>
-                                        <a href="#" class="readmore">
+                                        <a href="!#" class="readmore">
                                             Read more{' '}
                                         </a>
                                     </div>
@@ -57,7 +57,7 @@ export default class PastEvents extends Component {
                                             eaque omnis sint aut. Ducimus
                                             dolorum aspernatur.
                                         </p>
-                                        <a href="#" class="readmore">
+                                        <a href="!#" class="readmore">
                                             Read more{' '}
                                         </a>
                                     </div>
@@ -80,7 +80,7 @@ export default class PastEvents extends Component {
                                             laboriosam ab. Eos quis porro in non
                                             nemo ex.{' '}
                                         </p>
-                                        <a href="#" class="readmore">
+                                        <a href="!#" class="readmore">
                                             Read more{' '}
                                         </a>
                                     </div>

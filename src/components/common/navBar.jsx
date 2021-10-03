@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import logo from '../../assets/img/logo/lo.PNG'
 
 export default class NavBar extends Component {
     render() {
@@ -41,17 +40,17 @@ export default class NavBar extends Component {
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="service.html">
+                                        <a class="nav-link" href="!#">
                                             Past Events
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">
+                                        <a class="nav-link" href="!#">
                                             Blog
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">
+                                        <a class="nav-link" href="!#">
                                             Board
                                         </a>
                                     </li>
@@ -67,7 +66,7 @@ export default class NavBar extends Component {
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="">
+                                        <a class="nav-link" href="!#">
                                             Contact Us
                                         </a>
                                     </li>

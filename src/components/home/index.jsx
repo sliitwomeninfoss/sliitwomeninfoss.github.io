@@ -3,9 +3,7 @@ import image from '../../assets/img/other/intro-img.svg'
 import AboutUs from './AboutUs'
 import Blogs from './Blogs'
 import PastEvents from './PastEvents'
-import Portfolio from './portfolio'
 import Team from './Team'
-import Clients from './clients'
 import ContactUs from './ContactUs'
 import Mascot from './Mascot'
 import Hackathon from './Hackathon'
@@ -37,7 +35,7 @@ export default class Home extends Component {
                             </h2>
                             <div>
                                 <a
-                                    href="#about"
+                                    href="!#"
                                     class="btn-get-started scrollto"
                                 >
                                     Become a Member
@@ -52,9 +50,7 @@ export default class Home extends Component {
                     <Hackathon />
                     <PastEvents />
                     <Blogs />
-                    {/* <Portfolio /> */}
                     <Team />
-                    {/* <Clients /> */}
                     <ContactUs />
                 </main>
             </div>

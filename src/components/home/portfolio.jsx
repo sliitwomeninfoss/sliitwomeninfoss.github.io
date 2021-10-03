@@ -44,7 +44,7 @@ export default class Portfolio extends Component {
                                     <img src={App1} class="img-fluid" alt="" />
                                     <div class="portfolio-info">
                                         <h4>
-                                            <a href="portfolio-details.html">
+                                            <a href="!#">
                                                 App 1
                                             </a>
                                         </h4>
@@ -59,7 +59,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                href="portfolio-details.html"
+                                                href="!#"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -75,7 +75,7 @@ export default class Portfolio extends Component {
                                     <img src={Web3} class="img-fluid" alt="" />
                                     <div class="portfolio-info">
                                         <h4>
-                                            <a href="portfolio-details.html">
+                                            <a href="!#">
                                                 Web 3
                                             </a>
                                         </h4>
@@ -90,7 +90,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                href="portfolio-details.html"
+                                                href="!#"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -106,7 +106,7 @@ export default class Portfolio extends Component {
                                     <img src={App2} class="img-fluid" alt="" />
                                     <div class="portfolio-info">
                                         <h4>
-                                            <a href="portfolio-details.html">
+                                            <a href="!#">
                                                 App 2
                                             </a>
                                         </h4>
@@ -121,7 +121,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                href="portfolio-details.html"
+                                                href="!#"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -137,7 +137,7 @@ export default class Portfolio extends Component {
                                     <img src={Card2} class="img-fluid" alt="" />
                                     <div class="portfolio-info">
                                         <h4>
-                                            <a href="portfolio-details.html">
+                                            <a href="!#">
                                                 Card 2
                                             </a>
                                         </h4>
@@ -152,7 +152,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                href="portfolio-details.html"
+                                                href="!#"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -168,7 +168,7 @@ export default class Portfolio extends Component {
                                     <img src={Web2} class="img-fluid" alt="" />
                                     <div class="portfolio-info">
                                         <h4>
-                                            <a href="portfolio-details.html">
+                                            <a href="!#">
                                                 Web 2
                                             </a>
                                         </h4>
@@ -183,7 +183,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                href="portfolio-details.html"
+                                                href="!#"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -199,7 +199,7 @@ export default class Portfolio extends Component {
                                     <img src={App3} class="img-fluid" alt="" />
                                     <div class="portfolio-info">
                                         <h4>
-                                            <a href="portfolio-details.html">
+                                            <a href="!#">
                                                 App 3
                                             </a>
                                         </h4>
@@ -214,7 +214,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                href="portfolio-details.html"
+                                                href="!#"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -230,7 +230,7 @@ export default class Portfolio extends Component {
                                     <img src={Card1} class="img-fluid" alt="" />
                                     <div class="portfolio-info">
                                         <h4>
-                                            <a href="portfolio-details.html">
+                                            <a href="!#">
                                                 Card 1
                                             </a>
                                         </h4>
@@ -245,7 +245,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                href="portfolio-details.html"
+                                                href="!#"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -261,7 +261,7 @@ export default class Portfolio extends Component {
                                     <img src={Card3} class="img-fluid" alt="" />
                                     <div class="portfolio-info">
                                         <h4>
-                                            <a href="portfolio-details.html">
+                                            <a href="!#">
                                                 Card 3
                                             </a>
                                         </h4>
@@ -276,7 +276,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                href="portfolio-details.html"
+                                                href="!#"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -292,7 +292,7 @@ export default class Portfolio extends Component {
                                     <img src={Web1} class="img-fluid" alt="" />
                                     <div class="portfolio-info">
                                         <h4>
-                                            <a href="portfolio-details.html">
+                                            <a href="!#">
                                                 Web 1
                                             </a>
                                         </h4>
@@ -307,7 +307,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                href="portfolio-details.html"
+                                                href="!#"
                                                 class="link-details"
                                                 title="More Details"
                                             >

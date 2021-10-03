@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import image from '../../assets/img/other/intro-img.svg'
-import AboutUs from './aboutUs'
-import Services from './services'
-import WhyUs from './whyUs'
+import AboutUs from './AboutUs'
+import Blogs from './Blogs'
+import PastEvents from './PastEvents'
 import Portfolio from './portfolio'
-import Team from './team'
+import Team from './Team'
 import Clients from './clients'
-import ContactUs from './contactUs'
+import ContactUs from './ContactUs'
+import Mascot from './Mascot'
+import Hackathon from './Hackathon'
 
 export default class Home extends Component {
     render() {
@@ -27,24 +29,18 @@ export default class Home extends Component {
                             data-aos-delay="100"
                         >
                             <h2>
-                                We provide
+                                SLIIT
                                 <br />
-                                <span>solutions</span>
+                                <span>Women In FOSS</span>
                                 <br />
-                                for your business!
+                                Community!
                             </h2>
                             <div>
                                 <a
                                     href="#about"
                                     class="btn-get-started scrollto"
                                 >
-                                    Get Started
-                                </a>
-                                <a
-                                    href="#services"
-                                    class="btn-services scrollto"
-                                >
-                                    Our Services
+                                    Become a Member
                                 </a>
                             </div>
                         </div>
@@ -52,11 +48,13 @@ export default class Home extends Component {
                 </section>
                 <main id="main">
                     <AboutUs />
-                    <Services />
-                    <WhyUs />
-                    <Portfolio />
+                    <Mascot />
+                    <Hackathon />
+                    <PastEvents />
+                    <Blogs />
+                    {/* <Portfolio /> */}
                     <Team />
-                    <Clients />
+                    {/* <Clients /> */}
                     <ContactUs />
                 </main>
             </div>

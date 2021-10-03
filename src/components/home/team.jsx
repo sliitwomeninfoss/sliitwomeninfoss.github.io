@@ -11,7 +11,7 @@ export default class Team extends Component {
                 <section id="team">
                     <div class="container" data-aos="fade-up">
                         <div class="section-header">
-                            <h3>Team</h3>
+                            <h3>Board Members</h3>
                             <p>
                                 Sed ut perspiciatis unde omnis iste natus error
                                 sit voluptatem accusantium doloremque
@@ -31,16 +31,16 @@ export default class Team extends Component {
                                             <h4>Walter White</h4>
                                             <span>Chief Executive Officer</span>
                                             <div class="social">
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-twitter"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-facebook"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-google-plus"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-linkedin"></i>
                                                 </a>
                                             </div>
@@ -61,16 +61,16 @@ export default class Team extends Component {
                                             <h4>Sarah Jhonson</h4>
                                             <span>Product Manager</span>
                                             <div class="social">
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-twitter"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-facebook"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-google-plus"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-linkedin"></i>
                                                 </a>
                                             </div>
@@ -91,16 +91,16 @@ export default class Team extends Component {
                                             <h4>William Anderson</h4>
                                             <span>CTO</span>
                                             <div class="social">
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-twitter"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-facebook"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-google-plus"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-linkedin"></i>
                                                 </a>
                                             </div>
@@ -121,16 +121,16 @@ export default class Team extends Component {
                                             <h4>Amanda Jepson</h4>
                                             <span>Accountant</span>
                                             <div class="social">
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-twitter"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-facebook"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-google-plus"></i>
                                                 </a>
-                                                <a href="!#">
+                                                <a href="">
                                                     <i class="fa fa-linkedin"></i>
                                                 </a>
                                             </div>

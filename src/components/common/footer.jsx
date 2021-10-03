@@ -25,19 +25,19 @@ export default class Footer extends Component {
                                     <h4>Useful Links</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">Home</a>
+                                            <a href="!#">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#">About us</a>
+                                            <a href="!#">About us</a>
                                         </li>
                                         <li>
-                                            <a href="#">Services</a>
+                                            <a href="!#">Services</a>
                                         </li>
                                         <li>
-                                            <a href="#">Terms of service</a>
+                                            <a href="!#">Terms of service</a>
                                         </li>
                                         <li>
-                                            <a href="#">Privacy policy</a>
+                                            <a href="!#">Privacy policy</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -58,19 +58,19 @@ export default class Footer extends Component {
                                     </p>
 
                                     <div class="social-links">
-                                        <a href="#" class="twitter">
+                                        <a href="!#" class="twitter">
                                             <i class="fa fa-twitter"></i>
                                         </a>
-                                        <a href="#" class="facebook">
+                                        <a href="!#" class="facebook">
                                             <i class="fa fa-facebook"></i>
                                         </a>
-                                        <a href="#" class="instagram">
+                                        <a href="!#" class="instagram">
                                             <i class="fa fa-instagram"></i>
                                         </a>
-                                        <a href="#" class="google-plus">
+                                        <a href="!#" class="google-plus">
                                             <i class="fa fa-google-plus"></i>
                                         </a>
-                                        <a href="#" class="linkedin">
+                                        <a href="!#" class="linkedin">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </div>

@@ -33,7 +33,7 @@ export default class WhyUs extends Component {
                                             temporibus sunt ab inventore
                                             officiis aut voluptatibus.
                                         </p>
-                                        <a href="#" class="readmore">
+                                        <a href="!#" class="readmore">
                                             Read more{' '}
                                         </a>
                                     </div>
@@ -56,7 +56,7 @@ export default class WhyUs extends Component {
                                             eaque omnis sint aut. Ducimus
                                             dolorum aspernatur.
                                         </p>
-                                        <a href="#" class="readmore">
+                                        <a href="!#" class="readmore">
                                             Read more{' '}
                                         </a>
                                     </div>
@@ -79,7 +79,7 @@ export default class WhyUs extends Component {
                                             laboriosam ab. Eos quis porro in non
                                             nemo ex.{' '}
                                         </p>
-                                        <a href="#" class="readmore">
+                                        <a href="!#" class="readmore">
                                             Read more{' '}
                                         </a>
                                     </div>

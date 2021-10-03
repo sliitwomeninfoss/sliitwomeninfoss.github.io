@@ -5,7 +5,6 @@ import Home from './components/home'
 import AboutUs from './components/home/AboutUs'
 import CodeOfConduct from './components/home/CodeOfConduct'
 import Footer from './components/common/footer'
-import logo from './logo.svg'
 import './App.css'
 
 function App() {

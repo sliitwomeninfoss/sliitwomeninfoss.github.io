@@ -45,7 +45,7 @@ export default class Portfolio extends Component {
                                     <div class="portfolio-info">
                                         <h4>
                                             <a
-                                            // href="portfolio-details.html"
+                                            href="portfolio-details.html"
                                             >
                                                 App 1
                                             </a>
@@ -53,7 +53,7 @@ export default class Portfolio extends Component {
                                         <p>App</p>
                                         <div>
                                             <a
-                                                href=""
+                                                href="!#"
                                                 data-gall="portfolioGallery"
                                                 title="App 1"
                                                 class="venobox link-preview"
@@ -61,7 +61,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                // href="portfolio-details.html"
+                                                href="portfolio-details.html"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -78,7 +78,7 @@ export default class Portfolio extends Component {
                                     <div class="portfolio-info">
                                         <h4>
                                             <a
-                                            // href="portfolio-details.html"
+                                            href="portfolio-details.html"
                                             >
                                                 Web 3
                                             </a>
@@ -94,7 +94,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                // href="portfolio-details.html"
+                                                href="portfolio-details.html"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -111,7 +111,7 @@ export default class Portfolio extends Component {
                                     <div class="portfolio-info">
                                         <h4>
                                             <a
-                                            // href="portfolio-details.html"
+                                            href="portfolio-details.html"
                                             >
                                                 App 2
                                             </a>
@@ -127,7 +127,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                // href="portfolio-details.html"
+                                                href="portfolio-details.html"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -144,7 +144,7 @@ export default class Portfolio extends Component {
                                     <div class="portfolio-info">
                                         <h4>
                                             <a
-                                            // href="portfolio-details.html"
+                                            href="portfolio-details.html"
                                             >
                                                 Card 2
                                             </a>
@@ -160,7 +160,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                //  href="portfolio-details.html"
+                                                 href="portfolio-details.html"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -177,7 +177,7 @@ export default class Portfolio extends Component {
                                     <div class="portfolio-info">
                                         <h4>
                                             <a
-                                            // href="portfolio-details.html"
+                                            href="portfolio-details.html"
                                             >
                                                 Web 2
                                             </a>
@@ -193,7 +193,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                //  href="portfolio-details.html"
+                                                 href="portfolio-details.html"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -210,7 +210,7 @@ export default class Portfolio extends Component {
                                     <div class="portfolio-info">
                                         <h4>
                                             <a
-                                            // href="portfolio-details.html"
+                                            href="portfolio-details.html"
                                             >
                                                 App 3
                                             </a>
@@ -226,7 +226,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                // href="portfolio-details.html"
+                                                href="portfolio-details.html"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -243,7 +243,7 @@ export default class Portfolio extends Component {
                                     <div class="portfolio-info">
                                         <h4>
                                             <a
-                                            // href="portfolio-details.html"
+                                            href="portfolio-details.html"
                                             >
                                                 Card 1
                                             </a>
@@ -259,7 +259,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                // href="portfolio-details.html"
+                                                href="portfolio-details.html"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -276,7 +276,7 @@ export default class Portfolio extends Component {
                                     <div class="portfolio-info">
                                         <h4>
                                             <a
-                                            // href="portfolio-details.html"
+                                            href="portfolio-details.html"
                                             >
                                                 Card 3
                                             </a>
@@ -292,7 +292,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                // href="portfolio-details.html"
+                                                href="portfolio-details.html"
                                                 class="link-details"
                                                 title="More Details"
                                             >
@@ -309,7 +309,7 @@ export default class Portfolio extends Component {
                                     <div class="portfolio-info">
                                         <h4>
                                             <a
-                                            // href="portfolio-details.html"
+                                            href="portfolio-details.html"
                                             >
                                                 Web 1
                                             </a>
@@ -325,7 +325,7 @@ export default class Portfolio extends Component {
                                                 <i class="ion ion-eye"></i>
                                             </a>
                                             <a
-                                                // href="portfolio-details.html"
+                                                href="portfolio-details.html"
                                                 class="link-details"
                                                 title="More Details"
                                             >

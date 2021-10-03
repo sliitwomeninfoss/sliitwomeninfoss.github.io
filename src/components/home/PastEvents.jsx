@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
+import app1 from '../../assets/img/portfolio/app1.jpg'
 
-export default class WhyUs extends Component {
+export default class PastEvents extends Component {
     render() {
         return (
             <div>
-                <section id="why-us">
+                <section id="past-events">
                     <div class="container" data-aos="fade-up">
                         <header class="section-header">
-                            <h3>Why choose us?</h3>
+                            <h3>Past Events</h3>
                             <p>
                                 Laudem latine persequeris id sed, ex fabulas
                                 delectus quo. No vel partiendo abhorreant
@@ -22,16 +23,16 @@ export default class WhyUs extends Component {
                                     data-aos="zoom-in"
                                     data-aos-delay="100"
                                 >
-                                    <i class="fa fa-diamond"></i>
+                                    <img class="fa fa-diamond" src={app1} alt="blog"/>
                                     <div class="card-body">
                                         <h5 class="card-title">
-                                            Corporis dolorem
+                                            Past Event Title
                                         </h5>
                                         <p class="card-text">
-                                            Deleniti optio et nisi dolorem
-                                            debitis. Aliquam nobis est
-                                            temporibus sunt ab inventore
-                                            officiis aut voluptatibus.
+                                            Event description goes here.
+                                            Voluptates nihil et quis omnis et
+                                            eaque omnis sint aut. Ducimus
+                                            dolorum aspernatur.
                                         </p>
                                         <a href="!#" class="readmore">
                                             Read more{' '}
@@ -87,31 +88,29 @@ export default class WhyUs extends Component {
                             </div>
                         </div>
 
-                        <div
-                            class="row counters"
-                            data-aos="fade-up"
-                            data-aos-delay="100"
-                        >
-                            <div class="col-lg-3 col-6 text-center">
+                        {/* Counter */}
+                        {/* <div class="row counters" data-aos="fade-up" data-aos-delay="100"> */}
+                        {/* Clients Counter */}
+                        {/* <div class="col-lg-3 col-6 text-center">
                                 <span data-toggle="counter-up">274</span>
                                 <p>Clients</p>
-                            </div>
-
-                            <div class="col-lg-3 col-6 text-center">
+                            </div> */}
+                        {/* Projects */}
+                        {/* <div class="col-lg-3 col-6 text-center">
                                 <span data-toggle="counter-up">421</span>
                                 <p>Projects</p>
-                            </div>
-
-                            <div class="col-lg-3 col-6 text-center">
+                            </div> */}
+                        {/* Hours Of Support */}
+                        {/* <div class="col-lg-3 col-6 text-center">
                                 <span data-toggle="counter-up">1,364</span>
                                 <p>Hours Of Support</p>
-                            </div>
-
-                            <div class="col-lg-3 col-6 text-center">
+                            </div> */}
+                        {/* Hard Workers */}
+                        {/* <div class="col-lg-3 col-6 text-center">
                                 <span data-toggle="counter-up">18</span>
                                 <p>Hard Workers</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
             </div>

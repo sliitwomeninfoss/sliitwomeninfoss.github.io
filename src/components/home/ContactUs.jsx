@@ -4,8 +4,8 @@ export default class ContactUs extends Component {
     render() {
         return (
             <div>
-                <section id="contact">
-                    <div class="container-fluid" data-aos="fade-up">
+                <section id="contact" class="section-bg">
+                    <div class="container" data-aos="fade-up">
                         <div class="section-header">
                             <h3>Contact Us</h3>
                         </div>
@@ -13,22 +13,7 @@ export default class ContactUs extends Component {
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="map mb-4 mb-lg-0">
-                                    <iframe
-                                        title="map"
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                                        frameBorder="0"
-                                        style={{
-                                            border: 0,
-                                            width: '100%',
-                                            height: '312px',
-                                        }}
-                                        allowFullScreen
-                                    ></iframe>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="row">
+                                    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameBorder="0" style={{ border: 0, width: "100%", height: "312px" }} allowFullScreen></iframe> */}
                                     <div class="col-md-5 info">
                                         <i class="ion-ios-location-outline"></i>
                                         <p>A108 Adam Street, NY 535022</p>
@@ -42,9 +27,28 @@ export default class ContactUs extends Component {
                                         <p>+1 5589 55488 55</p>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                {/* <div class="row">
+                                    <div class="col-md-5 info">
+                                        <i class="ion-ios-location-outline"></i>
+                                        <p>A108 Adam Street, NY 535022</p>
+                                    </div>
+                                    <div class="col-md-4 info">
+                                        <i class="ion-ios-email-outline"></i>
+                                        <p>info@example.com</p>
+                                    </div>
+                                    <div class="col-md-3 info">
+                                        <i class="ion-ios-telephone-outline"></i>
+                                        <p>+1 5589 55488 55</p>
+                                    </div>
+                                </div> */}
 
                                 <div class="form">
-                                    <form className="php-email-form">
+                                    <form
+                                        class="php-email-form"
+                                    >
                                         <div class="form-row">
                                             <div class="form-group col-lg-6">
                                                 <input

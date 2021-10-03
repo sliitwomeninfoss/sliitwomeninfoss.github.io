@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-export default class AboutUs extends Component {
+export default class Blogs extends Component {
     render() {
         return (
             <div>
-                <section id="services" class="section-bg">
+                <section id="blogs" class="section-bg">
                     <div class="container" data-aos="fade-up">
                         <header class="section-header">
-                            <h3>Services</h3>
+                            <h3>Blogs</h3>
                             <p>
                                 Laudem latine persequeris id sed, ex fabulas
                                 delectus quo. No vel partiendo abhorreant
@@ -25,9 +25,7 @@ export default class AboutUs extends Component {
                                     <div class="icon">
                                         <i
                                             class="ion-ios-analytics-outline"
-                                            style={{
-                                                color: '#ff689b',
-                                            }}
+                                            style={{ color: '#e9bf06' }}
                                         ></i>
                                     </div>
                                     <h4 class="title">
@@ -49,9 +47,7 @@ export default class AboutUs extends Component {
                                     <div class="icon">
                                         <i
                                             class="ion-ios-bookmarks-outline"
-                                            style={{
-                                                color: '#e9bf06',
-                                            }}
+                                            style={{ color: '#e9bf06' }}
                                         ></i>
                                     </div>
                                     <h4 class="title">
@@ -74,9 +70,7 @@ export default class AboutUs extends Component {
                                     <div class="icon">
                                         <i
                                             class="ion-ios-paper-outline"
-                                            style={{
-                                                color: '#3fcdc7',
-                                            }}
+                                            style={{ color: '#3fcdc7' }}
                                         ></i>
                                     </div>
                                     <h4 class="title">
@@ -98,9 +92,7 @@ export default class AboutUs extends Component {
                                     <div class="icon">
                                         <i
                                             class="ion-ios-speedometer-outline"
-                                            style={{
-                                                color: '#41cf2e;',
-                                            }}
+                                            style={{ color: '#41cf2e;' }}
                                         ></i>
                                     </div>
                                     <h4 class="title">
@@ -123,9 +115,7 @@ export default class AboutUs extends Component {
                                     <div class="icon">
                                         <i
                                             class="ion-ios-world-outline"
-                                            style={{
-                                                color: '#d6ff22',
-                                            }}
+                                            style={{ color: '#d6ff22' }}
                                         ></i>
                                     </div>
                                     <h4 class="title">
@@ -147,9 +137,7 @@ export default class AboutUs extends Component {
                                     <div class="icon">
                                         <i
                                             class="ion-ios-clock-outline"
-                                            style={{
-                                                color: '#4680ff;',
-                                            }}
+                                            style={{ color: '#4680ff;' }}
                                         ></i>
                                     </div>
                                     <h4 class="title">

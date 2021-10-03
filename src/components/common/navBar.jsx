@@ -5,89 +5,78 @@ export default class NavBar extends Component {
         return (
             <div>
                 <header id="header" class="fixed-top">
-                    <div class="container">
-                        <div class="logo float-left">
-                            <h1>
-                                <a href="!#">NewBiz</a>
-                            </h1>
-                            {/* <a href="index.html"> */}
-                            <img
-                                src="../../assets/img/logo.png"
-                                alt=""
-                                class="img-fluid"
-                            />
-                            {/* </a> */}
+                    <nav
+                        class="navbar navbar-expand-lg navbar-light bg-white sticky"
+                        data-offset="500"
+                    >
+                        <div class="container">
+                            <a href="/" class="navbar-brand">
+                                SLIIT<span class="text-primary">WIF</span>
+                            </a>
+
+                            <button
+                                class="navbar-toggler"
+                                data-toggle="collapse"
+                                data-target="#navbarContent"
+                                aria-controls="navbarContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div
+                                class="navbar-collapse collapse"
+                                id="navbarContent"
+                            >
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="/">
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/about-us">
+                                            About
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="!#">
+                                            Past Events
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="!#">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="!#">
+                                            Board
+                                        </a>
+                                    </li>
+                                    {/* <li class="nav-item">
+                                        <a class="btn btn-primary ml-lg-2" href="#">Board</a>
+                                    </li> */}
+                                    <li class="nav-item">
+                                        <a
+                                            class="nav-link"
+                                            href="/code-of-conduct"
+                                        >
+                                            Code of Conduct
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="!#">
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                    {/* <li class="nav-item">
+                                        <a class="btn btn-primary ml-lg-2" href="#">Contact Us</a>
+                                    </li> */}
+                                </ul>
+                            </div>
                         </div>
-                        <nav class="main-nav float-right d-none d-lg-block">
-                            <ul>
-                                <li class="active">
-                                    <a href="!#">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#about">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="#services">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#portfolio">Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="#team">Team</a>
-                                </li>
-                                <li class="drop-down">
-                                    <a href="!#">Drop Down</a>
-                                    <ul>
-                                        <li>
-                                            <a href="!#">Drop Down 1</a>
-                                        </li>
-                                        <li class="drop-down">
-                                            <a href="!#">Drop Down 2</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="!#">
-                                                        Deep Drop Down 1
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="!#">
-                                                        Deep Drop Down 2
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="!#">
-                                                        Deep Drop Down 3
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="!#">
-                                                        Deep Drop Down 4
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="!#">
-                                                        Deep Drop Down 5
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="!#">Drop Down 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="!#">Drop Down 4</a>
-                                        </li>
-                                        <li>
-                                            <a href="!#">Drop Down 5</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#contact">Contact Us</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                    </nav>
                 </header>
             </div>
         )

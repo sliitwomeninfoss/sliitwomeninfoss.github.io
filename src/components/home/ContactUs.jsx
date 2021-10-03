@@ -47,9 +47,6 @@ export default class ContactUs extends Component {
 
                                 <div class="form">
                                     <form
-                                        // action="forms/contact.php"
-                                        // method="post"
-                                        role="form"
                                         class="php-email-form"
                                     >
                                         <div class="form-row">

@@ -37,7 +37,7 @@ export default function NavBar() {
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="!#">
+                                    <a class="nav-link" href="/past-events">
                                         Past Events
                                     </a>
                                 </li>
@@ -63,7 +63,7 @@ export default function NavBar() {
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="!#">
+                                    <a class="nav-link" href="/contact-us">
                                         Contact Us
                                     </a>
                                 </li>

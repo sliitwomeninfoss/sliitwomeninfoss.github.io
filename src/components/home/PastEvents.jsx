@@ -1,11 +1,16 @@
-import app1 from '../../assets/img/portfolio/app1.jpg'
+import angelica from '../../assets/img/events/A Chat With Angelicaa.jpg'
+import girls from '../../assets/img/events/A Girl’s Pathway To Become An IT Professional.jpg'
+import sea from '../../assets/img/events/A Smooth sea never .jpg'
+import aws from '../../assets/img/events/AWS.jpg'
+import talk from '../../assets/img/events/Lets Talk EQ.jpg'
+import hack from '../../assets/img/events/her_Hello World__ Registration Open.jpg'
 
 export default function PastEvents() {
 
     return (
         <div>
             <section id="past-events">
-                <div class="container" data-aos="fade-up">
+                <div class="container" data-aos="zoom-in">
                     <header class="section-header">
                         <h3>Past Events</h3>
                         <p>
@@ -15,75 +20,93 @@ export default function PastEvents() {
                         </p>
                     </header>
 
-                    <div class="row row-eq-height justify-content-center">
-                        <div class="col-lg-4 mb-4">
-                            <div
-                                class="card"
-                                data-aos="zoom-in"
-                                data-aos-delay="100"
-                            >
-                                <img class="fa fa-diamond" src={app1} alt="blog" />
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                        Past Event Title
-                                    </h5>
-                                    <p class="card-text">
-                                        Event description goes here.
-                                        Voluptates nihil et quis omnis et
-                                        eaque omnis sint aut. Ducimus
-                                        dolorum aspernatur.
-                                    </p>
-                                    <a href="!#" class="readmore">
-                                        Read more{' '}
-                                    </a>
+                    <div class="row mt-5">
+                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                            <div class="card-events">
+                                <div class="header">
+                                    <div class="post-thumb">
+                                        <img src={angelica} alt="" />
+                                    </div>
+                                </div>
+                                <div class="body">
+                                    <h5 class="post-title"><a href="!#">A Chat with Angelica</a></h5>
+                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 mb-4">
-                            <div
-                                class="card"
-                                data-aos="zoom-in"
-                                data-aos-delay="200"
-                            >
-                                <i class="fa fa-language"></i>
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                        Voluptates dolores
-                                    </h5>
-                                    <p class="card-text">
-                                        Voluptates nihil et quis omnis et
-                                        eaque omnis sint aut. Ducimus
-                                        dolorum aspernatur.
-                                    </p>
-                                    <a href="!#" class="readmore">
-                                        Read more{' '}
-                                    </a>
+                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                            <div class="card-events">
+                                <div class="header">
+                                    <div class="post-thumb">
+                                        <img src={girls} alt="" />
+                                    </div>
+                                </div>
+                                <div class="body">
+                                    <h5 class="post-title"><a href="!#">A Girl’s Pathway To Become An IT Professional</a></h5>
+                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 mb-4">
-                            <div
-                                class="card"
-                                data-aos="zoom-in"
-                                data-aos-delay="300"
-                            >
-                                <i class="fa fa-object-group"></i>
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                        Eum ut aspernatur
-                                    </h5>
-                                    <p class="card-text">
-                                        Autem quod nesciunt eos ea aut amet
-                                        laboriosam ab. Eos quis porro in non
-                                        nemo ex.{' '}
-                                    </p>
-                                    <a href="!#" class="readmore">
-                                        Read more{' '}
-                                    </a>
+                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                            <div class="card-events">
+                                <div class="header">
+                                    <div class="post-thumb">
+                                        <img src={sea} alt="" />
+                                    </div>
+                                </div>
+                                <div class="body">
+                                    <h5 class="post-title"><a href="!#">A Smooth sea never</a></h5>
+                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                            <div class="card-events">
+                                <div class="header">
+                                    <div class="post-thumb">
+                                        <img src={aws} alt="" />
+                                    </div>
+                                </div>
+                                <div class="body">
+                                    <h5 class="post-title"><a href="!#">AWS</a></h5>
+                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                            <div class="card-events">
+                                <div class="header">
+                                    <div class="post-thumb">
+                                        <img src={talk} alt="" />
+                                    </div>
+                                </div>
+                                <div class="body">
+                                    <h5 class="post-title"><a href="!#">Lets Talk EQ</a></h5>
+                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                            <div class="card-events">
+                                <div class="header">
+                                    <div class="post-thumb">
+                                        <img src={hack} alt="" />
+                                    </div>
+                                </div>
+                                <div class="body">
+                                    <h5 class="post-title"><a href="!#">her Hello World Registration Open</a></h5>
+                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 mt-4 text-center">
+                            <a href='/past-events' class="btn btn-primary">View More</a>
                         </div>
                     </div>
 

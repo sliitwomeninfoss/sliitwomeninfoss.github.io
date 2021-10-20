@@ -6,7 +6,7 @@ export default function Mascot() {
                 <div className="container" data-aos="fade-up">
                     <div className="row">
                         <div class="row about-extra">
-                            <div class="col-lg-6" data-aos="fade-right">
+                            <div class="col-lg-6" data-aos="zoom-in-up">
                                 <img
                                     src="https://scontent.fcmb5-1.fna.fbcdn.net/v/t1.6435-9/241442991_267629348528158_4372134744305786979_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=Wvwyc-RJzx8AX-EQLwS&_nc_ht=scontent.fcmb5-1.fna&oh=efee7b9363c9d9a91b055cae67592761&oe=617CD963"
                                     class="img-fluid"

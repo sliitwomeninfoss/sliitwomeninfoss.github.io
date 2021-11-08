@@ -518,7 +518,12 @@ section {
 --------------------------------*/
 #about {
     /* background: #fff; */
-    padding: 60px 0;
+    /* padding: 60px 0; */
+     width: 100%;
+    position: relative;
+    /* background: url("../img/intro-bg.png") center bottom no-repeat; */
+    background-size: cover;
+    padding: 170px 0 120px 0;
 }
 
 #about .about-container .background {
@@ -669,8 +674,13 @@ section {
 --------------------------------*/
 
 #past-events {
-    padding: 60px 0;
+    /* padding: 60px 0; */
     /* background: #c9abfa; */
+    width: 100%;
+    position: relative;
+    /* background: url("../img/intro-bg.png") center bottom no-repeat; */
+    background-size: cover;
+    padding: 170px 0 120px 0;
 }
 
 #past-events.section-header h3,
@@ -1125,9 +1135,14 @@ section {
 /* Team Section
 --------------------------------*/
 #team {
-    background: #fff;
+    /* background: #fff;
     padding: 60px 0;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1); */
+     width: 100%;
+    position: relative;
+    /* background: url("../img/intro-bg.png") center bottom no-repeat; */
+    background-size: cover;
+    padding: 170px 0 120px 0;
 }
 
 #team .member {
@@ -1235,9 +1250,14 @@ section {
 /* Contact Section
 --------------------------------*/
 #contact {
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
     padding: 60px 0;
-    overflow: hidden;
+    overflow: hidden; */
+     width: 100%;
+    position: relative;
+    /* background: url("../img/intro-bg.png") center bottom no-repeat; */
+    background-size: cover;
+    padding: 170px 0 120px 0;
 }
 
 #contact .section-header {

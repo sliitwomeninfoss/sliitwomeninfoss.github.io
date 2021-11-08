@@ -1,9 +1,71 @@
-import extra1 from '../../assets/img/other/about-extra-1.svg'
-import extra2 from '../../assets/img/other/about-extra-2.svg'
+import extra1 from '../assets/img/other/about-extra-1.svg'
+import extra2 from '../assets/img/other/about-extra-2.svg'
 export default function AboutUs() {
     return (
         <div>
-            <section id="about" class="section-bg">
+            <header id="header" class="fixed-top">
+                <nav
+                    class="navbar navbar-expand-lg navbar-light bg-white sticky"
+                    data-offset="500">
+                    <div class="container">
+                        <a href="/" class="navbar-brand">
+                            SLIIT<span class="text-primary">WIF</span>
+                        </a>
+                        <button
+                            class="navbar-toggler"
+                            data-toggle="collapse"
+                            data-target="#navbarContent"
+                            aria-controls="navbarContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                            class="navbar-collapse collapse"
+                            id="navbarContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">
+                                        HOME
+                                    </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/about-us">
+                                        ABOUT
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/past-events">
+                                        EVENTS
+                                    </a>
+                                </li>
+                                {/* <li class="nav-item">
+                                    <a class="nav-link" href="!#">
+                                        Blog
+                                    </a>
+                                </li> */}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/board-members">
+                                        BOARD
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/code-of-conduct">
+                                        CODE OF CONDUCT
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/contact-us">
+                                        CONTACT
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <section id="about" class="clearfix">
                 <div class="container" data-aos="fade-up">
                     <header class="section-header">
                         <h3>About Us</h3>
@@ -13,7 +75,6 @@ export default function AboutUs() {
                             incididunt ut labore et dolore magna aliqua.
                         </p>
                     </header>
-
                     {/* <div class="row about-container">
                         <div class="col-lg-6 content order-lg-1 order-2">
                             <p>
@@ -39,18 +100,15 @@ export default function AboutUs() {
                             <img src={aboutImage} class="img-fluid" alt="" />
                         </div>
                     </div> */}
-
                     <div class="row about-extra">
                         <div
                             class="col-lg-6 order-1 order-lg-2"
-                            data-aos="fade-left"
-                        >
+                            data-aos="fade-left">
                             <img src={extra2} class="img-fluid" alt="" />
                         </div>
                         <div
                             class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1"
-                            data-aos="fade-right"
-                        >
+                            data-aos="fade-right">
                             <h4>Our Vision</h4>
                             <p>
                                 Delectus alias ut incidunt delectus nam
@@ -62,15 +120,13 @@ export default function AboutUs() {
                             </p>
                         </div>
                     </div>
-
                     <div class="row about-extra">
                         <div class="col-lg-6" data-aos="fade-right">
                             <img src={extra1} class="img-fluid" alt="" />
                         </div>
                         <div
                             class="col-lg-6 pt-5 pt-lg-0"
-                            data-aos="fade-left"
-                        >
+                            data-aos="fade-left">
                             <h4>Our Mission</h4>
                             <p>
                                 Ipsum in aspernatur ut possimus sint. Quia
@@ -81,18 +137,15 @@ export default function AboutUs() {
                             </p>
                         </div>
                     </div>
-
                     <div class="row about-extra">
                         <div
                             class="col-lg-6 order-1 order-lg-2"
-                            data-aos="fade-left"
-                        >
+                            data-aos="fade-left">
                             <img src={extra2} class="img-fluid" alt="" />
                         </div>
                         <div
                             class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1"
-                            data-aos="fade-right"
-                        >
+                            data-aos="fade-right">
                             <h4>Our Strategy</h4>
                             <p>
                                 Delectus alias ut incidunt delectus nam

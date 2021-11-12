@@ -1413,14 +1413,13 @@ section {
 #footer {
     background: #2c2c2c;
     padding: 0 0 30px 0;
-    background-image: url('/src/assets/img/other/footer-topography.svg');
     color: #eee;
     font-size: 14px;
 }
 
 #footer .footer-top {
     background: #020c18;
-   
+    background-image: url('/src/assets/img/other/footer-topography.svg');
     padding: 60px 0 30px 0;
 }
 

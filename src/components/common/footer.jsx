@@ -1,13 +1,12 @@
 import logo from '../../assets/img/logos/footer-logo.png';
 import 'font-awesome/css/font-awesome.min.css';
-import background from '../../assets/img/other/footer-topography.svg'
 
 
 export default function Footer() {
     return (
         <div>
             <footer id="footer">
-                <div class="footer-top" style={{ backgroundImage: 'url($background})' }}>
+                <div class="footer-top">
                     <div class="container">
                         <div class="row">
 
@@ -28,11 +27,11 @@ export default function Footer() {
                                     <a href="!#" class="instagram">
                                         <i class="fa fa-instagram"></i>
                                     </a>
-                                    <a href="!#" class="google-plus">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
                                     <a href="!#" class="linkedin">
                                         <i class="fa fa-linkedin"></i>
+                                    </a>
+                                    <a href="!#" class="youtube">
+                                        <i class="fa fa-youtube"></i>
                                     </a>
                                 </div>
 

@@ -32,37 +32,37 @@ export default function Home() {
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
                                     <a class="nav-link" href="/">
-                                        Home
+                                        HOME
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/about-us">
-                                        About
+                                        ABOUT
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/past-events">
-                                        Past Events
+                                        EVENTS
                                     </a>
                                 </li>
-                                <li class="nav-item">
+                                {/* <li class="nav-item">
                                     <a class="nav-link" href="!#">
-                                        Blog
+                                       BLOG
                                     </a>
-                                </li>
+                                </li> */}
                                 <li class="nav-item">
                                     <a class="nav-link" href="/board-members">
-                                        Board
+                                        BOARD
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/code-of-conduct">
-                                        Code of Conduct
+                                        CODE OF CONDUCT
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/contact-us">
-                                        Contact Us
+                                        CONTACT
                                     </a>
                                 </li>
                             </ul>

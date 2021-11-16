@@ -1,5 +1,6 @@
-import extra1 from '../assets/img/other/about-extra-1.svg'
-import extra2 from '../assets/img/other/about-extra-2.svg'
+import vission from '../assets/img/logos/vission.png'
+import mission from '../assets/img/logos/mission.png'
+import strategy from '../assets/img/logos/strategy.png'
 export default function AboutUs() {
     return (
         <div>
@@ -69,11 +70,11 @@ export default function AboutUs() {
                 <div class="container" data-aos="fade-up">
                     <header class="section-header">
                         <h3>About Us</h3>
-                        <p>
+                        {/* <p>
                             Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et dolore magna aliqua.
-                        </p>
+                        </p> */}
                     </header>
                     {/* <div class="row about-container">
                         <div class="col-lg-6 content order-lg-1 order-2">
@@ -104,36 +105,41 @@ export default function AboutUs() {
                         <div
                             class="col-lg-6 order-1 order-lg-2"
                             data-aos="fade-left">
-                            <img src={extra2} class="img-fluid" alt="" />
+                            <img src={vission} class="img-fluid" alt="" style={{ height: 300, width: 300 }}/>
                         </div>
                         <div
                             class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1"
                             data-aos="fade-right">
                             <h4>Our Vision</h4>
                             <p>
-                                Delectus alias ut incidunt delectus nam
-                                placeat in consequatur. Sed cupiditate quia
-                                ea quis. Voluptas nemo qui aut distinctio.
-                                Cumque fugit earum est quam officiis
-                                numquam. Ducimus corporis autem at
-                                blanditiis beatae incidunt sunt.
+                                Women in FOSS is an all girls society with
+                                its members  being female students from
+                                the Faculty of Computing of SLIIT. The
+                                society provides a supportive environment
+                                to help girls grow as professionals in
+                                the field of IT with attention to
+                                Free/Open-Source Software.
+
                             </p>
                         </div>
                     </div>
                     <div class="row about-extra">
                         <div class="col-lg-6" data-aos="fade-right">
-                            <img src={extra1} class="img-fluid" alt="" />
+                            <img src={mission} class="img-fluid" alt="" style={{height: 300, width: 400}}/>
                         </div>
                         <div
                             class="col-lg-6 pt-5 pt-lg-0"
                             data-aos="fade-left">
                             <h4>Our Mission</h4>
                             <p>
-                                Ipsum in aspernatur ut possimus sint. Quia
-                                omnis est occaecati possimus ea. Quas
-                                molestiae perspiciatis occaecati qui rerum.
-                                Deleniti quod porro sed quisquam saepe.
-                                Numquam mollitia recusandae non ad at et a.
+                                The purpose of the SLIIT Women in FOSS
+                                Community is to empower the potential
+                                and the contribution of women towards
+                                Free/Open-Source Software by providing
+                                opportunities and encouraging women
+                                to actively engage in Free/Open-Source
+                                Software development.
+
                             </p>
                         </div>
                     </div>
@@ -141,7 +147,7 @@ export default function AboutUs() {
                         <div
                             class="col-lg-6 order-1 order-lg-2"
                             data-aos="fade-left">
-                            <img src={extra2} class="img-fluid" alt="" />
+                            <img src={strategy} class="img-fluid" alt="" style={{ height: 290, width: 300 }}/>
                         </div>
                         <div
                             class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1"

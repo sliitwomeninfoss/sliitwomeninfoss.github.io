@@ -21,7 +21,7 @@ export default function PastEvents() {
 
 
 
-                    <div class="container">
+                    {/* <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-lg-4">
                          
@@ -83,7 +83,7 @@ export default function PastEvents() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
 
 

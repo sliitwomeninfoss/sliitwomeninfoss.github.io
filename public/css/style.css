@@ -1492,22 +1492,24 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 # Footer
 --------------------------------------------------------------*/
 #footer {
-    background: #363636;
+    background: #2c2c2c;
     padding: 0 0 30px 0;
     color: #eee;
     font-size: 14px;
 }
 
 #footer .footer-top {
-    background: #6d6d6d;
+    background: #020c18;
+    background-image: url('/src/assets/img/other/footer-topography.svg');
     padding: 60px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
     margin-bottom: 30px;
+    justify-content: left;
 }
 
-#footer .footer-top .footer-info h3 {
+/* #footer .footer-top .footer-info h3 {
     font-size: 34px;
     margin: 0 0 20px 0;
     padding: 2px 0 2px 0;
@@ -1517,12 +1519,14 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
     font-weight: 400;
     letter-spacing: 3px;
     text-transform: uppercase;
-}
+} */
 
 #footer .footer-top .footer-info p {
-    font-size: 13px;
+    text-align: left;
+    font-size: 14px;
     line-height: 24px;
-    margin-bottom: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     color: #ecf5ff;
 }
@@ -1561,13 +1565,15 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 }
 
 #footer .footer-top .footer-links ul {
+
     list-style: none;
     padding: 0;
     margin: 0;
+    
 }
 
 #footer .footer-top .footer-links ul li {
-    padding: 8px 0;
+  margin-bottom: 12px;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1617,7 +1623,7 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 
 #footer .copyright {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 #footer .credits {
@@ -1634,6 +1640,9 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
     color: #f1f7ff;
 }
 
+#footer a {
+    color: #ecf5ff;
+}
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

@@ -24,7 +24,7 @@ export default function Hackathon() {
                                 data-aos="fade-right"
                             >
                                 <header class="section-header">
-                                    <h3>Hackathon</h3>
+                                    <h3>her hello world v1.0</h3>
                                 </header>
                                 <p>
                                     Delectus alias ut incidunt delectus nam
@@ -38,13 +38,7 @@ export default function Hackathon() {
                                     href="https://herhelloworld.sliitfoss.org"
                                     target="_blank" rel="noreferrer"
                                 >
-                                    {' '}
-                                    <button
-                                        type="submit"
-                                        title="Send Message"
-                                    >
-                                        View Website
-                                    </button>
+                                    <button class="main-btn" type="submit">Visit Website</button>
                                 </a>
                             </div>
                         </div>

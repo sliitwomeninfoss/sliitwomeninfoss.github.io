@@ -801,10 +801,11 @@ section {
 --------------------------------*/
 #hackathon {
     /* background-color: rgba(59, 0, 126, 0.473); */
-background: #9505E3;
+    background-color: #BB83FF;
+/* background: #9505E3;
 background: -webkit-radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, #B637FB 60%, #5C038C 100%);
 background: -moz-radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, #B637FB 60%, #5C038C 100%);
-background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, #B637FB 60%, #5C038C 100%); 
+background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, #B637FB 60%, #5C038C 100%);  */
  padding: 60px 0 40px 0;
     box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -863,7 +864,7 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
     margin-bottom: 0;
 }
 
-#hackathon button[type='submit'] {
+/* #hackathon button[type='submit'] {
     background: #4a008f;
     border: 0;
     border-radius: 20px;
@@ -875,7 +876,7 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 #hackathon button[type='submit']:hover {
     background: #7000d8;
     cursor: pointer;
-}
+} */
 
 /* Portfolio Section
 --------------------------------*/

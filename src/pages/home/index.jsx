@@ -6,7 +6,7 @@ import PastEvents from './PastEvents'
 import Team from '../BoardMembers'
 import Hackathon from './Hackathon'
 import WeAre from './WeAre'
-import logo from '../../assets/img/logos/Women-in-FOSS-SLIIT-Logo (1).jpg'
+import logo from '../../assets/img/logos/WIF-GoogleForm-Header.png'
 export default function Home() {
 
     return (
@@ -17,7 +17,8 @@ export default function Home() {
                     data-offset="500">
                     <div class="container">
                         <a href="/" class="navbar-brand">
-                            SLIIT<span class="text-primary">WIF</span>
+                            {/* SLIIT<span class="text-primary">WIF</span> */}
+                            <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" />
                         </a>
                         {/* <img src={logo} alt="logo" height="50" width="100" class="img-fluid just" /> */}
                         <button

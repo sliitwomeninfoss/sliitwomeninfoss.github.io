@@ -23,9 +23,6 @@ export default function PastEvents() {
 
                     <div class="container">
                         <div class="row">
-                            <div class="col-12">
-                                <h2 class="mt-4 mb-4">Bootstrap 5 Cards</h2>
-                            </div>
                             <div class="col-md-6 col-lg-4">
                          
                                 <div class="card-box">

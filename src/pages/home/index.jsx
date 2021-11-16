@@ -4,7 +4,7 @@ import Mascot from './Mascot'
 // import Blogs from './Blogs'
 import PastEvents from './PastEvents'
 // import Team from '../BoardMembers'
-// import Hackathon from './Hackathon'
+import Hackathon from './Hackathon'
 import WeAre from './WeAre'
 import logo from '../../assets/img/logos/WIF-GoogleForm-Header.png'
 export default function Home() {

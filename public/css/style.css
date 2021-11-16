@@ -1234,7 +1234,7 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 }
 
 #team .member:hover .member-info {
-    background: rgba(0, 62, 128, 0.7);
+    background: rgba(154, 90, 236, 0.7);
     opacity: 1;
     transition: 0.4s;
 }

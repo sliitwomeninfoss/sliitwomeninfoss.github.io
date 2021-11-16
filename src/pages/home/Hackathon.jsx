@@ -1,4 +1,4 @@
-import image from '../../assets/img/events/Website-her_hello world__.jpg'
+import image from '../../assets/img/logos/hack_logo.png'
 
 export default function Hackathon() {
 
@@ -15,6 +15,7 @@ export default function Hackathon() {
                                 <img
                                     src={image}
                                     class="img-fluid"
+                                    style={{height: 300, width: 350}}
                                     alt=""
                                 />
                             </div>

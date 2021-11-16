@@ -1,10 +1,12 @@
 import image from '../../assets/img/other/intro-img.svg'
+import gif from '../../assets/img/logos/Innovation.gif'
+import Mascot from './Mascot'
 import Blogs from './Blogs'
 import PastEvents from './PastEvents'
 import Team from '../BoardMembers'
-import Mascot from './Mascot'
 import Hackathon from './Hackathon'
-
+import WeAre from './WeAre'
+import logo from '../../assets/img/logos/Women-in-FOSS-SLIIT-Logo (1).jpg'
 export default function Home() {
 
     return (
@@ -17,6 +19,7 @@ export default function Home() {
                         <a href="/" class="navbar-brand">
                             SLIIT<span class="text-primary">WIF</span>
                         </a>
+                        {/* <img src={logo} alt="logo" height="50" width="100" class="img-fluid just" /> */}
                         <button
                             class="navbar-toggler"
                             data-toggle="collapse"
@@ -77,31 +80,41 @@ export default function Home() {
                         class="intro-img"
                         data-aos="zoom-out"
                         data-aos-delay="200">
-                        <img src={image} alt="" class="img-fluid" />
+                        <img src={gif} alt="" class="img-fluid" style={{width: 400, height: 400}}/>
+                        
                     </div>
                     <div
                         class="intro-info"
                         data-aos="zoom-in"
                         data-aos-delay="100">
-                        <h2>
+                        {/* <h2>
                             SLIIT
                             <br />
                             <span>Women In FOSS</span>
                             <br />
                             Community!
-                        </h2>
+                        </h2> */}
+                        <h2>SLIIT Women In FOSS Community</h2>
+                        A group of volunteers who believe in the 
+                        usage of Free/Open Source Software (FOSS). 
+                        The primary objective of the community is
+                         to promote, develop and diversify the
+                          usage of Free and Open Source Software
+                           at SLIIT.
                         <div>
-                            <a
+                            {/* <a
                                 href="!#"
                                 class="btn-get-started scrollto">
                                 Become a Member
-                            </a>
+                            </a> */}
+                            <a href="/past-events"><button class="main-btn" type="submit">Become A Member</button></a>
                         </div>
                     </div>
                 </div>
             </section>
             <main id="main">
                 {/* <AboutUs /> */}
+                <WeAre />
                 <Mascot />
                 <Hackathon />
                 <PastEvents />

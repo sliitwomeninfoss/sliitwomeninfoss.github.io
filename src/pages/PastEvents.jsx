@@ -74,12 +74,18 @@ export default function PastEvents() {
             <section id="past-events">
                 <div class="container" data-aos="zoom-in">
                     <header class="section-header">
-                        <h3>Past Events</h3>
+                        <h3>Upcoming Events</h3>
                         <p>
+                            No events at this moment. Follow us to get updates.
+                        </p>
+                    </header>
+                    <header class="section-header">
+                        <h4>Past Events</h4>
+                        {/* <p>
                             Laudem latine persequeris id sed, ex fabulas
                             delectus quo. No vel partiendo abhorreant
                             vituperatoribus.
-                        </p>
+                        </p> */}
                     </header>
 
                     <div class="row mt-5">

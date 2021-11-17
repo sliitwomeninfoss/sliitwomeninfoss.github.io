@@ -1514,11 +1514,11 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 }
 
 
-.footer-logo {
+#footer .footer-logo {
     margin-bottom: 30px;
 }
 
-.footer-logo img {
+#footer .footer-logo img {
     max-width: 200px;
 }
 
@@ -1649,7 +1649,7 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
     color: #878787;
 }
 
-.copyright-text p a {
+#footer .copyright-text p a {
     color: #5a5af3;
 }
 

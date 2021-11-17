@@ -1,7 +1,6 @@
 import logo from '../../assets/img/logos/footer-logo.png';
 import 'font-awesome/css/font-awesome.min.css';
 
-
 export default function Footer() {
     return (
         <div>
@@ -12,27 +11,27 @@ export default function Footer() {
 
 
                             <div class="col-lg-4 col-md-6 footer-info">
-                                <img src={logo} alt="logo" height="80" width="130" class="img-fluid just"/>
+                                <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" />
                                 <p>
-                                Welcome to SLIIT FOSS women community. We're a group of volunteers who believe in the usage of Free/Open Source Software (FOSS)
+                                    Welcome to SLIIT FOSS women community. We're a group of volunteers who believe in the usage of Free/Open Source Software (FOSS)
                                 </p>
 
                                 <div class="social-links">
-                                    <a href="!#" class="twitter">
+                                    <a href="https://twitter.com/sliitwif" class="twitter">
                                         <i class="fa fa-twitter"></i>
                                     </a>
-                                    <a href="!#" class="facebook">
+                                    <a href=" https://www.facebook.com/sliitwif/" class="facebook">
                                         <i class="fa fa-facebook"></i>
                                     </a>
-                                    <a href="!#" class="instagram">
+                                    <a href=" https://www.instagram.com/sliitwif/" class="instagram">
                                         <i class="fa fa-instagram"></i>
                                     </a>
-                                    <a href="!#" class="linkedin">
+                                    <a href="https://www.linkedin.com/company/sliit-women-in-foss-community/" class="linkedin">
                                         <i class="fa fa-linkedin"></i>
                                     </a>
-                                    <a href="!#" class="youtube">
+                                    {/* <a href="!#" class="youtube">
                                         <i class="fa fa-youtube"></i>
-                                    </a>
+                                    </a> */}
                                 </div>
 
                             </div>
@@ -40,22 +39,25 @@ export default function Footer() {
 
                             <div class="col-lg-4 col-md-6 footer-links">
                                 <h4>Useful Links</h4>
-                              
+
                                 <ul>
                                     <li>
-                                        <a href="!#">Home</a>
+                                        <a href="/">Home</a>
                                     </li>
                                     <li>
-                                        <a href="!#">Contact Us</a>
+                                        <a href="/about-us">About Us</a>
                                     </li>
                                     <li>
+                                        <a href="/contact-us">Contact Us</a>
+                                    </li>
+                                    {/* <li>
                                         <a href="!#">Blog</a>
+                                    </li> */}
+                                    <li>
+                                        <a href="/past-events">Events</a>
                                     </li>
                                     <li>
-                                        <a href="!#">Events</a>
-                                    </li>
-                                    <li>
-                                        <a href="!#">Code of Conduct</a>
+                                        <a href="/code-of-conduct">Code of Conduct</a>
                                     </li>
                                 </ul>
                             </div>
@@ -70,7 +72,7 @@ export default function Footer() {
                                 // action=""
                                 // method="post"
                                 >
-                                    <input type="email" name="email"  placeholder="Email Address"/>
+                                    <input type="email" name="email" placeholder="Email Address" />
                                     <input
                                         type="submit"
                                         value="Subscribe"
@@ -82,9 +84,9 @@ export default function Footer() {
                 </div>
 
                 <div class="container">
-                <div class="copyright">
-                    Copyright © 2021 | All Rights Reserved 
-                    <a href="sliitwif.org"> SLIIT WIF</a>
+                    <div class="copyright">
+                        Copyright © 2021 | All Rights Reserved
+                        <a href="sliitwif.org"> SLIIT WIF</a>
                     </div>
                 </div>
             </footer>

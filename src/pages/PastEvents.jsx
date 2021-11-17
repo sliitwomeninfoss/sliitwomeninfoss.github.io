@@ -174,7 +174,7 @@ export default function PastEvents() {
                         </div>
 
                         <div class="col-12 mt-4 text-center">
-                            <a href='/past-events' class="btn btn-primary">View More</a>
+                            <a href="/past-events"><button class="main-btn" type="submit">View More</button></a>
                         </div>
                     </div>
 

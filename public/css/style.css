@@ -166,9 +166,11 @@ h6 {
 }
 
 #header .logo img {
-    padding: 0;
+    /* padding: 0;
     margin: 7px 0;
-    max-height: 26px;
+    max-height: 26px; */
+    height: 50px;
+
 }
 
 /*--------------------------------------------------------------
@@ -314,7 +316,7 @@ h6 {
     /* background: url("../img/intro-bg.png") center bottom no-repeat; */
     /* background-color: #d6abee; */
     background-size: cover;
-    padding: 200px 0 120px 0;
+    padding: 200px 0 50px 0;
     /* border-start-start-radius: 5000px;
     border-start-end-radius: 5000px;
     border-end-start-radius: 5000px;
@@ -334,7 +336,7 @@ h6 {
 }
 
 #intro .intro-img {
-    width: 50%;
+    /* width: 50%; */
     float: right;
 }
 
@@ -377,6 +379,13 @@ h6 {
     background: repeating-radial-gradient(circle farthest-corner at center center, #B637FB 0%, #9505E3 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#intro .intro-info p {
+    /* color: #8200F0; */
+    /* margin-bottom: 40px; */
+    /* font-size: 17px; */
+    padding: 10px 0 20px 0;
 }
 
 #intro .intro-info h2 span {

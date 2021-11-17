@@ -77,9 +77,9 @@ export default function PastEvents() {
                 <div class="container" data-aos="zoom-in">
                     <header class="section-header">
                         <h3>Upcoming Events</h3>
-                        <p>
+                        {/* <p>
                             No events at this moment. Follow us to get updates.
-                        </p>
+                        </p> */}
                     </header>
                     <header class="section-header">
                         <h4>Past Events</h4>

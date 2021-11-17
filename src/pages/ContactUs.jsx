@@ -1,12 +1,12 @@
 import contact from '../assets/img/logos/contact.jpg'
 export default function ContactUs() {
-
     return (
         <div>
             <header id="header" class="fixed-top">
                 <nav
                     class="navbar navbar-expand-lg navbar-light bg-white sticky"
-                    data-offset="500">
+                    data-offset="500"
+                >
                     <div class="container">
                         <a href="/" class="navbar-brand">
                             SLIIT<span class="text-primary">WIF</span>
@@ -17,12 +17,14 @@ export default function ContactUs() {
                             data-target="#navbarContent"
                             aria-controls="navbarContent"
                             aria-expanded="false"
-                            aria-label="Toggle navigation">
+                            aria-label="Toggle navigation"
+                        >
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div
                             class="navbar-collapse collapse"
-                            id="navbarContent">
+                            id="navbarContent"
+                        >
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
                                     <a class="nav-link" href="/">
@@ -74,7 +76,10 @@ export default function ContactUs() {
                             </div>  */}
                             <div class="section-header">
                                 <h3> Get In Touch</h3>
-                                <p>Fill up the form and our Team will get back to you within 24 hours.</p>
+                                <p>
+                                    Fill up the form and our Team will get back
+                                    to you within 24 hours.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -116,19 +121,35 @@ export default function ContactUs() {
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="contact-form pt-30">
-                                <form id="contact-form" action="assets/contact.php">
+                                <form
+                                    id="contact-form"
+                                    action="assets/contact.php"
+                                >
                                     <div class="single-form">
-                                        <input type="text" name="name" placeholder="Name" />
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            placeholder="Name"
+                                        />
                                     </div>
                                     <div class="single-form">
-                                        <input type="email" name="email" placeholder="Email" />
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            placeholder="Email"
+                                        />
                                     </div>
                                     <div class="single-form">
-                                        <textarea name="message" placeholder="Message"></textarea>
+                                        <textarea
+                                            name="message"
+                                            placeholder="Message"
+                                        ></textarea>
                                     </div>
                                     <p class="form-message"></p>
                                     <div class="single-form">
-                                        <button class="main-btn" type="submit">Send Message</button>
+                                        <button class="main-btn" type="submit">
+                                            Send Message
+                                        </button>
                                     </div>
                                 </form>
                             </div>

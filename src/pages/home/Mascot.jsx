@@ -1,6 +1,5 @@
 import nifi from '../../assets/img/logos/nifi.jpeg'
 export default function Mascot() {
-
     return (
         <div>
             <section id="mascot">
@@ -21,17 +20,19 @@ export default function Mascot() {
                                 data-aos="fade-left"
                             >
                                 <header class="section-header">
-                                    <h3>Meet Nifi
+                                    <h3>
+                                        Meet Nifi
                                         <br />
-                                        Our Official Mascot</h3>
+                                        Our Official Mascot
+                                    </h3>
                                 </header>
                                 <p>
-                                    Nifi is thrilled to be a part of women tech 
-                                    enthusiasts as our cute, fluffy official 
+                                    Nifi is thrilled to be a part of women tech
+                                    enthusiasts as our cute, fluffy official
                                     mascot of the SLIIT WIF Community.
-<br />
-                                    Join hands with her and the community 
-                                    to explore the world of Women in FOSS.
+                                    <br />
+                                    Join hands with her and the community to
+                                    explore the world of Women in FOSS.
                                 </p>
                             </div>
                         </div>

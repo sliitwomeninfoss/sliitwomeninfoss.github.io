@@ -9,7 +9,8 @@ export default function Team() {
             <header id="header" class="fixed-top">
                 <nav
                     class="navbar navbar-expand-lg navbar-light bg-white sticky"
-                    data-offset="500">
+                    data-offset="500"
+                >
                     <div class="container">
                         <a href="/" class="navbar-brand">
                             SLIIT<span class="text-primary">WIF</span>
@@ -20,12 +21,14 @@ export default function Team() {
                             data-target="#navbarContent"
                             aria-controls="navbarContent"
                             aria-expanded="false"
-                            aria-label="Toggle navigation">
+                            aria-label="Toggle navigation"
+                        >
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div
                             class="navbar-collapse collapse"
-                            id="navbarContent">
+                            id="navbarContent"
+                        >
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
                                     <a class="nav-link" href="/">
@@ -73,15 +76,16 @@ export default function Team() {
                     <div class="section-header">
                         <h3>Board Members</h3>
                         <p>
-                            Sed ut perspiciatis unde omnis iste natus error
-                            sit voluptatem accusantium doloremque
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque
                         </p>
                     </div>
                     <div class="row">
                         <div
                             class="col-lg-3 col-md-6"
                             data-aos="zoom-out"
-                            data-aos-delay="100">
+                            data-aos-delay="100"
+                        >
                             <div class="member">
                                 <img src={Team1} class="img-fluid" alt="" />
                                 <div class="member-info">
@@ -109,7 +113,8 @@ export default function Team() {
                         <div
                             class="col-lg-3 col-md-6"
                             data-aos="zoom-out"
-                            data-aos-delay="200">
+                            data-aos-delay="200"
+                        >
                             <div class="member">
                                 <img src={Team2} class="img-fluid" alt="" />
                                 <div class="member-info">
@@ -137,7 +142,8 @@ export default function Team() {
                         <div
                             class="col-lg-3 col-md-6"
                             data-aos="zoom-out"
-                            data-aos-delay="300">
+                            data-aos-delay="300"
+                        >
                             <div class="member">
                                 <img src={Team3} class="img-fluid" alt="" />
                                 <div class="member-info">
@@ -165,7 +171,8 @@ export default function Team() {
                         <div
                             class="col-lg-3 col-md-6"
                             data-aos="zoom-out"
-                            data-aos-delay="400">
+                            data-aos-delay="400"
+                        >
                             <div class="member">
                                 <img src={Team4} class="img-fluid" alt="" />
                                 <div class="member-info">

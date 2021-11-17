@@ -7,7 +7,8 @@ export default function AboutUs() {
             <header id="header" class="fixed-top">
                 <nav
                     class="navbar navbar-expand-lg navbar-light bg-white sticky"
-                    data-offset="500">
+                    data-offset="500"
+                >
                     <div class="container">
                         <a href="/" class="navbar-brand">
                             SLIIT<span class="text-primary">WIF</span>
@@ -18,12 +19,14 @@ export default function AboutUs() {
                             data-target="#navbarContent"
                             aria-controls="navbarContent"
                             aria-expanded="false"
-                            aria-label="Toggle navigation">
+                            aria-label="Toggle navigation"
+                        >
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div
                             class="navbar-collapse collapse"
-                            id="navbarContent">
+                            id="navbarContent"
+                        >
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
                                     <a class="nav-link" href="/">
@@ -104,62 +107,75 @@ export default function AboutUs() {
                     <div class="row about-extra">
                         <div
                             class="col-lg-6 order-1 order-lg-2"
-                            data-aos="fade-left">
-                            <img src={vission} class="img-fluid" alt="" style={{ height: 300, width: 300 }}/>
+                            data-aos="fade-left"
+                        >
+                            <img
+                                src={vission}
+                                class="img-fluid"
+                                alt=""
+                                style={{ height: 300, width: 300 }}
+                            />
                         </div>
                         <div
                             class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1"
-                            data-aos="fade-right">
+                            data-aos="fade-right"
+                        >
                             <h4>Our Vision</h4>
                             <p>
-                                Women in FOSS is an all girls society with
-                                its members  being female students from
-                                the Faculty of Computing of SLIIT. The
-                                society provides a supportive environment
-                                to help girls grow as professionals in
-                                the field of IT with attention to
-                                Free/Open-Source Software.
-
+                                Women in FOSS is an all girls society with its
+                                members being female students from the Faculty
+                                of Computing of SLIIT. The society provides a
+                                supportive environment to help girls grow as
+                                professionals in the field of IT with attention
+                                to Free/Open-Source Software.
                             </p>
                         </div>
                     </div>
                     <div class="row about-extra">
                         <div class="col-lg-6" data-aos="fade-right">
-                            <img src={mission} class="img-fluid" alt="" style={{height: 300, width: 400}}/>
+                            <img
+                                src={mission}
+                                class="img-fluid"
+                                alt=""
+                                style={{ height: 300, width: 400 }}
+                            />
                         </div>
-                        <div
-                            class="col-lg-6 pt-5 pt-lg-0"
-                            data-aos="fade-left">
+                        <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
                             <h4>Our Mission</h4>
                             <p>
-                                The purpose of the SLIIT Women in FOSS
-                                Community is to empower the potential
-                                and the contribution of women towards
-                                Free/Open-Source Software by providing
-                                opportunities and encouraging women
-                                to actively engage in Free/Open-Source
-                                Software development.
-
+                                The purpose of the SLIIT Women in FOSS Community
+                                is to empower the potential and the contribution
+                                of women towards Free/Open-Source Software by
+                                providing opportunities and encouraging women to
+                                actively engage in Free/Open-Source Software
+                                development.
                             </p>
                         </div>
                     </div>
                     <div class="row about-extra">
                         <div
                             class="col-lg-6 order-1 order-lg-2"
-                            data-aos="fade-left">
-                            <img src={strategy} class="img-fluid" alt="" style={{ height: 290, width: 300 }}/>
+                            data-aos="fade-left"
+                        >
+                            <img
+                                src={strategy}
+                                class="img-fluid"
+                                alt=""
+                                style={{ height: 290, width: 300 }}
+                            />
                         </div>
                         <div
                             class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1"
-                            data-aos="fade-right">
+                            data-aos="fade-right"
+                        >
                             <h4>Our Strategy</h4>
                             <p>
-                                Delectus alias ut incidunt delectus nam
-                                placeat in consequatur. Sed cupiditate quia
-                                ea quis. Voluptas nemo qui aut distinctio.
-                                Cumque fugit earum est quam officiis
-                                numquam. Ducimus corporis autem at
-                                blanditiis beatae incidunt sunt.
+                                Delectus alias ut incidunt delectus nam placeat
+                                in consequatur. Sed cupiditate quia ea quis.
+                                Voluptas nemo qui aut distinctio. Cumque fugit
+                                earum est quam officiis numquam. Ducimus
+                                corporis autem at blanditiis beatae incidunt
+                                sunt.
                             </p>
                         </div>
                     </div>

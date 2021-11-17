@@ -23,19 +23,19 @@ export default function Footer() {
                                 <span class="connect">Connect with us</span>
 
                                 <div class="social-links">
-                                    <a href="#" class="facebook">
+                                    <a href="!#" class="facebook">
                                     <FontAwesomeIcon icon={['fab', 'facebook']} />
                                     </a>
-                                    <a href="#" class="instagram">
+                                    <a href="!#" class="instagram">
                                     <FontAwesomeIcon icon={['fab', 'instagram']} />
                                     </a>
-                                    <a href="#" class="twitter">
+                                    <a href="!#" class="twitter">
                                     <FontAwesomeIcon icon={['fab', 'twitter']} />
                                     </a>
-                                    <a href="#" class="linkedin">
+                                    <a href="!#" class="linkedin">
                                     <FontAwesomeIcon icon={['fab', 'linkedin']} />
                                     </a>
-                                    <a href="#" class="youtube">
+                                    <a href="!#" class="youtube">
                                     <FontAwesomeIcon icon={['fab', 'youtube']} />
                                     </a>
                                 </div>
@@ -48,34 +48,34 @@ export default function Footer() {
                               
                                 <ul>
                                     <li>
-                                        <a href="#">Home</a>
+                                        <a href="!#">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contact Us</a>
+                                        <a href="!#">Contact Us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Blog</a>
+                                        <a href="!#">Blog</a>
                                     </li>
                                     <li>
-                                        <a href="#">Events</a>
+                                        <a href="!#">Events</a>
                                     </li>
                                     <li>
-                                        <a href="#">Code of Conduct</a>
+                                        <a href="!#">Code of Conduct</a>
                                     </li>
                                     <li>
-                                        <a href="#">GutHub</a>
+                                        <a href="!#">GutHub</a>
                                     </li>
                                     <li>
-                                        <a href="#">Leaderboard</a>
+                                        <a href="!#">Leaderboard</a>
                                     </li>
                                     <li>
-                                        <a href="#">Brand Assets</a>
+                                        <a href="!#">Brand Assets</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contribution Guidelines</a>
+                                        <a href="!#">Contribution Guidelines</a>
                                     </li>
                                     <li>
-                                        <a href="#">Annual Report 2020</a>
+                                        <a href="!#">Annual Report 2020</a>
                                     </li>
                                 </ul>
                             </div>
@@ -109,18 +109,18 @@ export default function Footer() {
                             <div class="copyright-text">
                                 <p>
                                     Copyright &copy; 2021 | All Rights Reserved 
-                                    <a href="#"> SLIIT WIF</a>
+                                    <a href="!#"> SLIIT WIF</a>
                                 </p>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Terms</a></li>
-                                    <li><a href="#">Privacy</a></li>
-                                    <li><a href="#">Policy</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="!#">Home</a></li>
+                                    <li><a href="!#">Terms</a></li>
+                                    <li><a href="!#">Privacy</a></li>
+                                    <li><a href="!#">Policy</a></li>
+                                    <li><a href="!#">Contact</a></li>
                                 </ul>
                             </div>
                         </div>

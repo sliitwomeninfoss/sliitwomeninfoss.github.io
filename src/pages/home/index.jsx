@@ -6,20 +6,25 @@ import PastEvents from './PastEvents'
 // import Team from '../BoardMembers'
 import Hackathon from './Hackathon'
 import WeAre from './WeAre'
-import logo from '../../assets/img/logos/WIF-GoogleForm-Header.png'
+import logo from '../../assets/img/logo/lo.PNG'
 export default function Home() {
-
     return (
         <div>
             <header id="header" class="fixed-top">
                 <nav
                     class="navbar navbar-expand-lg navbar-light bg-white sticky"
-                    data-offset="500">
+                    data-offset="500"
+                >
                     <div class="container">
-                        <a href="/" class="navbar-brand">
-                            {/* SLIIT<span class="text-primary">WIF</span> */}
-                            <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" />
-                        </a>
+                        {/* <a href="/" class="navbar-brand"> */}
+                        {/* SLIIT<span class="text-primary">WIF</span> */}
+                        {/* <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" /> */}
+                        <div class="logo float-left">
+                            <a href="/">
+                                <img src={logo} alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                        {/* </a> */}
                         {/* <img src={logo} alt="logo" height="50" width="100" class="img-fluid just" /> */}
                         <button
                             class="navbar-toggler"
@@ -27,12 +32,14 @@ export default function Home() {
                             data-target="#navbarContent"
                             aria-controls="navbarContent"
                             aria-expanded="false"
-                            aria-label="Toggle navigation">
+                            aria-label="Toggle navigation"
+                        >
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div
                             class="navbar-collapse collapse"
-                            id="navbarContent">
+                            id="navbarContent"
+                        >
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
                                     <a class="nav-link" href="/">
@@ -80,14 +87,20 @@ export default function Home() {
                     <div
                         class="intro-img"
                         data-aos="zoom-out"
-                        data-aos-delay="200">
-                        <img src={gif} alt="" class="img-fluid" style={{width: 400, height: 400}}/>
-                        
+                        data-aos-delay="200"
+                    >
+                        <img
+                            src={gif}
+                            alt=""
+                            class="img-fluid"
+                            style={{ width: 400, height: 400 }}
+                        />
                     </div>
                     <div
                         class="intro-info"
                         data-aos="zoom-in"
-                        data-aos-delay="100">
+                        data-aos-delay="100"
+                    >
                         {/* <h2>
                             SLIIT
                             <br />
@@ -96,19 +109,25 @@ export default function Home() {
                             Community!
                         </h2> */}
                         <h2>SLIIT Women In FOSS Community</h2>
-                        A group of volunteers who believe in the 
-                        usage of Free/Open Source Software (FOSS). 
-                        The primary objective of the community is
-                         to promote, develop and diversify the
-                          usage of Free and Open Source Software
-                           at SLIIT.
+                        <p>
+                            We are a group of enthusiastic volunteers who
+                            believe in the usage and contribution of Free Open
+                            Source Software (FOSS). Our community's primary
+                            objective is to promote, inspire and diversify the
+                            usage of Free Open Source Software at SLIIT amongst
+                            empowered women.
+                        </p>
                         <div>
                             {/* <a
                                 href="!#"
                                 class="btn-get-started scrollto">
                                 Become a Member
                             </a> */}
-                            <a href="/past-events"><button class="main-btn" type="submit">Become A Member</button></a>
+                            <a href="!#">
+                                <button class="main-btn" type="submit">
+                                    Become A Member
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

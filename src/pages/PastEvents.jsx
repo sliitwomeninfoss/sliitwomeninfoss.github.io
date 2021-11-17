@@ -6,13 +6,13 @@ import talk from '../assets/img/events/Lets Talk EQ.jpg'
 import hack from '../assets/img/events/her_Hello World__ Registration Open.jpg'
 
 export default function PastEvents() {
-
     return (
         <div>
             <header id="header" class="fixed-top">
                 <nav
                     class="navbar navbar-expand-lg navbar-light bg-white sticky"
-                    data-offset="500">
+                    data-offset="500"
+                >
                     <div class="container">
                         <a href="/" class="navbar-brand">
                             SLIIT<span class="text-primary">WIF</span>
@@ -23,12 +23,14 @@ export default function PastEvents() {
                             data-target="#navbarContent"
                             aria-controls="navbarContent"
                             aria-expanded="false"
-                            aria-label="Toggle navigation">
+                            aria-label="Toggle navigation"
+                        >
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div
                             class="navbar-collapse collapse"
-                            id="navbarContent">
+                            id="navbarContent"
+                        >
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
                                     <a class="nav-link" href="/">
@@ -89,7 +91,7 @@ export default function PastEvents() {
                     </header>
 
                     <div class="row mt-5">
-                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
                             <div class="card-events">
                                 <div class="header">
                                     <div class="post-thumb">
@@ -97,13 +99,17 @@ export default function PastEvents() {
                                     </div>
                                 </div>
                                 <div class="body">
-                                    <h5 class="post-title"><a href="!#">A Chat with Angelica</a></h5>
-                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
+                                    <h5 class="post-title">
+                                        <a href="!#">A Chat with Angelica</a>
+                                    </h5>
+                                    <div class="post-date">
+                                        Posted on <a href="!#">27 Jan 2020</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
                             <div class="card-events">
                                 <div class="header">
                                     <div class="post-thumb">
@@ -111,13 +117,20 @@ export default function PastEvents() {
                                     </div>
                                 </div>
                                 <div class="body">
-                                    <h5 class="post-title"><a href="!#">A Girl’s Pathway To Become An IT Professional</a></h5>
-                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
+                                    <h5 class="post-title">
+                                        <a href="!#">
+                                            A Girl’s Pathway To Become An IT
+                                            Professional
+                                        </a>
+                                    </h5>
+                                    <div class="post-date">
+                                        Posted on <a href="!#">27 Jan 2020</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
                             <div class="card-events">
                                 <div class="header">
                                     <div class="post-thumb">
@@ -125,13 +138,17 @@ export default function PastEvents() {
                                     </div>
                                 </div>
                                 <div class="body">
-                                    <h5 class="post-title"><a href="!#">A Smooth sea never</a></h5>
-                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
+                                    <h5 class="post-title">
+                                        <a href="!#">A Smooth sea never</a>
+                                    </h5>
+                                    <div class="post-date">
+                                        Posted on <a href="!#">27 Jan 2020</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
                             <div class="card-events">
                                 <div class="header">
                                     <div class="post-thumb">
@@ -139,13 +156,17 @@ export default function PastEvents() {
                                     </div>
                                 </div>
                                 <div class="body">
-                                    <h5 class="post-title"><a href="!#">AWS</a></h5>
-                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
+                                    <h5 class="post-title">
+                                        <a href="!#">AWS</a>
+                                    </h5>
+                                    <div class="post-date">
+                                        Posted on <a href="!#">27 Jan 2020</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
                             <div class="card-events">
                                 <div class="header">
                                     <div class="post-thumb">
@@ -153,13 +174,17 @@ export default function PastEvents() {
                                     </div>
                                 </div>
                                 <div class="body">
-                                    <h5 class="post-title"><a href="!#">Lets Talk EQ</a></h5>
-                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
+                                    <h5 class="post-title">
+                                        <a href="!#">Lets Talk EQ</a>
+                                    </h5>
+                                    <div class="post-date">
+                                        Posted on <a href="!#">27 Jan 2020</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 py-3" data-aos='zoom-out-down'>
+                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
                             <div class="card-events">
                                 <div class="header">
                                     <div class="post-thumb">
@@ -167,17 +192,26 @@ export default function PastEvents() {
                                     </div>
                                 </div>
                                 <div class="body">
-                                    <h5 class="post-title"><a href="!#">her Hello World Registration Open</a></h5>
-                                    <div class="post-date">Posted on <a href="!#">27 Jan 2020</a></div>
+                                    <h5 class="post-title">
+                                        <a href="!#">
+                                            her Hello World Registration Open
+                                        </a>
+                                    </h5>
+                                    <div class="post-date">
+                                        Posted on <a href="!#">27 Jan 2020</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-12 mt-4 text-center">
-                            <a href='/past-events' class="btn btn-primary">View More</a>
+                            <a href="/past-events">
+                                <button class="main-btn" type="submit">
+                                    View More
+                                </button>
+                            </a>
                         </div>
                     </div>
-
                 </div>
             </section>
         </div>

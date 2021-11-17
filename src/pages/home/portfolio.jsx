@@ -16,11 +16,7 @@ export default function Portfolio() {
                     <header class="section-header">
                         <h3 class="section-title">Our Portfolio</h3>
                     </header>
-                    <div
-                        class="row"
-                        data-aos="fade-up"
-                        data-aos-delay="100"
-                    >
+                    <div class="row" data-aos="fade-up" data-aos-delay="100">
                         <div class="col-lg-12">
                             <ul id="portfolio-flters">
                                 <li data-filter="*" class="filter-active">
@@ -42,9 +38,7 @@ export default function Portfolio() {
                                 <img src={App1} class="img-fluid" alt="" />
                                 <div class="portfolio-info">
                                     <h4>
-                                        <a href="!#">
-                                            App 1
-                                        </a>
+                                        <a href="!#">App 1</a>
                                     </h4>
                                     <p>App</p>
                                     <div>
@@ -73,9 +67,7 @@ export default function Portfolio() {
                                 <img src={Web3} class="img-fluid" alt="" />
                                 <div class="portfolio-info">
                                     <h4>
-                                        <a href="!#">
-                                            Web 3
-                                        </a>
+                                        <a href="!#">Web 3</a>
                                     </h4>
                                     <p>Web</p>
                                     <div>
@@ -104,9 +96,7 @@ export default function Portfolio() {
                                 <img src={App2} class="img-fluid" alt="" />
                                 <div class="portfolio-info">
                                     <h4>
-                                        <a href="!#">
-                                            App 2
-                                        </a>
+                                        <a href="!#">App 2</a>
                                     </h4>
                                     <p>App</p>
                                     <div>
@@ -135,9 +125,7 @@ export default function Portfolio() {
                                 <img src={Card2} class="img-fluid" alt="" />
                                 <div class="portfolio-info">
                                     <h4>
-                                        <a href="!#">
-                                            Card 2
-                                        </a>
+                                        <a href="!#">Card 2</a>
                                     </h4>
                                     <p>Card</p>
                                     <div>
@@ -166,9 +154,7 @@ export default function Portfolio() {
                                 <img src={Web2} class="img-fluid" alt="" />
                                 <div class="portfolio-info">
                                     <h4>
-                                        <a href="!#">
-                                            Web 2
-                                        </a>
+                                        <a href="!#">Web 2</a>
                                     </h4>
                                     <p>Web</p>
                                     <div>
@@ -197,9 +183,7 @@ export default function Portfolio() {
                                 <img src={App3} class="img-fluid" alt="" />
                                 <div class="portfolio-info">
                                     <h4>
-                                        <a href="!#">
-                                            App 3
-                                        </a>
+                                        <a href="!#">App 3</a>
                                     </h4>
                                     <p>App</p>
                                     <div>
@@ -228,9 +212,7 @@ export default function Portfolio() {
                                 <img src={Card1} class="img-fluid" alt="" />
                                 <div class="portfolio-info">
                                     <h4>
-                                        <a href="!#">
-                                            Card 1
-                                        </a>
+                                        <a href="!#">Card 1</a>
                                     </h4>
                                     <p>Card</p>
                                     <div>
@@ -259,9 +241,7 @@ export default function Portfolio() {
                                 <img src={Card3} class="img-fluid" alt="" />
                                 <div class="portfolio-info">
                                     <h4>
-                                        <a href="!#">
-                                            Card 3
-                                        </a>
+                                        <a href="!#">Card 3</a>
                                     </h4>
                                     <p>Card</p>
                                     <div>
@@ -290,9 +270,7 @@ export default function Portfolio() {
                                 <img src={Web1} class="img-fluid" alt="" />
                                 <div class="portfolio-info">
                                     <h4>
-                                        <a href="!#">
-                                            Web 1
-                                        </a>
+                                        <a href="!#">Web 1</a>
                                     </h4>
                                     <p>Web</p>
                                     <div>

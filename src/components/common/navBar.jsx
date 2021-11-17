@@ -55,10 +55,7 @@ export default function NavBar() {
                                     <a class="btn btn-primary ml-lg-2" href="#">Board</a>
                                 </li> */}
                                 <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        href="/code-of-conduct"
-                                    >
+                                    <a class="nav-link" href="/code-of-conduct">
                                         Code of Conduct
                                     </a>
                                 </li>

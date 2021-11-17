@@ -20,7 +20,7 @@ export default function Home() {
                         {/* SLIIT<span class="text-primary">WIF</span> */}
                         {/* <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" /> */}
                         <div class="logo float-left">
-                            <a>
+                            <a href="/">
                                 <img src={logo} alt="" class="img-fluid" />
                             </a>
                         </div>

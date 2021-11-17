@@ -24,7 +24,6 @@ export default function Hackathon() {
                             >
                                 <header class="section-header">
                                     <h3>{"her <hello world v1.0 />"}</h3>
-                                    {/* {'{'} {'}'} */}
                                 </header>
                                 <p>
                                     Delectus alias ut incidunt delectus nam

@@ -77,7 +77,7 @@ export default function Team() {
                     </div>
                     <div class="row member-row">
                         <div
-                            class="col-lg-3 col-md-6"
+                            class="col-lg-3 col-md-6 team-card"
                             data-aos="zoom-out"
                             data-aos-delay="100"
                         >
@@ -119,7 +119,7 @@ export default function Team() {
                             </div>
                         </div>
                         <div
-                            class="col-lg-3 col-md-6"
+                            class="col-lg-3 col-md-6 team-card"
                             data-aos="zoom-out"
                             data-aos-delay="100"
                         >
@@ -154,7 +154,7 @@ export default function Team() {
                             </div>
                         </div>
                         <div
-                            class="col-lg-3 col-md-6"
+                            class="col-lg-3 col-md-6 team-card"
                             data-aos="zoom-out"
                             data-aos-delay="100"
                         >
@@ -198,7 +198,7 @@ export default function Team() {
                     </div>
                     <div class="row member-row">
                         <div
-                            class="col-lg-3 col-md-6"
+                            class="col-lg-3 col-md-6 team-card"
                             data-aos="zoom-out"
                             data-aos-delay="100"
                         >
@@ -240,7 +240,7 @@ export default function Team() {
                             </div>
                         </div>
                         <div
-                            class="col-lg-3 col-md-6"
+                            class="col-lg-3 col-md-6 team-card"
                             data-aos="zoom-out"
                             data-aos-delay="200"
                         >
@@ -282,7 +282,7 @@ export default function Team() {
                             </div>
                         </div>
                         <div
-                            class="col-lg-3 col-md-6"
+                            class="col-lg-3 col-md-6 team-card"
                             data-aos="zoom-out"
                             data-aos-delay="300"
                         >
@@ -324,7 +324,7 @@ export default function Team() {
                             </div>
                         </div>
                         <div
-                            class="col-lg-3 col-md-6"
+                            class="col-lg-3 col-md-6 team-card"
                             data-aos="zoom-out"
                             data-aos-delay="400"
                         >

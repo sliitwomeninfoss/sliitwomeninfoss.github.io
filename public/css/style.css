@@ -797,11 +797,6 @@ section {
      padding: 80px 0;
 }
 
-.member-row{
-    justify-content: center;
-    margin-top: 50px;
-}
-
 /* Hackathon Section
 --------------------------------*/
 #hackathon {
@@ -1201,6 +1196,10 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 
 /* Team Section
 --------------------------------*/
+.member-row{
+    justify-content: center;
+}
+
 #team {
     /* background: #fff;
     padding: 60px 0;
@@ -1210,6 +1209,10 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
     /* background: url("../img/intro-bg.png") center bottom no-repeat; */
     background-size: cover;
     padding: 170px 0 120px 0;
+}
+
+#team .team-card {
+    margin-top: 50px;
 }
 
 #team .member {

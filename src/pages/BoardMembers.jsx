@@ -1,5 +1,3 @@
-import Team2 from '../assets/img/team/team-2.jpg'
-import Team4 from '../assets/img/team/team-4.jpg'
 import { BOARD_MEMBER_DETAILS } from '../utilities/constants/BoardMembers.constants'
 
 export default function Team() {
@@ -82,7 +80,15 @@ export default function Team() {
                             data-aos-delay="100"
                         >
                             <div class="member">
-                                <img src={Team2} class="img-fluid" alt="" />
+                                <img
+                                    src={
+                                        BOARD_MEMBER_DETAILS
+                                            .MEMBERSHIP_AND_RECRUITING_LEAD
+                                            .IMAGE_SRC
+                                    }
+                                    class="img-fluid"
+                                    alt=""
+                                />
                                 <div class="member-info">
                                     <div class="member-info-content">
                                         <div class="social">
@@ -124,7 +130,13 @@ export default function Team() {
                             data-aos-delay="100"
                         >
                             <div class="member">
-                                <img src={Team4} class="img-fluid" alt="" />
+                                <img
+                                    src={
+                                        BOARD_MEMBER_DETAILS.CLUB_LEAD.IMAGE_SRC
+                                    }
+                                    class="img-fluid"
+                                    alt=""
+                                />
                                 <div class="member-info">
                                     <div class="member-info-content">
                                         <div class="social">
@@ -159,7 +171,14 @@ export default function Team() {
                             data-aos-delay="200"
                         >
                             <div class="member">
-                                <img src={Team2} class="img-fluid" alt="" />
+                                <img
+                                    src={
+                                        BOARD_MEMBER_DETAILS
+                                            .WEB_AND_GRAPHIC_TEAM_LEAD.IMAGE_SRC
+                                    }
+                                    class="img-fluid"
+                                    alt=""
+                                />
                                 <div class="member-info">
                                     <div class="member-info-content">
                                         <div class="social">
@@ -203,7 +222,15 @@ export default function Team() {
                             data-aos-delay="300"
                         >
                             <div class="member">
-                                <img src={Team4} class="img-fluid" alt="" />
+                                <img
+                                    src={
+                                        BOARD_MEMBER_DETAILS
+                                            .MARKETING_AND_PUBLICITY_LEAD
+                                            .IMAGE_SRC
+                                    }
+                                    class="img-fluid"
+                                    alt=""
+                                />
                                 <div class="member-info">
                                     <div class="member-info-content">
                                         <div class="social">
@@ -245,7 +272,14 @@ export default function Team() {
                             data-aos-delay="200"
                         >
                             <div class="member">
-                                <img src={Team2} class="img-fluid" alt="" />
+                                <img
+                                    src={
+                                        BOARD_MEMBER_DETAILS
+                                            .DEVELOPING_TEAM_LEAD.IMAGE_SRC
+                                    }
+                                    class="img-fluid"
+                                    alt=""
+                                />
                                 <div class="member-info">
                                     <div class="member-info-content">
                                         <div class="social">
@@ -287,7 +321,14 @@ export default function Team() {
                             data-aos-delay="400"
                         >
                             <div class="member">
-                                <img src={Team4} class="img-fluid" alt="" />
+                                <img
+                                    src={
+                                        BOARD_MEMBER_DETAILS
+                                            .CONTENT_WRITING_TEAM_LEAD.IMAGE_SRC
+                                    }
+                                    class="img-fluid"
+                                    alt=""
+                                />
                                 <div class="member-info">
                                     <div class="member-info-content">
                                         <div class="social">
@@ -329,7 +370,14 @@ export default function Team() {
                             data-aos-delay="400"
                         >
                             <div class="member">
-                                <img src={Team2} class="img-fluid" alt="" />
+                                <img
+                                    src={
+                                        BOARD_MEMBER_DETAILS.TECHNICAL_LEAD
+                                            .IMAGE_SRC
+                                    }
+                                    class="img-fluid"
+                                    alt=""
+                                />
                                 <div class="member-info">
                                     <div class="member-info-content">
                                         <div class="social">

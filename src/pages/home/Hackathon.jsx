@@ -1,7 +1,6 @@
 import image from '../../assets/img/logos/hack_logo.png'
 
 export default function Hackathon() {
-
     return (
         <div>
             <section id="hackathon">
@@ -15,7 +14,7 @@ export default function Hackathon() {
                                 <img
                                     src={image}
                                     class="img-fluid"
-                                    style={{height: 300, width: 350}}
+                                    style={{ height: 300, width: 350 }}
                                     alt=""
                                 />
                             </div>
@@ -24,21 +23,24 @@ export default function Hackathon() {
                                 data-aos="fade-right"
                             >
                                 <header class="section-header">
-                                    <h3>her hello world v1.0</h3>
+                                    <h3>{"her <hello world v1.0 />"}</h3>
                                 </header>
                                 <p>
                                     Delectus alias ut incidunt delectus nam
-                                    placeat in consequatur. Sed cupiditate
-                                    quia ea quis. Voluptas nemo qui aut
-                                    distinctio. Cumque fugit earum est quam
-                                    officiis numquam. Ducimus corporis autem
-                                    at blanditiis beatae incidunt sunt.
+                                    placeat in consequatur. Sed cupiditate quia
+                                    ea quis. Voluptas nemo qui aut distinctio.
+                                    Cumque fugit earum est quam officiis
+                                    numquam. Ducimus corporis autem at
+                                    blanditiis beatae incidunt sunt.
                                 </p>
                                 <a
                                     href="https://herhelloworld.sliitfoss.org"
-                                    target="_blank" rel="noreferrer"
+                                    target="_blank"
+                                    rel="noreferrer"
                                 >
-                                    <button class="main-btn" type="submit">Visit Website</button>
+                                    <button class="main-btn" type="submit">
+                                        Visit Website
+                                    </button>
                                 </a>
                             </div>
                         </div>

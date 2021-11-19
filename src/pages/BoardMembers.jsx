@@ -156,7 +156,7 @@ export default function Team() {
                         <div
                             class="col-lg-3 col-md-6 team-card"
                             data-aos="zoom-out"
-                            data-aos-delay="100"
+                            data-aos-delay="200"
                         >
                             <div class="member">
                                 <img src={Team2} class="img-fluid" alt="" />
@@ -200,7 +200,7 @@ export default function Team() {
                         <div
                             class="col-lg-3 col-md-6 team-card"
                             data-aos="zoom-out"
-                            data-aos-delay="100"
+                            data-aos-delay="300"
                         >
                             <div class="member">
                                 <img src={Team4} class="img-fluid" alt="" />
@@ -284,7 +284,7 @@ export default function Team() {
                         <div
                             class="col-lg-3 col-md-6 team-card"
                             data-aos="zoom-out"
-                            data-aos-delay="300"
+                            data-aos-delay="400"
                         >
                             <div class="member">
                                 <img src={Team4} class="img-fluid" alt="" />

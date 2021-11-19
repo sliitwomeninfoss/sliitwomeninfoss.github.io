@@ -1,6 +1,6 @@
 import Team2 from '../assets/img/team/team-2.jpg'
 import Team4 from '../assets/img/team/team-4.jpg'
-import { BOARD_MEMBER_NAMES } from '../utilities/constants/BoardMembers.constants'
+import { BOARD_MEMBER_DETAILS } from '../utilities/constants/BoardMembers.constants'
 
 export default function Team() {
     return (
@@ -85,19 +85,13 @@ export default function Team() {
                                 <img src={Team2} class="img-fluid" alt="" />
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                        <h4>{BOARD_MEMBER_NAMES.MEMBERSHIP_AND_RECRUITING_LEAD}</h4>
+                                        <h4>{BOARD_MEMBER_DETAILS.MEMBERSHIP_AND_RECRUITING_LEAD.NAME}</h4>
                                         <span>Membership & Recruiting Lead</span>
                                         <div class="social">
-                                            <a href="!#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                            <a href="!#">
+                                            <a href={BOARD_MEMBER_DETAILS.MEMBERSHIP_AND_RECRUITING_LEAD.FACEBOOK}>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
-                                            <a href="!#">
-                                                <i class="fa fa-google-plus"></i>
-                                            </a>
-                                            <a href="!#">
+                                            <a href={BOARD_MEMBER_DETAILS.MEMBERSHIP_AND_RECRUITING_LEAD.LINKEDIN}>
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </div>
@@ -114,19 +108,13 @@ export default function Team() {
                                 <img src={Team4} class="img-fluid" alt="" />
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                        <h4>{BOARD_MEMBER_NAMES.CLUB_LEAD}</h4>
+                                        <h4>{BOARD_MEMBER_DETAILS.CLUB_LEAD.NAME}</h4>
                                         <span><h5>Club Lead</h5></span>
                                         <div class="social">
-                                            <a href="!#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                            <a href="!#">
+                                        <a href={BOARD_MEMBER_DETAILS.CLUB_LEAD.FACEBOOK}>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
-                                            <a href="!#">
-                                                <i class="fa fa-google-plus"></i>
-                                            </a>
-                                            <a href="!#">
+                                            <a href={BOARD_MEMBER_DETAILS.CLUB_LEAD.LINKEDIN}>
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </div>
@@ -143,19 +131,13 @@ export default function Team() {
                                 <img src={Team2} class="img-fluid" alt="" />
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                        <h4>{BOARD_MEMBER_NAMES.WEB_AND_GRAPHIC_TEAM_LEAD}</h4>
+                                        <h4>{BOARD_MEMBER_DETAILS.WEB_AND_GRAPHIC_TEAM_LEAD.NAME}</h4>
                                         <span>Web & Graphic Team Lead</span>
                                         <div class="social">
-                                            <a href="!#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                            <a href="!#">
+                                        <a href={BOARD_MEMBER_DETAILS.WEB_AND_GRAPHIC_TEAM_LEAD.FACEBOOK}>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
-                                            <a href="!#">
-                                                <i class="fa fa-google-plus"></i>
-                                            </a>
-                                            <a href="!#">
+                                            <a href={BOARD_MEMBER_DETAILS.WEB_AND_GRAPHIC_TEAM_LEAD.LINKEDIN}>
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </div>
@@ -174,19 +156,13 @@ export default function Team() {
                                 <img src={Team4} class="img-fluid" alt="" />
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                        <h4>{BOARD_MEMBER_NAMES.MARKETING_AND_PUBLICITY_LEAD}</h4>
+                                        <h4>{BOARD_MEMBER_DETAILS.MARKETING_AND_PUBLICITY_LEAD.NAME}</h4>
                                         <span>Marketing & Publicity Lead</span>
                                         <div class="social">
-                                            <a href="!#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                            <a href="!#">
+                                        <a href={BOARD_MEMBER_DETAILS.MARKETING_AND_PUBLICITY_LEAD.FACEBOOK}>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
-                                            <a href="!#">
-                                                <i class="fa fa-google-plus"></i>
-                                            </a>
-                                            <a href="!#">
+                                            <a href={BOARD_MEMBER_DETAILS.MARKETING_AND_PUBLICITY_LEAD.LINKEDIN}>
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </div>
@@ -203,19 +179,13 @@ export default function Team() {
                                 <img src={Team2} class="img-fluid" alt="" />
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                        <h4>{BOARD_MEMBER_NAMES.DEVELOPING_TEAM_LEAD}</h4>
+                                        <h4>{BOARD_MEMBER_DETAILS.DEVELOPING_TEAM_LEAD.NAME}</h4>
                                         <span>Developing Team Lead</span>
                                         <div class="social">
-                                            <a href="!#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                            <a href="!#">
+                                        <a href={BOARD_MEMBER_DETAILS.DEVELOPING_TEAM_LEAD.FACEBOOK}>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
-                                            <a href="!#">
-                                                <i class="fa fa-google-plus"></i>
-                                            </a>
-                                            <a href="!#">
+                                            <a href={BOARD_MEMBER_DETAILS.DEVELOPING_TEAM_LEAD.LINKEDIN}>
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </div>
@@ -232,19 +202,13 @@ export default function Team() {
                                 <img src={Team4} class="img-fluid" alt="" />
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                        <h4>{BOARD_MEMBER_NAMES.CONTENT_WRITING_TEAM_LEAD}</h4>
+                                        <h4>{BOARD_MEMBER_DETAILS.CONTENT_WRITING_TEAM_LEAD.NAME}</h4>
                                         <span>Content Writing Team Lead</span>
                                         <div class="social">
-                                            <a href="!#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                            <a href="!#">
+                                        <a href={BOARD_MEMBER_DETAILS.CONTENT_WRITING_TEAM_LEAD.FACEBOOK}>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
-                                            <a href="!#">
-                                                <i class="fa fa-google-plus"></i>
-                                            </a>
-                                            <a href="!#">
+                                            <a href={BOARD_MEMBER_DETAILS.CONTENT_WRITING_TEAM_LEAD.LINKEDIN}>
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </div>
@@ -261,19 +225,13 @@ export default function Team() {
                                 <img src={Team2} class="img-fluid" alt="" />
                                 <div class="member-info">
                                     <div class="member-info-content">
-                                        <h4>{BOARD_MEMBER_NAMES.TECHNICAL_LEAD}</h4>
+                                        <h4>{BOARD_MEMBER_DETAILS.TECHNICAL_LEAD.NAME}</h4>
                                         <span>Technical Lead</span>
                                         <div class="social">
-                                            <a href="!#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                            <a href="!#">
+                                        <a href={BOARD_MEMBER_DETAILS.TECHNICAL_LEAD.FACEBOOK}>
                                                 <i class="fa fa-facebook"></i>
                                             </a>
-                                            <a href="!#">
-                                                <i class="fa fa-google-plus"></i>
-                                            </a>
-                                            <a href="!#">
+                                            <a href={BOARD_MEMBER_DETAILS.TECHNICAL_LEAD.LINKEDIN}>
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </div>

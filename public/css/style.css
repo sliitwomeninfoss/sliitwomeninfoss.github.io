@@ -1212,6 +1212,10 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 
 /* Team Section
 --------------------------------*/
+.member-row{
+    justify-content: center;
+}
+
 #team {
     /* background: #fff;
     padding: 60px 0;
@@ -1221,6 +1225,10 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
     /* background: url("../img/intro-bg.png") center bottom no-repeat; */
     background-size: cover;
     padding: 170px 0 120px 0;
+}
+
+#team .team-card {
+    margin-top: 50px;
 }
 
 #team .member {
@@ -1245,37 +1253,43 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 }
 
 #team .member .member-info-content {
-    margin-top: 50px;
+    margin-top: 100px;
     transition: margin 0.2s;
+    width: 25%;
 }
 
 #team .member:hover .member-info {
-    background: rgba(0, 62, 128, 0.7);
+    background: rgba(154, 90, 236, 0.7);
     opacity: 1;
     transition: 0.4s;
 }
 
 #team .member:hover .member-info-content {
-    margin-top: 0;
+    margin-top: 0px;
     transition: margin 0.4s;
 }
 
-#team .member h4 {
+#team .member-text h4 {
     font-weight: 700;
-    margin-bottom: 2px;
-    font-size: 18px;
-    color: #fff;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
 }
 
-#team .member span {
-    font-style: italic;
+#team .member-text span {
     display: block;
-    font-size: 13px;
-    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(112, 112, 112);
 }
 
 #team .member .social {
     margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #team .member .social a {
@@ -1284,11 +1298,11 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 }
 
 #team .member .social a:hover {
-    color: #007bff;
+    color: #4d4d4d;
 }
 
 #team .member .social i {
-    font-size: 18px;
+    font-size: 28px;
     margin: 0 2px;
 }
 

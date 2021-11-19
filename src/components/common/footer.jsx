@@ -25,16 +25,16 @@ export default function Footer() {
                                 <span class="connect">Connect with us</span>
 
                                 <div class="social-links">
-                                    <a href="!#" class="facebook">
+                                    <a href="https://www.facebook.com/sliitwif/" class="facebook">
                                         <FontAwesomeIcon icon={['fab', 'facebook']} />
                                     </a>
-                                    <a href="!#" class="instagram">
+                                    <a href="https://www.instagram.com/sliitwif/" class="instagram">
                                         <FontAwesomeIcon icon={['fab', 'instagram']} />
                                     </a>
-                                    <a href="!#" class="twitter">
+                                    <a href="https://twitter.com/sliitwif" class="twitter">
                                         <FontAwesomeIcon icon={['fab', 'twitter']} />
                                     </a>
-                                    <a href="!#" class="linkedin">
+                                    <a href="https://www.linkedin.com/company/sliit-women-in-foss-community/" class="linkedin">
                                         <FontAwesomeIcon icon={['fab', 'linkedin']} />
                                     </a>
                                     <a href="!#" class="youtube">

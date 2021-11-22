@@ -909,6 +909,7 @@ div [class^="col-"]{
 }
 #cards_landscape_wrap-2 .card-flyer {
   border-radius: 5px;
+  margin-right: 5px;
 }
 #cards_landscape_wrap-2 .card-flyer .image-box{
   background: #ffffff;

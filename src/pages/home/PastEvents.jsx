@@ -1,5 +1,4 @@
 import EventsData from '../../utilities/data/Events.json'
-// import sea from '../../assets/img/events/A Smooth sea never .jpg'
 
 export default function PastEvents() {
     return (

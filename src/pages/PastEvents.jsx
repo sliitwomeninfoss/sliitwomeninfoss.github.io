@@ -1,8 +1,45 @@
 import EventsData from '../utilities/data/Events.json';
+import { useState } from "react";
+import ReactPaginate from "react-paginate";
 import angelica from '../assets/img/events/A Chat With Angelicaa.jpg'
 import girls from '../assets/img/events/A Girl’s Pathway To Become An IT Professional.jpg'
 
 export default function PastEvents() {
+    const [page, setPage] = useState(0);
+    const [events] = useState(EventsData.Events);
+    const eventsPerPage = 4;
+    const numberOfEmployeesVisited = page * eventsPerPage;
+    const totalPages = Math.ceil(events.length / eventsPerPage);
+
+    const displayEvent = events
+        .slice(
+            numberOfEmployeesVisited,
+            numberOfEmployeesVisited + eventsPerPage
+        )
+        .map((event, index) => (
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="!#">
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src={event.image} alt="" />
+                            </div>
+                            <div class="text-container">
+                                <h6>{event.title}</h6>
+                                <p>{event.description}</p>
+                                <h5> <i class="fa fa-calendar"></i>{' '}{event.date}</h5>
+                                <h5> <i class="fa fa-map-marker"></i>{' '}{event.place}</h5>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        ));
+
+    const changePage = ({ selected }) => {
+        setPage(selected);
+    };
+
     return (
         <div>
             <header id="header" class="fixed-top">
@@ -86,34 +123,37 @@ export default function PastEvents() {
                             vituperatoribus.
                         </p> */}
                     </header>
-
                     <div id="cards_landscape_wrap-2">
                         <div class="container">
                             <div class="row">
-                                {EventsData.Events.map((event, index) => (
-                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                        <a href="!#">
-                                            <div class="card-flyer">
-                                                <div class="text-box">
-                                                    <div class="image-box">
-                                                        <img src={event.image} alt="" />
-                                                    </div>
-                                                    <div class="text-container">
-                                                        <h6>{event.title}</h6>
-                                                        <p>{event.description}</p>
-                                                        <h5> <i class="fa fa-calendar"></i>{' '}{event.date}</h5>
-                                                        <h5> <i class="fa fa-map-marker"></i>{' '}{event.place}</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                ))}
+                                {displayEvent}
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-5">
+                    <ReactPaginate
+                        previousLabel={"< Previous"}
+                        nextLabel={"Next >"}
+                        pageCount={totalPages}
+                        onPageChange={changePage}
+                        // containerClassName={"navigationButtons"}
+                        // previousLinkClassName={"previousButton"}
+                        // nextLinkClassName={"nextButton"}
+                        // disabledClassName={"navigationDisabled"}
+                        // activeClassName={"navigationActive"}
+                        pageClassName="page-item"
+                        pageLinkClassName="page-link"
+                        previousClassName="page-item"
+                        previousLinkClassName="page-link"
+                        nextClassName="page-item"
+                        nextLinkClassName="page-link"
+                        breakLabel="..."
+                        breakClassName="page-item"
+                        breakLinkClassName="page-link"
+                        containerClassName="pagination justify-content-end"
+                        activeClassName="active"
+                        renderOnZeroPageCount={null}
+                    />
+                    {/* <div class="row mt-5">
                         <div class="col-12 mt-4 text-center">
                             <a href="/past-events">
                                 <button class="main-btn" type="submit">
@@ -122,7 +162,7 @@ export default function PastEvents() {
                                 </button>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
 
                     <header class="section-header">
                         <h4 style={{ paddingTop: 50 }}>Webinars</h4>
@@ -216,7 +256,7 @@ export default function PastEvents() {
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-5">
+                    {/* <div class="row mt-5">
                         <div class="col-12 mt-4 text-center">
                             <a href="/past-events">
                                 <button class="main-btn" type="submit">
@@ -225,7 +265,7 @@ export default function PastEvents() {
                                 </button>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                 </div >
             </section >
         </div >

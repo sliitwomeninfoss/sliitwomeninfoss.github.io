@@ -1,6 +1,4 @@
-import angelica from '../../assets/img/events/A Chat With Angelicaa.jpg'
-import girls from '../../assets/img/events/A Girl’s Pathway To Become An IT Professional.jpg'
-import sea from '../../assets/img/events/A Smooth sea never .jpg'
+import EventsData from '../../utilities/data/Events.json'
 
 export default function PastEvents() {
     return (
@@ -80,69 +78,38 @@ export default function PastEvents() {
                         </div>
                     </div> */}
 
-                    <div class="row mt-5">
-                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
-                            <div class="card-events">
-                                <div class="header">
-                                    <div class="post-thumb">
-                                        <img src={angelica} alt="" />
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <h5 class="post-title">
-                                        <a href="!#">A Chat with Angelica</a>
-                                    </h5>
-                                    <div class="post-date">
-                                        Posted on <a href="!#">27 Jan 2020</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
-                            <div class="card-events">
-                                <div class="header">
-                                    <div class="post-thumb">
-                                        <img src={girls} alt="" />
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <h5 class="post-title">
+                    <div id="cards_landscape_wrap-2">
+                        <div class="container" style={{paddingBottom: 0}}>
+                            <div class="row justify-content-center">
+                                {EventsData.Latest_Events.map((event, index) => (
+                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                         <a href="!#">
-                                            A Girl’s Pathway To Become An IT
-                                            Professional
+                                            <div class="card-flyer">
+                                                <div class="text-box">
+                                                    <div class="image-box">
+                                                        <img src={event.image} alt="" />
+                                                    </div>
+                                                    <div class="text-container">
+                                                        <h6>{event.title}</h6>
+                                                        <p>{event.description}</p>
+                                                        <h5> <i class="fa fa-calendar"></i>{' '}{event.date}</h5>
+                                                        <h5> <i class="fa fa-map-marker"></i>{' '}{event.place}</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </a>
-                                    </h5>
-                                    <div class="post-date">
-                                        Posted on <a href="!#">27 Jan 2020</a>
                                     </div>
-                                </div>
+
+                                ))}
                             </div>
                         </div>
-
-                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
-                            <div class="card-events">
-                                <div class="header">
-                                    <div class="post-thumb">
-                                        <img src={sea} alt="" />
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <h5 class="post-title">
-                                        <a href="!#">A Smooth sea never</a>
-                                    </h5>
-                                    <div class="post-date">
-                                        Posted on <a href="!#">27 Jan 2020</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                    </div>
+                    <div class="row mt-5">
                         <div class="col-12 mt-4 text-center">
-                            {/* <a href='/past-events' class="btn btn-primary">View More</a> */}
                             <a href="/past-events">
                                 <button class="main-btn" type="submit">
-                                    View More
+                                    View More {' '}
+                                    <i class="fa fa-arrow-circle-right" style={{ marginLeft: 8 }}></i>
                                 </button>
                             </a>
                         </div>

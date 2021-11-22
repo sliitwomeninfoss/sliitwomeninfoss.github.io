@@ -484,10 +484,10 @@ section {
 }
 .section-header h4 {
     position: relative;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    /* margin-bottom: 15px; */
+    /* padding-bottom: 15px; */
     font-weight: 600;
-    font-size: 24px;
+    font-size: 28px;
     color: #5c038c;
 }
 /* .section-header h4::after {
@@ -956,7 +956,7 @@ div [class^="col-"]{
   -ms-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 #cards_landscape_wrap-2 .card-flyer .text-box p{
   margin-top: 10px;

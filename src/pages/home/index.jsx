@@ -1,11 +1,10 @@
-// import image from '../../assets/img/other/intro-img.svg'
 import gif from '../../assets/img/logos/Innovation.gif'
 import Mascot from './Mascot'
 // import Blogs from './Blogs'
 import PastEvents from './PastEvents'
-// import Team from '../BoardMembers'
 import Hackathon from './Hackathon'
 import WeAre from './WeAre'
+import Webinars from './Webinars'
 import logo from '../../assets/img/logo/lo.PNG'
 export default function Home() {
     return (
@@ -57,8 +56,8 @@ export default function Home() {
                                     </a>
                                 </li>
                                 {/* <li class="nav-item">
-                                    <a class="nav-link" href="!#">
-                                       BLOG
+                                    <a class="nav-link" href="/blogs">
+                                        BLOGS
                                     </a>
                                 </li> */}
                                 <li class="nav-item">
@@ -138,6 +137,7 @@ export default function Home() {
                 <Mascot />
                 <Hackathon />
                 <PastEvents />
+                <Webinars />
                 {/* <Blogs /> */}
                 {/* <Team /> */}
                 {/* <ContactUs /> */}

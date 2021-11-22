@@ -9,7 +9,7 @@
             "place": "SLIIT"
         }
     ],
-"__Comment_2": "Add all events in sorted order.(Add new events at the beginning of an array.)",
+    "__Comment_2": "Add all events in sorted order.(Add new events at the beginning of an array.)",
     "Events": [
         {
             "title": "Title 01",
@@ -64,22 +64,22 @@
     "Latest_Webinars": [
         {
             "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
+            "image": "img/events/AWS.jpg",
             "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
         },
         {
             "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
+            "image": "img/events/AWS.jpg",
             "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
         },
         {
             "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
+            "image": "img/events/AWS.jpg",
             "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
         },
         {
             "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
+            "image": "img/events/AWS.jpg",
             "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
         }
     ],
@@ -87,42 +87,22 @@
     "Webinars": [
         {
             "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
+            "image": "img/events/AWS.jpg",
             "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
         },
         {
             "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
+            "image": "img/events/AWS.jpg",
             "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
         },
         {
             "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
+            "image": "img/events/AWS.jpg",
             "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
         },
         {
             "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        },
-        {
-            "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        },
-        {
-            "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        },
-        {
-            "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        },
-        {
-            "title": "Project Title",
-            "image": "../../assets/img/events/AWS.jpg",
+            "image": "img/events/AWS.jpg",
             "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
         }
     ]

@@ -81,8 +81,8 @@ export default function PastEvents() {
                     </div> */}
 
                     <div id="cards_landscape_wrap-2">
-                        <div class="container">
-                            <div class="row">
+                        <div class="container" style={{paddingBottom: 0}}>
+                            <div class="row justify-content-center">
                                 {EventsData.Latest_Events.map((event, index) => (
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                         <a href="!#">

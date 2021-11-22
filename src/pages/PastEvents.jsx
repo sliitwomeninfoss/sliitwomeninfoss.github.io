@@ -125,7 +125,7 @@ export default function PastEvents() {
                     </header>
                     <div id="cards_landscape_wrap-2">
                         <div class="container">
-                            <div class="row">
+                            <div class="row justify-content-center">
                                 {displayEvent}
                             </div>
                         </div>
@@ -175,7 +175,7 @@ export default function PastEvents() {
 
                     <div id="cards_landscape_wrap-2">
                         <div class="container">
-                            <div class="row">
+                            <div class="row justify-content-center">
                                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
                                     <a href="!#">
                                         <div class="card-flyer">
@@ -234,7 +234,7 @@ export default function PastEvents() {
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
+                                {/* <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
                                     <a href="!#">
                                         <div class="card-flyer">
                                             <div class="text-box">
@@ -252,7 +252,7 @@ export default function PastEvents() {
                                             </div>
                                         </div>
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

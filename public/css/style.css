@@ -1974,126 +1974,6 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
     color: #878787;
 }
 
-
-/* #footer .footer-top .footer-info {
-    margin-bottom: 30px;
-    justify-content: left;
-} */
-
-/* #footer .footer-top .footer-info h3 {
-    font-size: 34px;
-    margin: 0 0 20px 0;
-    padding: 2px 0 2px 0;
-    line-height: 1;
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-} */
-
-/* #footer .footer-top .footer-info p {
-    text-align: left;
-    font-size: 14px;
-    line-height: 24px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ecf5ff;
-}
-
-
-#footer .footer-top h4 {
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    position: relative;
-    padding-bottom: 10px;
-}
-
-#footer .footer-top .footer-links {
-    margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#footer .footer-top .footer-links ul li {
-    margin-bottom: 12px;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-    padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-    color: #ecf5ff;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-    color: #38137c;
-}
-
-#footer .footer-top .footer-contact {
-    margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-contact p {
-    line-height: 26px;
-}
-
-#footer .footer-top .footer-newsletter {
-    margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-newsletter input[type='email'] {
-    border: 0;
-    padding: 6px 8px;
-    width: 65%;
-}
-
-#footer .footer-top .footer-newsletter input[type='submit'] {
-    background: #9900ff;
-    border: 0;
-    width: 35%;
-    padding: 6px 0;
-    text-align: center;
-    color: #fff;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-#footer .footer-top .footer-newsletter input[type='submit']:hover {
-    background: #5800cc;
-}
-
-#footer .copyright {
-    text-align: center;
-    padding-top: 20px;
-}
-
-#footer .credits {
-    text-align: center;
-    font-size: 13px;
-    color: #f1f7ff;
-}
-
-#footer .credits a {
-    color: #bfddfe;
-}
-
-#footer .credits a:hover {
-    color: #f1f7ff;
-}
-
-#footer a {
-    color: #ecf5ff;
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .contact-area {
         padding-top: 90px;
@@ -2201,7 +2081,7 @@ p.form-message.error.form-message.error {
     resize: none;
 }
 
-/*===== All Button Style =====*/
+/* All Button Styles */
 .main-btn {
     display: inline-block;
     font-weight: 500;

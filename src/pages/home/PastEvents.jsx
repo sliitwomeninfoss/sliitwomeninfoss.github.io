@@ -1,6 +1,6 @@
 import angelica from '../../assets/img/events/A Chat With Angelicaa.jpg'
 import girls from '../../assets/img/events/A Girl’s Pathway To Become An IT Professional.jpg'
-import sea from '../../assets/img/events/A Smooth sea never .jpg'
+// import sea from '../../assets/img/events/A Smooth sea never .jpg'
 
 export default function PastEvents() {
     return (

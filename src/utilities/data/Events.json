@@ -1,0 +1,129 @@
+{
+    "__Comment_1": "Include four objects for 'Latest_Events' & 'Latest_Webinars'",
+    "Latest_Events": [
+        {
+            "title": "Title 01",
+            "image": "img/events/A Chat with Angelica .jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "date": "24th March 2021",
+            "place": "SLIIT"
+        }
+    ],
+"__Comment_2": "Add all events in sorted order.(Add new events at the beginning of an array.)",
+    "Events": [
+        {
+            "title": "Title 01",
+            "image": "img/events/A Chat with Angelica .jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "date": "24th March 2021",
+            "place": "SLIIT"
+        },
+        {
+            "title": "Title 01",
+            "image": "img/events/A Chat with Angelica .jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "date": "24th March 2021",
+            "place": "SLIIT"
+        },
+        {
+            "title": "Title 01",
+            "image": "img/events/A Chat with Angelica .jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "date": "24th March 2021",
+            "place": "SLIIT"
+        },
+        {
+            "title": "Title 01",
+            "image": "img/events/A Chat with Angelica .jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "date": "24th March 2021",
+            "place": "SLIIT"
+        },
+        {
+            "title": "Title 01",
+            "image": "img/events/A Chat with Angelica .jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "date": "24th March 2021",
+            "place": "SLIIT"
+        },
+        {
+            "title": "Title 01",
+            "image": "img/events/A Chat with Angelica .jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "date": "24th March 2021",
+            "place": "SLIIT"
+        },
+        {
+            "title": "Title 01",
+            "image": "img/events/A Chat with Angelica .jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "date": "24th March 2021",
+            "place": "SLIIT"
+        }
+    ],
+    "Latest_Webinars": [
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        },
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        },
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        },
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        }
+    ],
+    "__Comment_3": "Add all webinars in sorted order.(Add new events at the beginning of an array.)",
+    "Webinars": [
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        },
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        },
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        },
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        },
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        },
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        },
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        },
+        {
+            "title": "Project Title",
+            "image": "../../assets/img/events/AWS.jpg",
+            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+        }
+    ]
+}

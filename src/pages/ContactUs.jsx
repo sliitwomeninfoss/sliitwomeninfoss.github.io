@@ -1,4 +1,5 @@
 import contact from '../assets/img/logos/contact.jpg'
+
 export default function ContactUs() {
     return (
         <div>
@@ -90,7 +91,7 @@ export default function ContactUs() {
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="contact-content">
-                                    <h6 class="contact-title">Address</h6>
+                                    <h6 class="contact-title">Our Address</h6>
                                     <p>SLIIT MALABE</p>
                                 </div>
                             </div>
@@ -101,7 +102,7 @@ export default function ContactUs() {
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="contact-content">
-                                    <h6 class="contact-title">Phone</h6>
+                                    <h6 class="contact-title">Call Us</h6>
                                     <p>+931 2222 5555</p>
                                 </div>
                             </div>
@@ -112,8 +113,8 @@ export default function ContactUs() {
                                     <i class="fa fa-envelope"></i>
                                 </div>
                                 <div class="contact-content">
-                                    <h6 class="contact-title">Email</h6>
-                                    <p>support@yourmail.com</p>
+                                    <h6 class="contact-title">Email Us</h6>
+                                    <p>infowifsliit@gmail.com</p>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +124,7 @@ export default function ContactUs() {
                             <div class="contact-form pt-30">
                                 <form
                                     id="contact-form"
-                                    action="assets/contact.php"
+                                    action=""
                                 >
                                     <div class="single-form">
                                         <input

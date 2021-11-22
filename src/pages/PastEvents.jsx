@@ -1,8 +1,6 @@
 import EventsData from '../utilities/data/Events.json';
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
-import angelica from '../assets/img/events/A Chat With Angelicaa.jpg'
-import girls from '../assets/img/events/A Girl’s Pathway To Become An IT Professional.jpg'
 
 export default function PastEvents() {
     const [page, setPage] = useState(0);

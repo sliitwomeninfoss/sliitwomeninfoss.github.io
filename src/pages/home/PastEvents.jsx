@@ -2,7 +2,6 @@ import EventsData from '../../utilities/data/Events.json'
 // import sea from '../../assets/img/events/A Smooth sea never .jpg'
 
 export default function PastEvents() {
-    const baseURL = "../../assets/img/events/";
     return (
         <div>
             <section id="past-events-home">

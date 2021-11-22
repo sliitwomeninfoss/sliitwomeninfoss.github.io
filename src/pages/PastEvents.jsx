@@ -1,11 +1,43 @@
-import angelica from '../assets/img/events/A Chat With Angelicaa.jpg'
-import girls from '../assets/img/events/A Girl’s Pathway To Become An IT Professional.jpg'
-import sea from '../assets/img/events/A Smooth sea never .jpg'
-import aws from '../assets/img/events/AWS.jpg'
-import talk from '../assets/img/events/Lets Talk EQ.jpg'
-import hack from '../assets/img/events/her_Hello World__ Registration Open.jpg'
+import EventsData from '../utilities/data/Events.json';
+import { useState } from "react";
+import ReactPaginate from "react-paginate";
 
 export default function PastEvents() {
+    const [page, setPage] = useState(0);
+    const [events] = useState(EventsData.Events);
+    const eventsPerPage = 4;
+    const numberOfEmployeesVisited = page * eventsPerPage;
+    const totalPages = Math.ceil(events.length / eventsPerPage);
+
+    const displayEvent = events
+        .slice(
+            numberOfEmployeesVisited,
+            numberOfEmployeesVisited + eventsPerPage
+        )
+        .map((event, index) => (
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="!#">
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src={event.image} alt="" />
+                            </div>
+                            <div class="text-container">
+                                <h6>{event.title}</h6>
+                                <p>{event.description}</p>
+                                <h5> <i class="fa fa-calendar"></i>{' '}{event.date}</h5>
+                                <h5> <i class="fa fa-map-marker"></i>{' '}{event.place}</h5>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        ));
+
+    const changePage = ({ selected }) => {
+        setPage(selected);
+    };
+
     return (
         <div>
             <header id="header" class="fixed-top">
@@ -48,8 +80,8 @@ export default function PastEvents() {
                                     </a>
                                 </li>
                                 {/* <li class="nav-item">
-                                    <a class="nav-link" href="!#">
-                                        Blog
+                                    <a class="nav-link" href="/blogs">
+                                        BLOGS
                                     </a>
                                 </li> */}
                                 <li class="nav-item">
@@ -82,7 +114,56 @@ export default function PastEvents() {
                         </p> */}
                     </header>
                     <header class="section-header">
-                        <h4>Past Events</h4>
+                        <h4 style={{ paddingTop: 50 }}>Past Events</h4>
+                        {/* <p>
+                            Laudem latine persequeris id sed, ex fabulas
+                            delectus quo. No vel partiendo abhorreant
+                            vituperatoribus.
+                        </p> */}
+                    </header>
+                    <div id="cards_landscape_wrap-2">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                {displayEvent}
+                            </div>
+                        </div>
+                    </div>
+                    <ReactPaginate
+                        previousLabel={"< Previous"}
+                        nextLabel={"Next >"}
+                        pageCount={totalPages}
+                        onPageChange={changePage}
+                        // containerClassName={"navigationButtons"}
+                        // previousLinkClassName={"previousButton"}
+                        // nextLinkClassName={"nextButton"}
+                        // disabledClassName={"navigationDisabled"}
+                        // activeClassName={"navigationActive"}
+                        pageClassName="page-item"
+                        pageLinkClassName="page-link"
+                        previousClassName="page-item"
+                        previousLinkClassName="page-link"
+                        nextClassName="page-item"
+                        nextLinkClassName="page-link"
+                        breakLabel="..."
+                        breakClassName="page-item"
+                        breakLinkClassName="page-link"
+                        containerClassName="pagination justify-content-end"
+                        activeClassName="active"
+                        renderOnZeroPageCount={null}
+                    />
+                    {/* <div class="row mt-5">
+                        <div class="col-12 mt-4 text-center">
+                            <a href="/past-events">
+                                <button class="main-btn" type="submit">
+                                    View More {' '}
+                                    <i class="fa fa-arrow-circle-right" style={{ marginLeft: 8 }}></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div> */}
+
+                    <header class="section-header">
+                        <h4 style={{ paddingTop: 50 }}>Webinars</h4>
                         {/* <p>
                             Laudem latine persequeris id sed, ex fabulas
                             delectus quo. No vel partiendo abhorreant
@@ -90,130 +171,46 @@ export default function PastEvents() {
                         </p> */}
                     </header>
 
-                    <div class="row mt-5">
-                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
-                            <div class="card-events">
-                                <div class="header">
-                                    <div class="post-thumb">
-                                        <img src={angelica} alt="" />
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <h5 class="post-title">
-                                        <a href="!#">A Chat with Angelica</a>
-                                    </h5>
-                                    <div class="post-date">
-                                        Posted on <a href="!#">27 Jan 2020</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
-                            <div class="card-events">
-                                <div class="header">
-                                    <div class="post-thumb">
-                                        <img src={girls} alt="" />
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <h5 class="post-title">
+                    <div id="cards_landscape_wrap-2">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                {EventsData.Latest_Webinars.map((webinar, index) => (
+                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
                                         <a href="!#">
-                                            A Girl’s Pathway To Become An IT
-                                            Professional
+                                            <div class="card-flyer">
+                                                <div class="text-box">
+                                                    <div class="image-box">
+                                                        <img src={webinar.image} alt="" />
+                                                    </div>
+
+                                                    <div class="text-container">
+                                                        <h6>{webinar.title}</h6>
+                                                        <a href={webinar.youtube_link}>
+                                                            <button class="view-btn">
+                                                                View
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </a>
-                                    </h5>
-                                    <div class="post-date">
-                                        Posted on <a href="!#">27 Jan 2020</a>
                                     </div>
-                                </div>
+                                ))}
                             </div>
                         </div>
-
-                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
-                            <div class="card-events">
-                                <div class="header">
-                                    <div class="post-thumb">
-                                        <img src={sea} alt="" />
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <h5 class="post-title">
-                                        <a href="!#">A Smooth sea never</a>
-                                    </h5>
-                                    <div class="post-date">
-                                        Posted on <a href="!#">27 Jan 2020</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
-                            <div class="card-events">
-                                <div class="header">
-                                    <div class="post-thumb">
-                                        <img src={aws} alt="" />
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <h5 class="post-title">
-                                        <a href="!#">AWS</a>
-                                    </h5>
-                                    <div class="post-date">
-                                        Posted on <a href="!#">27 Jan 2020</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
-                            <div class="card-events">
-                                <div class="header">
-                                    <div class="post-thumb">
-                                        <img src={talk} alt="" />
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <h5 class="post-title">
-                                        <a href="!#">Lets Talk EQ</a>
-                                    </h5>
-                                    <div class="post-date">
-                                        Posted on <a href="!#">27 Jan 2020</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 py-3" data-aos="zoom-out-down">
-                            <div class="card-events">
-                                <div class="header">
-                                    <div class="post-thumb">
-                                        <img src={hack} alt="" />
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <h5 class="post-title">
-                                        <a href="!#">
-                                            her Hello World Registration Open
-                                        </a>
-                                    </h5>
-                                    <div class="post-date">
-                                        Posted on <a href="!#">27 Jan 2020</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                    </div>
+                    {/* <div class="row mt-5">
                         <div class="col-12 mt-4 text-center">
                             <a href="/past-events">
                                 <button class="main-btn" type="submit">
-                                    View More
+                                    View More {' '}
+                                    <i class="fa fa-arrow-circle-right" style={{ marginLeft: 8 }}></i>
                                 </button>
                             </a>
                         </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+                    </div> */}
+                </div >
+            </section >
+        </div >
     )
 }

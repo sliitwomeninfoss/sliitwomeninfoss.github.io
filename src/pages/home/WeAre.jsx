@@ -7,7 +7,7 @@ export default function WeAre() {
                         <h3>Who We Are?</h3>
                     </header>
                     <p>
-                        Women in FOSS is an all girls society with its members
+                        Women In FOSS is an all girls society with its members
                         being female students from the Faculty of Computing of
                         SLIIT. The society provides a supportive environment to
                         help girls grow as professionals in the field of IT with

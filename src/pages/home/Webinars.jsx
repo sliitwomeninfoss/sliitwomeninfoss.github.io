@@ -1,4 +1,4 @@
-import WebinarsData from '../../utilities/data/Events.json';
+import WebinarsData from '../../utilities/data/Webinars.json';
 
 export default function Webinars() {
     return (
@@ -13,7 +13,7 @@ export default function Webinars() {
                             <div class="row justify-content-center">
                                 {WebinarsData.Latest_Webinars.map((webinar, index) => (
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
-                                        <a href="!#">
+                                        <a href={webinar.youtube_link}>
                                             <div class="card-flyer">
                                                 <div class="text-box">
                                                     <div class="image-box">

@@ -1,4 +1,5 @@
 import EventsData from '../utilities/data/Events.json';
+import WebinarsData from '../utilities/data/Webinars.json';
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
 
@@ -16,7 +17,7 @@ export default function PastEvents() {
         )
         .map((event, index) => (
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <a href="!#">
+                <a href="/">
                     <div class="card-flyer">
                         <div class="text-box">
                             <div class="image-box">
@@ -25,8 +26,8 @@ export default function PastEvents() {
                             <div class="text-container">
                                 <h6>{event.title}</h6>
                                 <p>{event.description}</p>
-                                <h5> <i class="fa fa-calendar"></i>{' '}{event.date}</h5>
-                                <h5> <i class="fa fa-map-marker"></i>{' '}{event.place}</h5>
+                                <h5> <i class="fa fa-microphone"></i>{' '}{event.speaker}</h5>
+                                <h5 class="date"> <i class="fa fa-calendar"></i>{' '}{event.date}</h5> 
                             </div>
                         </div>
                     </div>
@@ -174,9 +175,9 @@ export default function PastEvents() {
                     <div id="cards_landscape_wrap-2">
                         <div class="container">
                             <div class="row justify-content-center">
-                                {EventsData.Latest_Webinars.map((webinar, index) => (
+                                {WebinarsData.Latest_Webinars.map((webinar, index) => (
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
-                                        <a href="!#">
+                                        <a href={webinar.youtube_link}>
                                             <div class="card-flyer">
                                                 <div class="text-box">
                                                     <div class="image-box">

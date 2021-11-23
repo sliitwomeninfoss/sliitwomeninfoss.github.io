@@ -1,109 +1,85 @@
 {
-    "__Comment_1": "Include four objects for 'Latest_Events' & 'Latest_Webinars'",
+    "__Comment_1": "Include four objects for 'Latest_Events'",
     "Latest_Events": [
         {
-            "title": "Title 01",
+            "title": "Modern DevOps",
             "image": "img/events/A Chat with Angelica .jpg",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "date": "24th March 2021",
-            "place": "SLIIT"
+            "speaker": "Kamal Perera"
+        },
+        {
+            "title": "her <Hello World/> v1.0 Groom Up Sessions",
+            "image": "img/events/Her_Hello World__Groomup Sessions.jpg",
+            "description": "The GROOM UP SESSIONS for her <Hello World/>v1.0 are here!",
+            "date": "24th March 2021",
+            "speaker": "SLIIT"
+        },
+        {
+            "title": "A Chat with Angelica",
+            "image": "img/events/A Chat With Angelicaa.jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "date": "24th March 2021",
+            "speaker": "SLIIT"
+        },
+        {
+            "title": "A Smooth Sea Never Made A Skilled Sailor",
+            "image": "img/events/A Smooth sea never .jpg",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "date": "24th March 2021",
+            "speaker": "SLIIT"
         }
     ],
     "__Comment_2": "Add all events in sorted order.(Add new events at the beginning of an array.)",
     "Events": [
         {
-            "title": "Title 01",
+            "title": "Modern DevOps",
             "image": "img/events/A Chat with Angelica .jpg",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "date": "24th March 2021",
-            "place": "SLIIT"
+            "speaker": "SLIIT"
         },
         {
-            "title": "Title 01",
-            "image": "img/events/A Chat with Angelica .jpg",
+            "title": "her <Hello World/> v1.0 Groom Up Sessions",
+            "image": "img/events/Her_Hello World__Groomup Sessions.jpg",
+            "description": "The GROOM UP SESSIONS for her <Hello World/>v1.0 are here!",
+            "date": "24th March 2021",
+            "speaker": "SLIIT"
+        },
+        {
+            "title": "A Chat with Angelica",
+            "image": "img/events/A Chat With Angelicaa.jpg",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "date": "24th March 2021",
-            "place": "SLIIT"
+            "speaker": "SLIIT"
         },
         {
-            "title": "Title 01",
-            "image": "img/events/A Chat with Angelica .jpg",
+            "title": "A Smooth Sea Never Made A Skilled Sailor",
+            "image": "img/events/A Smooth sea never .jpg",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "date": "24th March 2021",
-            "place": "SLIIT"
+            "speaker": "SLIIT"
         },
         {
-            "title": "Title 01",
-            "image": "img/events/A Chat with Angelica .jpg",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "title": "Introduction for Developers",
+            "image": "img/events/AWS.jpg",
+            "description": "Would you be interested in AWS? It's time to immerse in a world of AWS.",
             "date": "24th March 2021",
-            "place": "SLIIT"
+            "speaker": "SLIIT"
         },
         {
-            "title": "Title 01",
-            "image": "img/events/A Chat with Angelica .jpg",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "date": "24th March 2021",
-            "place": "SLIIT"
+            "title": "A Girl's Pathway To Become An IT Professional",
+            "image": "img/events/A Girl’s Pathway To Become An IT Professional.jpg",
+            "description": "Are you a girl striving to become an IT expert?",
+            "date": "16th January 2021",
+            "speaker": "Nuwani Chamindi"
         },
         {
-            "title": "Title 01",
-            "image": "img/events/A Chat with Angelica .jpg",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "date": "24th March 2021",
-            "place": "SLIIT"
-        },
-        {
-            "title": "Title 01",
-            "image": "img/events/A Chat with Angelica .jpg",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "date": "24th March 2021",
-            "place": "SLIIT"
-        }
-    ],
-    "Latest_Webinars": [
-        {
-            "title": "Project Title",
-            "image": "img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        },
-        {
-            "title": "Project Title",
-            "image": "img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        },
-        {
-            "title": "Project Title",
-            "image": "img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        },
-        {
-            "title": "Project Title",
-            "image": "img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        }
-    ],
-    "__Comment_3": "Add all webinars in sorted order.(Add new events at the beginning of an array.)",
-    "Webinars": [
-        {
-            "title": "Project Title",
-            "image": "img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        },
-        {
-            "title": "Project Title",
-            "image": "img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        },
-        {
-            "title": "Project Title",
-            "image": "img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
-        },
-        {
-            "title": "Project Title",
-            "image": "img/events/AWS.jpg",
-            "youtube_link": "https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+            "title": "Let's Talk EQ",
+            "image": "img/events/Lets Talk EQ.jpg",
+            "description": "EQ is nothing, but the ability to process your emotions along with others and influence them.",
+            "date": "20th December 2020",
+            "speaker": "Renu Harshatha"
         }
     ]
 }

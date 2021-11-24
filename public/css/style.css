@@ -1830,9 +1830,14 @@ p.form-message.error.form-message.error {
 #footer .footer-top {
     background: #020c18;
     background-image: url("/src/assets/img/other/about-img.svg");
-    padding: 60px 0 30px 0;
+    padding: 40px 0 10px 0;
 }
 
+@media screen and (max-width: 600px) {
+    #footer .footer-top{
+        padding: 40px 20px 10px 20px;
+    }
+ }
 
 #footer .footer-logo {
     margin-bottom: 30px;
@@ -1849,14 +1854,18 @@ p.form-message.error.form-message.error {
     margin-bottom: 2px;
 }
 
+#footer .footer-top .footer-info .f-info p{
+   margin-right: 20px;
+}
+
 #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
     color: #fff;
-    margin-right: 10px;
+    margin-right: 15px;
     margin-top: 5px;
     transition: 0.3s;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #footer .footer-top .social-links a:hover {
@@ -1864,7 +1873,7 @@ p.form-message.error.form-message.error {
 }
 
 #footer .footer-top .subscribe_text {
-    margin-top: 45px;
+    margin-top: 40px;
 }
 
 
@@ -1895,19 +1904,23 @@ p.form-message.error.form-message.error {
     width: 50px;
 }
 
-#footer .footer-top .footer-links {
+/* #footer .footer-top .footer-links {
     margin-bottom: 30px;
     justify-content: left;
-}
+} */
+/* 
+#footer .footer-top .footer-links p{
+    padding: 10px;
+} */
 
 #footer .footer-top .footer-links ul {
     padding: 0;
-    margin-top: 40px;
-    -webkit-columns: 2;
+    /* -webkit-columns: 2;
     -moz-columns: 2;
-    columns: 2;
+    columns: 2; */
+    margin-top: 40px;
+    margin-bottom: 30px;
     list-style: none;
-
 }
 
 #footer .footer-top .footer-links ul li {
@@ -1973,20 +1986,19 @@ p.form-message.error.form-message.error {
     color: #5a5af3;
 }
 
-
-#footer .footer-menu li {
+/* #footer .footer-menu li {
     display: inline-block;
     margin-left: 20px;
-}
+} */
 
-#footer .footer-menu li:hover a {
+/* #footer .footer-menu li:hover a {
     color: #5a5af3;
 }
 
 #footer .footer-menu li a {
     font-size: 14px;
     color: #878787;
-}
+} */
 
 /* All Button Styles */
 .main-btn {

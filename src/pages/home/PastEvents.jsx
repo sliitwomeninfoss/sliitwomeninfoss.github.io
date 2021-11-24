@@ -1,5 +1,6 @@
 import EventsData from '../../utilities/data/Events.json'
 
+
 export default function PastEvents() {
     return (
         <div>

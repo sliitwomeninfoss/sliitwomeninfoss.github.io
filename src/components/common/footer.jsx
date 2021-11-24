@@ -13,11 +13,12 @@ export default function Footer() {
                         <div class="row">
 
                             {/* Logo and description */}
-                            <div class="col-lg-4 col-md-6 text-left footer-info">
+                            <div class="col-lg-5 col-md-12 text-left footer-info">
+                                <div class="f-info">
                                 <img src={logo} alt="logo" height="80" width="130" class="img-fluid just footer-logo" />
                                 <p>
-                                    Welcome to SLIIT FOSS women community. We're
-                                    a group of volunteers who believe in the
+                                    Welcome to SLIIT FOSS women community. 
+                                    We're a group of volunteers who believe in the
                                     usage of Free/Open Source Software (FOSS)
                                 </p>
 
@@ -37,14 +38,15 @@ export default function Footer() {
                                     <a href="https://www.linkedin.com/company/sliit-women-in-foss-community/" class="linkedin">
                                         <FontAwesomeIcon icon={['fab', 'linkedin']} />
                                     </a>
-                                    <a href="!#" class="youtube">
+                                    {/* <a href="!#" class="youtube">
                                         <FontAwesomeIcon icon={['fab', 'youtube']} />
-                                    </a>
+                                    </a> */}
+                                </div>
                                 </div>
                             </div>
 
                             {/* Useful Links */}
-                            <div class="col-lg-4 col-md-6 text-left footer-links">
+                            <div class="col-lg-3 col-md-6 text-left  footer-links">
                                 <h4 class="fheader">Useful Links</h4>
 
                                 <ul>
@@ -68,7 +70,7 @@ export default function Footer() {
                                             Code of Conduct
                                         </a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="!#">GutHub</a>
                                     </li>
                                     <li>
@@ -82,12 +84,12 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <a href="!#">Annual Report 2020</a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
 
                             {/* Subscribe */}
-                            <div class="col-lg-4 col-md-6  text-left footer-newsletter">
+                            <div class="col-lg-4 col-md-6 text-left footer-newsletter">
                                 <h4 class="fheader">Subscribe</h4>
                                 <p class="subscribe_text">
                                     Don’t forget to subscribe to our news letters, enter your e-mail here.
@@ -111,15 +113,15 @@ export default function Footer() {
                 <div class="copyright-area">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div class="col-xl-12 col-lg-12">
                                 <div class="copyright-text">
                                     <p>
                                         Copyright &copy; 2021 | All Rights Reserved
-                                        <a href="!#"> SLIIT WIF</a>
+                                        <a href="!#"> SLIIT Women In FOSS</a>
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                            {/* <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                                 <div class="footer-menu">
                                     <ul>
                                         <li><a href="!#">Home</a></li>
@@ -129,7 +131,7 @@ export default function Footer() {
                                         <li><a href="!#">Contact</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

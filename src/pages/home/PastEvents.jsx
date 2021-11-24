@@ -84,7 +84,7 @@ export default function PastEvents() {
                                 {EventsData.Latest_Events.map((event, index) => (
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                         <a href="/">
-                                            <div class="card-flyer">
+                                            <div class="card-flyer" style={{height: 500}}>
                                                 <div class="text-box">
                                                     <div class="image-box">
                                                         <img src={event.image} alt="" />

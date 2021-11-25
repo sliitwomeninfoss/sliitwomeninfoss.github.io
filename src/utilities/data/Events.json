@@ -4,30 +4,30 @@
         {
             "title": "Modern DevOps",
             "image": "img/events/A Chat with Angelica .jpg",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "date": "24th March 2021",
-            "speaker": "Kamal Perera"
+            "description": "A live quarantine tech talk, on 'Modern Devops'.",
+            "date": "15th September 2021",
+            "speaker": "Nilesh Jayanandana"
         },
         {
             "title": "her <Hello World/> v1.0 Groom Up Sessions",
             "image": "img/events/Her_Hello World__Groomup Sessions.jpg",
             "description": "The GROOM UP SESSIONS for her <Hello World/>v1.0 are here!",
-            "date": "24th March 2021",
-            "speaker": "SLIIT"
+            "date": "8th August 2021",
+            "speaker": "Hackathon Speakers"
         },
         {
             "title": "A Chat with Angelica",
             "image": "img/events/A Chat With Angelicaa.jpg",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "date": "24th March 2021",
-            "speaker": "SLIIT"
+            "description": "The live quarantine tech talk, 'A chat with Angelica' by the Associate Product Manager at The New York Times.",
+            "date": "28th May 2021",
+            "speaker": "Angelica Hill"
         },
         {
             "title": "A Smooth Sea Never Made A Skilled Sailor",
             "image": "img/events/A Smooth sea never .jpg",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "date": "24th March 2021",
-            "speaker": "SLIIT"
+            "description": "The live quarantine tech talk, 'A Smooth Sea Never Made a Skilled Sailor'.",
+            "date": "19th March 2021",
+            "speaker": "Dimuthu De Silva"
         }
     ],
     "__Comment_2": "Add all events in sorted order.(Add new events at the beginning of an array.)",
@@ -35,44 +35,44 @@
         {
             "title": "Modern DevOps",
             "image": "img/events/A Chat with Angelica .jpg",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "date": "24th March 2021",
-            "speaker": "SLIIT"
+            "description": "A live quarantine tech talk, on 'Modern Devops'.",
+            "date": "15th September 2021",
+            "speaker": "Nilesh Jayanandana"
         },
         {
             "title": "her <Hello World/> v1.0 Groom Up Sessions",
             "image": "img/events/Her_Hello World__Groomup Sessions.jpg",
             "description": "The GROOM UP SESSIONS for her <Hello World/>v1.0 are here!",
-            "date": "24th March 2021",
-            "speaker": "SLIIT"
+            "date": "8th August 2021",
+            "speaker": "Hackathon Speakers"
         },
         {
             "title": "A Chat with Angelica",
             "image": "img/events/A Chat With Angelicaa.jpg",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "date": "24th March 2021",
-            "speaker": "SLIIT"
+            "description": "The live quarantine tech talk, 'A chat with Angelica' by the Associate Product Manager at The New York Times.",
+            "date": "28th May 2021",
+            "speaker": "Angelica Hill"
         },
         {
             "title": "A Smooth Sea Never Made A Skilled Sailor",
             "image": "img/events/A Smooth sea never .jpg",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            "date": "24th March 2021",
-            "speaker": "SLIIT"
+            "description": "The live quarantine tech talk, 'A Smooth Sea Never Made a Skilled Sailor'.",
+            "date": "19th March 2021",
+            "speaker": "Dimuthu De Silva"
         },
         {
             "title": "Introduction for Developers",
             "image": "img/events/AWS.jpg",
             "description": "Would you be interested in AWS? It's time to immerse in a world of AWS.",
-            "date": "24th March 2021",
-            "speaker": "SLIIT"
+            "date": "9th February 2021",
+            "speaker": "Arshad Zackeriya"
         },
         {
             "title": "A Girl's Pathway To Become An IT Professional",
             "image": "img/events/A Girl’s Pathway To Become An IT Professional.jpg",
             "description": "Are you a girl striving to become an IT expert?",
             "date": "16th January 2021",
-            "speaker": "Nuwani Chamindi"
+            "speaker": "Nuwini Chamindi"
         },
         {
             "title": "Let's Talk EQ",

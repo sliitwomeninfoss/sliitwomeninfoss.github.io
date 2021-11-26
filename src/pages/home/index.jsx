@@ -122,7 +122,7 @@ export default function Home() {
                                 class="btn-get-started scrollto">
                                 Become a Member
                             </a> */}
-                            <a href="!#">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNYep3jMJa3lO54Tvwzon-2jpxe4C7Fo4kKpWyDT7PV17_xQ/viewform?usp=sf_link">
                                 <button class="main-btn" type="submit">
                                     Become A Member
                                 </button>

@@ -1908,7 +1908,8 @@ p.form-message.error.form-message.error {
 
 
 #footer .footer-top .fheader:after {
-    background: none repeat scroll 0 0 #5a5af3;
+    /* background: none repeat scroll 0 0 #5a5af3; */
+        background: linear-gradient(to right, #9600f0 0%, #bc00f5 100%);
     bottom: -10px;
     content: "";
     display: block;

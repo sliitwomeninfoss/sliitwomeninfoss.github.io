@@ -26,12 +26,12 @@ export default function Hackathon() {
                                     <h3>{"her <hello world v1.0 />"}</h3>
                                 </header>
                                 <p>
-                                    Delectus alias ut incidunt delectus nam
-                                    placeat in consequatur. Sed cupiditate quia
-                                    ea quis. Voluptas nemo qui aut distinctio.
-                                    Cumque fugit earum est quam officiis
-                                    numquam. Ducimus corporis autem at
-                                    blanditiis beatae incidunt sunt.
+                                    The Her Hello World v1.0 : A Hackathon for 
+                                    enthusiastic techie girls who desire to take on 
+                                    the world by code. It's the time where                                 
+                                    passionate women take on the lead as empowered 
+                                    innovators, and bring out their inner frontend 
+                                    development and creativity skills.                                                       
                                 </p>
                                 <a
                                     href="https://herhelloworld.sliitfoss.org"

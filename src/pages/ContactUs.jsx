@@ -1,4 +1,4 @@
-import contact from '../assets/img/logos/contact.jpg'
+import contact from '../assets/img/logos/contact.png'
 
 export default function ContactUs() {
     return (

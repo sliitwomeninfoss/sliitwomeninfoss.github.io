@@ -1,6 +1,19 @@
 import contact from '../assets/img/logos/contact.png'
+import emailjs from 'emailjs-com'
 
 export default function ContactUs() {
+    function sendEmail(e){
+        e.preventDefault();
+        emailjs.sendForm("service_916fd9t","template_xupiy9k",e.target,"user_AhOeO3pVJFeslV70OSsBk").then(res=>{
+                console.log(res);
+        }).catch(err=>console.log(err));
+}
+
+function customfunction(e)
+{
+        sendEmail(e)
+    
+}
     return (
         <div>
             <header id="header" class="fixed-top">
@@ -124,7 +137,7 @@ export default function ContactUs() {
                             <div class="contact-form pt-30">
                                 <form
                                     id="contact-form"
-                                    action=""
+                                    action=""onSubmit={customfunction}
                                 >
                                     <div class="single-form">
                                         <input
@@ -173,4 +186,4 @@ export default function ContactUs() {
             </section>
         </div>
     )
-}
+                            }

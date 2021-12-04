@@ -15,6 +15,11 @@
             "title": "A Chat with Angelica",
             "image": "img/events/A Chat With Angelicaa.jpg",
             "youtube_link": "https://www.youtube.com/watch?v=GhkYqMtN8iE"
+        },
+        {
+            "title": "AWS Introduction for Developers",
+            "image": "img/events/AWS.jpg",
+            "youtube_link": "https://www.youtube.com/watch?v=-rzL0Pu4Ma4"
         }
     ],
     "__Comment_2": "Add all the webinars in sorted order.(Add new events at the beginning of an array.)",

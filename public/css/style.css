@@ -702,7 +702,7 @@ section {
     position: relative;
     /* background: url("../img/intro-bg.png") center bottom no-repeat; */
     background-size: cover;
-    padding: 170px 0 120px 0;
+    padding: 120px 0 50px 0;
 }
 /* 
 #blogs .box {
@@ -761,7 +761,7 @@ section {
 } */
 
 /* Blog card */
-.card-block img{
+/* .card-block img{
   height:150px;
   width:100%;
 }
@@ -773,7 +773,7 @@ div [class^="col-"]{
 .card{
   transition:0.5s;
   border-radius: 10px;
-  /* cursor:pointer; */
+  cursor:pointer;
   margin-bottom: 50px;
   padding-bottom: 15px;
 }
@@ -829,7 +829,7 @@ div [class^="col-"]{
 }
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
   transform: scale3d(1, 1, 1);
-}
+} */
 .read-btn {
     display: inline-block;
     width: 150px;
@@ -934,7 +934,7 @@ div [class^="col-"]{
   -o-transition:all .9s ease;
   -ms-transition:all .9s ease; 
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
   opacity: 0.7;
@@ -1065,7 +1065,8 @@ div [class^="col-"]{
 .slideshow {
   margin: 0 auto;
   overflow: hidden;
-  max-width: 554px;
+  /* max-width: 554px; */
+  max-height: 500px;
 }
 
 .slideshowSlider {
@@ -1076,7 +1077,7 @@ div [class^="col-"]{
 .slide {
   display: inline-block;
 
-  height: 400px;
+  /* height: 50px; */
   width: 100%;
   border-radius: 40px;
 }

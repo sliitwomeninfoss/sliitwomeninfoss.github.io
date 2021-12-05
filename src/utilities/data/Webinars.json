@@ -2,6 +2,11 @@
     "__Comment_1": "Include four objects for 'Latest_Webinars'",
     "Latest_Webinars": [
         {
+            "title": "Bridging the Gap between Graduation and your first UX Job",
+            "image": "img/events/UX-Job-Bridging.jpg",
+            "youtube_link": "https://youtu.be/6gkcddMncfo"
+        },
+        {
             "title": "Modern DevOps",
             "image": "img/events/Wif.jpg",
             "youtube_link": "https://www.youtube.com/watch?v=OGLJJgxSe6g"
@@ -19,6 +24,11 @@
     ],
     "__Comment_2": "Add all the webinars in sorted order.(Add new events at the beginning of an array.)",
     "Webinars": [
+        {
+            "title": "Bridging the Gap between Graduation and your first UX Job",
+            "image": "img/events/UX-Job-Bridging.jpg",
+            "youtube_link": "https://youtu.be/6gkcddMncfo"
+        },
         {
             "title": "Modern DevOps",
             "image": "img/events/Wif.jpg",

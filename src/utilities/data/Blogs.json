@@ -1,0 +1,56 @@
+{
+    "__Comment_1": "Include three objects for 'Latest_Blogs'",
+    "Latest_Blogs": [
+        {
+            "blog_title": "Modern DevOps",
+            "image": "img/events/The State of Women in Tech-GroomUp Session.jpg",
+            "description": "A live quarantine tech talk, on 'Modern Devops'.",
+            "published_date": "15th September 2021",
+            "blog_url": "Nilesh Jayanandana",
+            "tags": [
+                "#First",
+                "#Second",
+                "#Third"
+            ]
+        },
+        {
+            "blog_title": "her <Hello World/> v1.0 Groom Up Sessions",
+            "image": "img/events/her_Hello World__ wareness Session.jpg",
+            "description": "The GROOM UP SESSIONS for her <Hello World/>v1.0 are here!",
+            "published_date": "8th August 2021",
+            "blog_url": "Hackathon",
+            "tags": [
+                "#First",
+                "#Second",
+                "#Third"
+            ]
+        },
+        {
+            "blog_title": "A Chat with Angelica",
+            "image": "img/events/GroomUp Session-UX Matters.jpg",
+            "description": "The live quarantine tech talk, 'A chat with Angelica'.",
+            "published_date": "28th May 2021",
+            "blog_url": "Angelica Hill",
+            "tags": [
+                "#First",
+                "#Second",
+                "#Third"
+            ]
+        }
+    ],
+    "__Comment_2": "Add all blogs in sorted order.(Add new blogs at the beginning of an array.)",
+    "Blogs": [
+        {
+            "blog_title": "Modern DevOps",
+            "image": "img/events/A Chat with Angelica .jpg",
+            "description": "A live quarantine tech talk, on 'Modern Devops'.",
+            "published_date": "15-08-2021",
+            "blog_url": "!#",
+            "tags": [
+                "#First",
+                "#Second",
+                "#Third"
+            ]
+        }
+    ]
+}

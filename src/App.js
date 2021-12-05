@@ -4,6 +4,7 @@ import Footer from './components/common/footer'
 import Home from './pages/home'
 import AboutUs from './pages/AboutUs'
 import PastEvents from './pages/PastEvents'
+import Blogs from './pages/Blogs'
 import BoardMembers from './pages/BoardMembers'
 import ContactUs from './pages/ContactUs'
 import CodeOfConduct from './pages/CodeOfConduct'
@@ -25,6 +26,7 @@ function App() {
                     <Route exact path="/" component={Home} />
                     <Route exact path="/about-us" component={AboutUs} />
                     <Route exact path="/past-events" component={PastEvents} />
+                    <Route exact path="/blogs" component={Blogs} />
                     <Route exact path="/board-members" component={BoardMembers} />
                     <Route exact path="/contact-us" component={ContactUs} />
                     <Route exact path="/code-of-conduct" component={CodeOfConduct} />

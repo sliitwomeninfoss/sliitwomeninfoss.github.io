@@ -95,12 +95,9 @@ export default function AboutUs() {
                         >
                             <h4>Our Strategy</h4>
                             <p>
-                                Delectus alias ut incidunt delectus nam
-                                placeat in consequatur. Sed cupiditate quia
-                                ea quis. Voluptas nemo qui aut distinctio.
-                                Cumque fugit earum est quam officiis
-                                numquam. Ducimus corporis autem at
-                                blanditiis beatae incidunt sunt.
+                            Infrastructural and consulting support for FOSS-related initiatives and 
+                            groups in SLIIT with tech enthusiast girls .And to help tech weomen in the tech filed to develop
+                            their personalities.
                             </p>
                         </div>
                     </div>

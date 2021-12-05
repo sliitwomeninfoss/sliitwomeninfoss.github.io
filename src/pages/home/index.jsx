@@ -1,6 +1,6 @@
 import gif from '../../assets/img/logos/Innovation.gif'
 import Mascot from './Mascot'
-// import Blogs from './Blogs'
+import Blogs from './Blogs'
 import PastEvents from './PastEvents'
 import Hackathon from './Hackathon'
 import WeAre from './WeAre'
@@ -132,15 +132,12 @@ export default function Home() {
                 </div>
             </section>
             <main id="main">
-                {/* <AboutUs /> */}
                 <WeAre />
                 <Mascot />
                 <Hackathon />
                 <PastEvents />
                 <Webinars />
-                {/* <Blogs /> */}
-                {/* <Team /> */}
-                {/* <ContactUs /> */}
+                <Blogs />
             </main>
         </div>
     )

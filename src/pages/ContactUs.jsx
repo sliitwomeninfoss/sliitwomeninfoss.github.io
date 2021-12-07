@@ -116,7 +116,7 @@ function customfunction(e)
                                 </div>
                                 <div class="contact-content">
                                     <h6 class="contact-title">Call Us</h6>
-                                    <p>+931 2222 5555</p>
+                                    <p>+94 70 322 6877 </p>
                                 </div>
                             </div>
                         </div>

@@ -29,10 +29,10 @@ export default function Mascot() {
                                 <p>
                                     Nifi is thrilled to be a part of women tech
                                     enthusiasts as our cute, fluffy official
-                                    mascot of the SLIIT WIF Community.
+                                    mascot of the SLIIT Women In FOSS Community.
                                     <br />
                                     Join hands with her and the community to
-                                    explore the world of Women in FOSS.
+                                    explore the world of Women In FOSS.
                                 </p>
                             </div>
                         </div>

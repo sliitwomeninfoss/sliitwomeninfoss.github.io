@@ -1,12 +1,17 @@
 import contact from '../assets/img/logos/contact.png'
 import emailjs from 'emailjs-com'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+  
+const success = () => toast("Your details have been successfully submitted! Expect to receive a response within 24 hours.")
+const failure = () => toast("There was a problem submitting the form - please try again later!")
 
 export default function ContactUs() {
     function sendEmail(e){
         e.preventDefault();
         emailjs.sendForm("service_916fd9t","template_xupiy9k",e.target,"user_AhOeO3pVJFeslV70OSsBk").then(res=>{
-                console.log(res);
-        }).catch(err=>console.log(err));
+                success() 
+        }).catch(err=>{failure()});
 }
 
 function customfunction(e)
@@ -144,6 +149,7 @@ function customfunction(e)
                                             type="text"
                                             name="name"
                                             placeholder="Name"
+                                            required={true}
                                         />
                                     </div>
                                     <div class="single-form">
@@ -151,12 +157,14 @@ function customfunction(e)
                                             type="email"
                                             name="email"
                                             placeholder="Email"
+                                            required={true}
                                         />
                                     </div>
                                     <div class="single-form">
                                         <textarea
                                             name="message"
                                             placeholder="Message"
+                                            required={true}
                                         ></textarea>
                                     </div>
                                     <p class="form-message"></p>
@@ -184,6 +192,7 @@ function customfunction(e)
                     </div>
                 </div>
             </section>
+            <ToastContainer />
         </div>
     )
                             }

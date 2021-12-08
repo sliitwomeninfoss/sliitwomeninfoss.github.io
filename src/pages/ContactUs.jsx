@@ -1,10 +1,10 @@
 import contact from '../assets/img/logos/contact.png'
 import emailjs from 'emailjs-com'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
   
-const success = () => toast("Your details have been successfully submitted! Expect to receive a response within 24 hours.")
-const failure = () => toast("There was a problem submitting the form - please try again later!")
+const success = () => toast.success("Your details have been successfully submitted! Expect to receive a response within 24 hours.")
+const failure = () => toast.error("There was a problem submitting the form - please try again later!")
 
 export default function ContactUs() {
     function sendEmail(e){

@@ -704,132 +704,79 @@ section {
     background-size: cover;
     padding: 120px 0 50px 0;
 }
-/* 
-#blogs .box {
-    padding: 30px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 0 10px 40px 10px;
-    background: #fff;
-    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-    transition: all 0.3s ease-in-out;
+
+/* Blog page */
+
+.details-card {
+	background: #ecf0f1;
 }
 
-#blogs .box:hover {
-    transform: translateY(-5px);
+.card-content {
+	background: #ffffff;
+	border: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    margin-bottom: 50px;
 }
 
-#blogs .icon {
-    position: absolute;
-    left: 0px;
-    top: calc(50% - 32px);
+.card-img {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	z-index: 1;
 }
 
-#blogs .icon i {
-    font-size: 64px;
-    line-height: 1;
-    transition: 0.5s;
+.card-img img {
+	width: 100%;
+	height: auto;
+	display: block;
 }
 
-#blogs .image {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
+.card-img span {
+	position: absolute;
+    top: 15%;
+    left:25%;
+    background: #6d0083;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.card-img span h4{
+        font-size: 12px;
+        margin:0;
+        padding:10px 5px;
+         line-height: 0;
+}
+.card-desc {
+	padding: 1.25rem;
 }
 
-#blogs .title {
-    margin-left: 40px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
+.card-desc h3 {
+	color: #000000;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
 }
 
-#blogs .title a {
-    color: #111;
-}
-
-#blogs .box:hover .title a {
-    color: #007bff;
-}
-
-#blogs .description {
+.card-desc p {
+	color: #747373;
     font-size: 14px;
-    margin-left: 40px;
-    line-height: 24px;
-    margin-bottom: 0;
-} */
-
-/* Blog card */
-/* .card-block img{
-  height:150px;
-  width:100%;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0;
 }
 
-div [class^="col-"]{
-  padding-left:5px;
-  padding-right:5px;
-}
-.card{
-  transition:0.5s;
-  border-radius: 10px;
-  cursor:pointer;
-  margin-bottom: 50px;
-  padding-bottom: 15px;
-}
-.card-title{
-  font-family: 'Montserrat', sans-serif; 
-  font-size:18px;
-  font-weight: 600;
-  transition:1s;
-  padding: 5px;
-}
-.card-date{
-  font-family: 'Montserrat', sans-serif; 
-  font-size:15px;
-  font-weight: 500;
-  transition:1s;
-}
-.card-title i{  
-  font-size:15px;
-  transition:1s;
-  cursor:pointer;
-  color:#ffa710
-}
-.card-title i:hover{
-  transform: scale(1.25) rotate(100deg); 
-  color:#18d4ca;
-}
-.card:hover{
-  transform: scale(1.05);
-  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-}
-.card-text{
-  height:80px; 
-  padding: 5px;
-  text-align: justify;
-}
-.card::before, .card::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: scale3d(0, 0, 1);
-  transition: transform .3s ease-out 0s;
-  background: rgba(255, 255, 255, 0.1);
-  content: '';
-  pointer-events: none;
-}
-.card::before {
-  transform-origin: left top;
-}
-.card::after {
-  transform-origin: right bottom;
-}
-.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
-  transform: scale3d(1, 1, 1);
-} */
 .read-btn {
     display: inline-block;
     width: 150px;
@@ -842,7 +789,7 @@ div [class^="col-"]{
     -ms-user-select: none;
     user-select: none;
     border: 1px solid #754ef9;
-    padding: 0 40px;
+    /* padding: 0 40px; */
     font-size: 15px;
     line-height: 30px;
     border-radius: 20px;
@@ -975,10 +922,11 @@ div [class^="col-"]{
   margin-bottom: 0px;
   padding-bottom: 20px; 
   font-size: 15px;
-  text-align: justify;
+  /* text-align: justify; */
   letter-spacing: 1px;
   color: #000000;
 }
+
 #cards_landscape_wrap-2 .card-flyer .text-box h6{
   margin-top: 0px;
   margin-bottom: 4px; 
@@ -1043,30 +991,11 @@ div [class^="col-"]{
   display: inline-block;
 } */
 
-/* Slideshow */
-.why-us .container {
-  box-shadow: 0 5px 25px 5px rgb(193, 194, 196);
-  -webkit-box-shadow: 0px 0px 28px -16px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 28px -16px rgba(0, 0, 0, 0.75);
-  padding: 5px;
-  /* box-shadow: 0px 0px 28px -16px rgba(0, 0, 0, 0.75); */
-}
-
-.why-us .video-box {
-  /* position: relative; */
-}
-
-.why-us .video-box img {
-  /* padding-top: 15px;
-  padding-bottom: 15px; */
-  padding: 5px;
-}
-
+/* Blog Slideshow */
 .slideshow {
   margin: 0 auto;
   overflow: hidden;
-  /* max-width: 554px; */
-  max-height: 500px;
+  max-width: 500px;
 }
 
 .slideshowSlider {
@@ -1077,7 +1006,7 @@ div [class^="col-"]{
 .slide {
   display: inline-block;
 
-  /* height: 50px; */
+  height: 400px;
   width: 100%;
   border-radius: 40px;
 }
@@ -1093,15 +1022,17 @@ div [class^="col-"]{
   height: 10px;
   width: 10px;
   border-radius: 50%;
-
   cursor: pointer;
   margin: 15px 7px 0px;
-
   background-color: #c4c4c4;
 }
 
 .slideshowDot.active {
   background-color: #6a0dad;
+}
+
+.slide span {
+  background: linear-gradient(to right, #A782AF, #c996ce);
 }
 
 /* Mascot Section
@@ -1908,7 +1839,8 @@ p.form-message.error.form-message.error {
 
 
 #footer .footer-top .fheader:after {
-    background: none repeat scroll 0 0 #5a5af3;
+    /* background: none repeat scroll 0 0 #5a5af3; */
+        background: linear-gradient(to right, #9600f0 0%, #bc00f5 100%);
     bottom: -10px;
     content: "";
     display: block;
@@ -2110,26 +2042,4 @@ p.form-message.error.form-message.error {
     background-color: #754ef9;
     color: #fff;
     border-color: #754ef9;
-}
-/* Past events home page */
-.card-box {
-    border: 1px solid #ddd;
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px #c5c5c5;
-    margin-bottom: 30px;
-    float: left;
-    border-radius: 10px;
-}
-.card-box .card-thumbnail {
-    max-height: 200px;
-    overflow: hidden;
-    border-radius: 10px;
-    transition: 1s;
-}
-.card-box .card-thumbnail:hover {
-    transform: scale(1.2);
-}
-.card-box h3 a {
-    font-size: 20px;
-    text-decoration: none;
 }

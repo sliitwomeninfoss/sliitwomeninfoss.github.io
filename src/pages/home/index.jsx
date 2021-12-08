@@ -1,6 +1,6 @@
 import gif from '../../assets/img/logos/Innovation.gif'
 import Mascot from './Mascot'
-// import Blogs from './Blogs'
+import Blogs from './Blogs'
 import PastEvents from './PastEvents'
 import Hackathon from './Hackathon'
 import WeAre from './WeAre'
@@ -122,7 +122,8 @@ export default function Home() {
                                 class="btn-get-started scrollto">
                                 Become a Member
                             </a> */}
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNYep3jMJa3lO54Tvwzon-2jpxe4C7Fo4kKpWyDT7PV17_xQ/viewform?usp=sf_link">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNYep3jMJa3lO54Tvwzon-2jpxe4C7Fo4kKpWyDT7PV17_xQ/viewform?usp=sf_link" 
+                            target="_blank" rel="noopener noreferrer">
                                 <button class="main-btn" type="submit">
                                     Become A Member
                                 </button>
@@ -132,15 +133,12 @@ export default function Home() {
                 </div>
             </section>
             <main id="main">
-                {/* <AboutUs /> */}
                 <WeAre />
                 <Mascot />
                 <Hackathon />
                 <PastEvents />
                 <Webinars />
-                {/* <Blogs /> */}
-                {/* <Team /> */}
-                {/* <ContactUs /> */}
+                <Blogs />
             </main>
         </div>
     )

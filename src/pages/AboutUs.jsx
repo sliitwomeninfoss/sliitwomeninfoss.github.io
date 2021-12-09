@@ -122,7 +122,7 @@ export default function AboutUs() {
                         >
                             <h4>Our Vision</h4>
                             <p>
-                                Women in FOSS is an all girls society with its
+                                Women In FOSS is an all girls society with its
                                 members being female students from the Faculty
                                 of Computing of SLIIT. The society provides a
                                 supportive environment to help girls grow as
@@ -143,7 +143,7 @@ export default function AboutUs() {
                         <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
                             <h4>Our Mission</h4>
                             <p>
-                                The purpose of the SLIIT Women in FOSS Community
+                                The purpose of the SLIIT Women In FOSS Community
                                 is to empower the potential and the contribution
                                 of women towards Free/Open-Source Software by
                                 providing opportunities and encouraging women to

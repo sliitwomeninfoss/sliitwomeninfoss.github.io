@@ -17,7 +17,7 @@ export default function Footer() {
                                 <div class="f-info">
                                 <img src={logo} alt="logo" height="80" width="130" class="img-fluid just footer-logo" />
                                 <p>
-                                    Welcome to SLIIT FOSS women community. 
+                                    Welcome to SLIIT Women In FOSS Community. 
                                     We're a group of volunteers who believe in the
                                     usage of Free/Open Source Software (FOSS)
                                 </p>

@@ -2,6 +2,7 @@ import EventsData from '../utilities/data/Events.json';
 import WebinarsData from '../utilities/data/Webinars.json';
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
+import UpcomingEventCard from '../components/events/upcomingEventCard';
 
 export default function PastEvents() {
     const [page, setPage] = useState(0);
@@ -113,6 +114,8 @@ export default function PastEvents() {
                         {/* <p>
                             No events at this moment. Follow us to get updates.
                         </p> */}
+                        <br/>
+                        <UpcomingEventCard />
                     </header>
                     <header class="section-header">
                         <h4 style={{ paddingTop: 50 }}>Past Events</h4>

@@ -5,7 +5,7 @@ import ReactPaginate from 'react-paginate'
 import UpcomingEventCard from '../components/events/upcomingEventCard'
 
 // Upcoming events card change delay
-const delay = 5000
+const delay = 6000
 
 export default function PastEvents() {
     const [page, setPage] = useState(0)
@@ -148,7 +148,7 @@ export default function PastEvents() {
                             No events at this moment. Follow us to get updates.
                         </p> */}
                         <br />
-                        <div className="">
+                        <div>
                             <div
                                 className="slideshowSlider"
                                 style={{
@@ -175,7 +175,7 @@ export default function PastEvents() {
                                     )
                                 )}
                             </div>
-                            <div className="slideshowDots">
+                            <div>
                                 {EventsData.Upcoming_Events.map(
                                     (_, cardIndex) => (
                                         <div

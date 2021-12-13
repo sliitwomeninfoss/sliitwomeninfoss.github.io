@@ -8,7 +8,7 @@ export default function UpcomingEventCard({
 }) {
     console.log(image)
     return (
-        <div class="row justify-content-center">
+        <div class="upcoming-event-card row justify-content-center">
             <div class="col-lg-9">
                 <div class="row event-card justify-content-center">
                     <div id="event-date" class="col-lg-2">

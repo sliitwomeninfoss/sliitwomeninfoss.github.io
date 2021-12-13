@@ -1,4 +1,5 @@
 {
+    "__Comment_1": "Sample data for 'Upcoming Events'",
     "Upcoming_Events":[
         {
             "title": "A chat with Angelica",
@@ -25,7 +26,7 @@
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
     ],
-    "__Comment_1": "Include four objects for 'Latest_Events'",
+    "__Comment_2": "Include four objects for 'Latest_Events'",
     "Latest_Events": [
         {
             "title": "Bridging the Gap between Graduation and your first UX Job",
@@ -56,7 +57,7 @@
             "speaker": "Angelica Hill"
         }
     ],
-    "__Comment_2": "Add all events in sorted order.(Add new events at the beginning of an array.)",
+    "__Comment_3": "Add all events in sorted order.(Add new events at the beginning of an array.)",
     "Events": [
         {
             "title": "Bridging the Gap between Graduation and your first UX Job",

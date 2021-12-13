@@ -4,37 +4,38 @@ import { useState, useEffect, useRef } from 'react'
 import ReactPaginate from 'react-paginate'
 import UpcomingEventCard from '../components/events/upcomingEventCard'
 
-const delay = 4000;
+// Upcoming events card change delay
+const delay = 5000
 
 export default function PastEvents() {
     const [page, setPage] = useState(0)
-    const [index, setIndex] = useState(0);
-    const timeoutRef = useRef(null);
+    const [index, setIndex] = useState(0)
+    const timeoutRef = useRef(null)
     const [events] = useState(EventsData.Events)
     const eventsPerPage = 4
     const numberOfEmployeesVisited = page * eventsPerPage
     const totalPages = Math.ceil(events.length / eventsPerPage)
 
-    function resetTimeout () {
-        if (timeoutRef.current){
+    function resetTimeout() {
+        if (timeoutRef.current) {
             clearTimeout(timeoutRef.current)
         }
     }
 
     useEffect(() => {
-        resetTimeout();
+        resetTimeout()
         timeoutRef.current = setTimeout(
             () =>
                 setIndex((prevIndex) =>
                     prevIndex === 3 - 1 ? 0 : prevIndex + 1
                 ),
             delay
-        );
+        )
 
         return () => {
-            resetTimeout();
-        };
-    }, [index]);
+            resetTimeout()
+        }
+    }, [index])
 
     const displayEvent = events
         .slice(
@@ -156,44 +157,38 @@ export default function PastEvents() {
                                     }%, 0, 0)`,
                                 }}
                             >
-                                <div className="upcoming-event-slide" key={index}>
-                                    <UpcomingEventCard />
-                                </div>
-                                <div className="upcoming-event-slide" key={index}>
-                                    <UpcomingEventCard />
-                                </div>
-                                <div className="upcoming-event-slide" key={index}>
-                                    <UpcomingEventCard />
-                                </div>
+                                {EventsData.Upcoming_Events.map(
+                                    (event, index) => (
+                                        <div
+                                            className="upcoming-event-slide"
+                                            key={index}
+                                        >
+                                            <UpcomingEventCard
+                                                image={event.image}
+                                                date={event.date}
+                                                time={event.time}
+                                                title={event.title}
+                                                speaker={event.speaker}
+                                                description={event.description}
+                                            />
+                                        </div>
+                                    )
+                                )}
                             </div>
                             <div className="slideshowDots">
-                            <div
-                                        key={1}
-                                        className={`slideshowDot${
-                                            index === 1 ? ' active' : ''
-                                        }`}
-                                        onClick={() => {
-                                            setIndex(1)
-                                        }}
-                                    ></div>
-                                    <div
-                                        key={2}
-                                        className={`slideshowDot${
-                                            index === 2 ? ' active' : ''
-                                        }`}
-                                        onClick={() => {
-                                            setIndex(2)
-                                        }}
-                                    ></div>
-                                    <div
-                                        key={3}
-                                        className={`slideshowDot${
-                                            index === 3 ? ' active' : ''
-                                        }`}
-                                        onClick={() => {
-                                            setIndex(3)
-                                        }}
-                                    ></div>
+                                {EventsData.Upcoming_Events.map(
+                                    (_, cardIndex) => (
+                                        <div
+                                            className={`slideshowDot ${
+                                                index === cardIndex
+                                                    ? 'active'
+                                                    : ''
+                                            }`}
+                                            key={cardIndex}
+                                            onClick={() => setIndex(cardIndex)}
+                                        />
+                                    )
+                                )}
                             </div>
                         </div>
                     </header>

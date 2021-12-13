@@ -845,27 +845,28 @@ section {
 #event-date {
     background-color: #6715d2;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
 
-#event-date h1 {
+#event-date #day {
     font-weight: 300;
     font-family: 'Lato', sans-serif;
     font-size: 2em;
-    margin: 0px;
+    margin: 0 auto;
     position: absolute;
     top: 20%;
-    left: 22%;
 }
 
-#event-date h2 {
+#event-date #month {
     font-weight: 700;
     letter-spacing: 8px;
+    margin-right: -8px;
     font-family: 'Lato', sans-serif;
     font-size: 40px;
     position: absolute;
     text-transform: uppercase;
     top: 55%;
-    left: 20%;
 }
 
 #event-image {

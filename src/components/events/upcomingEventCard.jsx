@@ -7,7 +7,7 @@ export default function UpcomingEventCard() {
                 <div class="row event-card justify-content-center">
                     <div id="event-date" class="col-lg-2">
                         <h1>12</h1>
-                        <h2>Dec</h2>
+                        <h2>Jan</h2>
                     </div>
                     <img
                         id="event-image"
@@ -17,12 +17,13 @@ export default function UpcomingEventCard() {
                     />
                     <div id="event-description" class="col-lg-6">
                         <p id="title">A chat with Angelica</p>
-                        <p id="date"><i class="fa fa-calendar"></i>{'  '}12 December 2022 | 6.00PM</p>
-                        <p id="speaker"><i class="fa fa-microphone"></i>{'  '}Angelica Hill</p>
+                        <p id="date"><i class="fa fa-calendar"></i>{' '}12 Jan 2022 | 6.00PM</p>
+                        <p id="speaker"><i class="fa fa-microphone"></i>{' '}Angelica Hill</p>
                         <p id="description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua
+                            dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
                         </p>
                     </div>
                 </div>

@@ -829,6 +829,13 @@ section {
 
 /* Upcoming Events Section
 --------------------------------*/
+.upcoming-event-slide {
+    display: inline-block;
+    height: 250px;
+    width: 100%;
+    border-radius: 40px;
+}
+
 .event-card div {
     border-radius: 10px;
     box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.1);
@@ -875,6 +882,7 @@ section {
     padding-left: 30px;
     border-left: none;
     color: #3d3d3d;
+    white-space: normal;
     text-transform: none;
 }
 
@@ -1080,7 +1088,6 @@ section {
 
 .slide {
     display: inline-block;
-
     height: 400px;
     width: 100%;
     border-radius: 40px;

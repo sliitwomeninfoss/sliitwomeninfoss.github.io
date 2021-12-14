@@ -5,7 +5,7 @@ import ReactPaginate from 'react-paginate'
 import UpcomingEventCard from '../components/events/upcomingEventCard'
 
 // Upcoming events card change delay
-const delay = 6000
+const delay = 7000
 
 export default function PastEvents() {
     const [page, setPage] = useState(0)
@@ -159,7 +159,7 @@ export default function PastEvents() {
 
             <section id="past-events">
                 <div class="container" data-aos="zoom-in">
-                    <header class="section-header">
+                    { EventsData.Upcoming_Events.length > 0 ? <header class="section-header">
                         <h3>Upcoming Events</h3>
                         {/* <p>
                             No events at this moment. Follow us to get updates.
@@ -210,7 +210,7 @@ export default function PastEvents() {
                                 )}
                             </div>
                         </div>
-                    </header>
+                    </header> : null }
                     <header class="section-header">
                         <h4 style={{ paddingTop: 50 }}>Past Events</h4>
                         {/* <p>

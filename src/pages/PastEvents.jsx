@@ -34,11 +34,12 @@ export default function PastEvents() {
     }
 
     useEffect(() => {
-        countEventsWithDetails()
+        countEventsWithDetails();
+    // eslint-disable-next-line
     }, [])
 
     useEffect(() => {
-        resetTimeout()
+        resetTimeout();
         timeoutRef.current = setTimeout(
             () =>
                 setIndex((prevIndex) =>
@@ -50,6 +51,7 @@ export default function PastEvents() {
         return () => {
             resetTimeout()
         }
+    // eslint-disable-next-line
     }, [index])
 
     const displayEvent = events

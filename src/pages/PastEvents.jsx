@@ -29,7 +29,6 @@ export default function PastEvents() {
         EventsData.Upcoming_Events.forEach(event => {
             if(event.date !== "" && event.time !== ""){
                 ++numUpcomingEventsWithDetails
-                console.log("Added num is",numUpcomingEventsWithDetails)
             }
         });
     }
@@ -40,7 +39,6 @@ export default function PastEvents() {
 
     useEffect(() => {
         resetTimeout()
-        console.log("num",numUpcomingEventsWithDetails)
         timeoutRef.current = setTimeout(
             () =>
                 setIndex((prevIndex) =>

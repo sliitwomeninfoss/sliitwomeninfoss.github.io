@@ -5,7 +5,7 @@ import ReactPaginate from 'react-paginate'
 import UpcomingEventCard from '../components/events/upcomingEventCard'
 
 // Upcoming events card change delay
-const delay = 6000
+const delay = 7000
 
 export default function PastEvents() {
     const [page, setPage] = useState(0)
@@ -16,18 +16,34 @@ export default function PastEvents() {
     const numberOfEmployeesVisited = page * eventsPerPage
     const totalPages = Math.ceil(events.length / eventsPerPage)
 
+    var numUpcomingEventsWithDetails = 0;
+
     function resetTimeout() {
         if (timeoutRef.current) {
             clearTimeout(timeoutRef.current)
         }
+        countEventsWithDetails()
+    }
+
+    function countEventsWithDetails() {
+        EventsData.Upcoming_Events.forEach(event => {
+            if(event.date !== "" && event.time !== ""){
+                ++numUpcomingEventsWithDetails
+            }
+        });
     }
 
     useEffect(() => {
-        resetTimeout()
+        countEventsWithDetails();
+    // eslint-disable-next-line
+    }, [])
+
+    useEffect(() => {
+        resetTimeout();
         timeoutRef.current = setTimeout(
             () =>
                 setIndex((prevIndex) =>
-                    prevIndex === 3 - 1 ? 0 : prevIndex + 1
+                    prevIndex === numUpcomingEventsWithDetails - 1 ? 0 : prevIndex + 1
                 ),
             delay
         )
@@ -35,6 +51,7 @@ export default function PastEvents() {
         return () => {
             resetTimeout()
         }
+    // eslint-disable-next-line
     }, [index])
 
     const displayEvent = events
@@ -142,7 +159,7 @@ export default function PastEvents() {
 
             <section id="past-events">
                 <div class="container" data-aos="zoom-in">
-                    <header class="section-header">
+                    { EventsData.Upcoming_Events.length > 0 ? <header class="section-header">
                         <h3>Upcoming Events</h3>
                         {/* <p>
                             No events at this moment. Follow us to get updates.
@@ -159,6 +176,7 @@ export default function PastEvents() {
                             >
                                 {EventsData.Upcoming_Events.map(
                                     (event, index) => (
+                                        event.date !== "" && event.time !== "" ? 
                                         <div
                                             className="upcoming-event-slide"
                                             key={index}
@@ -171,13 +189,14 @@ export default function PastEvents() {
                                                 speaker={event.speaker}
                                                 description={event.description}
                                             />
-                                        </div>
+                                        </div> : null
                                     )
                                 )}
                             </div>
                             <div>
                                 {EventsData.Upcoming_Events.map(
-                                    (_, cardIndex) => (
+                                    (event, cardIndex) => (
+                                        event.date !== "" && event.time !== "" ?
                                         <div
                                             className={`slideshowDot ${
                                                 index === cardIndex
@@ -186,12 +205,12 @@ export default function PastEvents() {
                                             }`}
                                             key={cardIndex}
                                             onClick={() => setIndex(cardIndex)}
-                                        />
+                                        /> : null
                                     )
                                 )}
                             </div>
                         </div>
-                    </header>
+                    </header> : null }
                     <header class="section-header">
                         <h4 style={{ paddingTop: 50 }}>Past Events</h4>
                         {/* <p>

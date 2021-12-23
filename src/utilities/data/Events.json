@@ -1,5 +1,40 @@
 {
-    "__Comment_1": "Include four objects for 'Latest_Events'",
+    "__Comment_1": "Sample data for 'Upcoming Events'",
+    "Upcoming_Events":[
+        {
+            "title": "A chat with Angelica",
+            "image":"img/events/A Chat With Angelicaa.jpg",
+            "date":"02nd January 2022",
+            "time":"6.00PM",
+            "speaker":"Angelica Hill",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "title": "Modern DevOps",
+            "image":"img/events/Modern Devops.jpeg",
+            "date":"22nd March 2022",
+            "time":"3.00PM",
+            "speaker":"Nilesh Jayanandana",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "title": "Bridging the Gap between Graduation and your first UX Job",
+            "image":"img/events/UX-Job-Bridging.jpg",
+            "date":"27th December 2022",
+            "time":"4.30PM",
+            "speaker":"Nadeeka Athukorala",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "title": "Modern DevOps Phase2",
+            "image":"img/events/UX-Job-Bridging.jpg",
+            "date":"",
+            "time":"",
+            "speaker":"Nadeeka Athukorala",
+            "description":""
+        }
+    ],
+    "__Comment_2": "Include four objects for 'Latest_Events'",
     "Latest_Events": [
         {
             "title": "Bridging the Gap between Graduation and your first UX Job",
@@ -30,7 +65,7 @@
             "speaker": "Angelica Hill"
         }
     ],
-    "__Comment_2": "Add all events in sorted order.(Add new events at the beginning of an array.)",
+    "__Comment_3": "Add all events in sorted order.(Add new events at the beginning of an array.)",
     "Events": [
         {
             "title": "Bridging the Gap between Graduation and your first UX Job",

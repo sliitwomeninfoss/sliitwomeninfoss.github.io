@@ -24,6 +24,14 @@
             "time":"4.30PM",
             "speaker":"Nadeeka Athukorala",
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "title": "Modern DevOps Phase2",
+            "image":"img/events/UX-Job-Bridging.jpg",
+            "date":"",
+            "time":"",
+            "speaker":"Nadeeka Athukorala",
+            "description":""
         }
     ],
     "__Comment_2": "Include four objects for 'Latest_Events'",

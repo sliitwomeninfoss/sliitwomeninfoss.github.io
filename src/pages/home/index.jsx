@@ -5,7 +5,7 @@ import PastEvents from './PastEvents'
 import Hackathon from './Hackathon'
 import WeAre from './WeAre'
 import Webinars from './Webinars'
-import logo from '../../assets/img/logo/lo.PNG'
+import logo from '../../assets/img/logos/WIF-Dark.png'
 export default function Home() {
     return (
         <div>

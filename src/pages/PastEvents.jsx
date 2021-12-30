@@ -3,6 +3,7 @@ import WebinarsData from '../utilities/data/Webinars.json'
 import { useState, useEffect, useRef } from 'react'
 import ReactPaginate from 'react-paginate'
 import UpcomingEventCard from '../components/events/upcomingEventCard'
+import logo from '../assets/img/logos/WIF-Dark.png'
 
 // Upcoming events card change delay
 const delay = 7000
@@ -98,9 +99,16 @@ export default function PastEvents() {
                     data-offset="500"
                 >
                     <div class="container">
-                        <a href="/" class="navbar-brand">
-                            SLIIT<span class="text-primary">WIF</span>
-                        </a>
+                        {/* <a href="/" class="navbar-brand"> */}
+                        {/* SLIIT<span class="text-primary">WIF</span> */}
+                        {/* <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" /> */}
+                        <div class="logo float-left">
+                            <a href="/">
+                                <img src={logo} alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                        {/* </a> */}
+                        {/* <img src={logo} alt="logo" height="50" width="100" class="img-fluid just" /> */}
                         <button
                             class="navbar-toggler"
                             data-toggle="collapse"

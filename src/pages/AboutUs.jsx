@@ -1,6 +1,7 @@
 import vission from '../assets/img/logos/vission.png'
 import mission from '../assets/img/logos/mission.png'
 import strategy from '../assets/img/logos/strategy.png'
+import logo from '../assets/img/logos/WIF-Dark.png'
 export default function AboutUs() {
     return (
         <div>
@@ -10,9 +11,16 @@ export default function AboutUs() {
                     data-offset="500"
                 >
                     <div class="container">
-                        <a href="/" class="navbar-brand">
-                            SLIIT<span class="text-primary">WIF</span>
-                        </a>
+                        {/* <a href="/" class="navbar-brand"> */}
+                        {/* SLIIT<span class="text-primary">WIF</span> */}
+                        {/* <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" /> */}
+                        <div class="logo float-left">
+                            <a href="/">
+                                <img src={logo} alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                        {/* </a> */}
+                        {/* <img src={logo} alt="logo" height="50" width="100" class="img-fluid just" /> */}
                         <button
                             class="navbar-toggler"
                             data-toggle="collapse"
@@ -44,8 +52,8 @@ export default function AboutUs() {
                                     </a>
                                 </li>
                                 {/* <li class="nav-item">
-                                    <a class="nav-link" href="!#">
-                                        Blog
+                                    <a class="nav-link" href="/blogs">
+                                        BLOGS
                                     </a>
                                 </li> */}
                                 <li class="nav-item">

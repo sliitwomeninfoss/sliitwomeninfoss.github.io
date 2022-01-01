@@ -49,11 +49,11 @@ export default function CodeOfConduct() {
                                         EVENTS
                                     </a>
                                 </li>
-                                {/* <li class="nav-item">
+                                <li class="nav-item">
                                     <a class="nav-link" href="/blogs">
                                         BLOGS
                                     </a>
-                                </li> */}
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/board-members">
                                         BOARD

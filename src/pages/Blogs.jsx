@@ -50,11 +50,11 @@ export default function Blogs() {
                                         EVENTS
                                     </a>
                                 </li>
-                                {/*       <li class="nav-item active">
+                                <li class="nav-item active">
                                     <a class="nav-link" href="/blogs">
                                         BLOGS
                                     </a>
-                                </li> */}
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/board-members">
                                         BOARD

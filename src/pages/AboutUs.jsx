@@ -51,11 +51,11 @@ export default function AboutUs() {
                                         EVENTS
                                     </a>
                                 </li>
-                                {/* <li class="nav-item">
+                                <li class="nav-item">
                                     <a class="nav-link" href="/blogs">
                                         BLOGS
                                     </a>
-                                </li> */}
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/board-members">
                                         BOARD
@@ -178,8 +178,8 @@ export default function AboutUs() {
                         >
                             <h4>Our Strategy</h4>
                             <p>
-                                Infrastructural and consulting support for FOSS-related initiatives and 
-                                groups in Sri Lanka.And to help tech weomen in the tech filed to develop
+                                Infrastructural and consulting support for FOSS-related initiatives and
+                                groups in Sri Lanka.And to help tech women in the tech filed to develop
                                 their personalities.
                             </p>
                         </div>

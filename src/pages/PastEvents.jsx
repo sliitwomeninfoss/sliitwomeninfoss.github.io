@@ -28,7 +28,7 @@ export default function PastEvents() {
 
     function countEventsWithDetails() {
         EventsData.Upcoming_Events.forEach(event => {
-            if(event.date !== "" && event.time !== ""){
+            if (event.date !== "" && event.time !== "") {
                 ++numUpcomingEventsWithDetails
             }
         });
@@ -36,7 +36,7 @@ export default function PastEvents() {
 
     useEffect(() => {
         countEventsWithDetails();
-    // eslint-disable-next-line
+        // eslint-disable-next-line
     }, [])
 
     useEffect(() => {
@@ -52,7 +52,7 @@ export default function PastEvents() {
         return () => {
             resetTimeout()
         }
-    // eslint-disable-next-line
+        // eslint-disable-next-line
     }, [index])
 
     const displayEvent = events
@@ -139,11 +139,11 @@ export default function PastEvents() {
                                         EVENTS
                                     </a>
                                 </li>
-                                {/* <li class="nav-item">
+                                <li class="nav-item">
                                     <a class="nav-link" href="/blogs">
                                         BLOGS
                                     </a>
-                                </li> */}
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/board-members">
                                         BOARD
@@ -167,7 +167,7 @@ export default function PastEvents() {
 
             <section id="past-events">
                 <div class="container" data-aos="zoom-in">
-                    { EventsData.Upcoming_Events.length > 0 ? <header class="section-header">
+                    {EventsData.Upcoming_Events.length > 0 ? <header class="section-header">
                         <h3>Upcoming Events</h3>
                         {/* <p>
                             No events at this moment. Follow us to get updates.
@@ -177,27 +177,26 @@ export default function PastEvents() {
                             <div
                                 className="slideshowSlider"
                                 style={{
-                                    transform: `translate3d(${
-                                        -index * 100
-                                    }%, 0, 0)`,
+                                    transform: `translate3d(${-index * 100
+                                        }%, 0, 0)`,
                                 }}
                             >
                                 {EventsData.Upcoming_Events.map(
                                     (event, index) => (
-                                        event.date !== "" && event.time !== "" ? 
-                                        <div
-                                            className="upcoming-event-slide"
-                                            key={index}
-                                        >
-                                            <UpcomingEventCard
-                                                image={event.image}
-                                                date={event.date}
-                                                time={event.time}
-                                                title={event.title}
-                                                speaker={event.speaker}
-                                                description={event.description}
-                                            />
-                                        </div> : null
+                                        event.date !== "" && event.time !== "" ?
+                                            <div
+                                                className="upcoming-event-slide"
+                                                key={index}
+                                            >
+                                                <UpcomingEventCard
+                                                    image={event.image}
+                                                    date={event.date}
+                                                    time={event.time}
+                                                    title={event.title}
+                                                    speaker={event.speaker}
+                                                    description={event.description}
+                                                />
+                                            </div> : null
                                     )
                                 )}
                             </div>
@@ -205,20 +204,19 @@ export default function PastEvents() {
                                 {EventsData.Upcoming_Events.map(
                                     (event, cardIndex) => (
                                         event.date !== "" && event.time !== "" ?
-                                        <div
-                                            className={`slideshowDot ${
-                                                index === cardIndex
-                                                    ? 'active'
-                                                    : ''
-                                            }`}
-                                            key={cardIndex}
-                                            onClick={() => setIndex(cardIndex)}
-                                        /> : null
+                                            <div
+                                                className={`slideshowDot ${index === cardIndex
+                                                        ? 'active'
+                                                        : ''
+                                                    }`}
+                                                key={cardIndex}
+                                                onClick={() => setIndex(cardIndex)}
+                                            /> : null
                                     )
                                 )}
                             </div>
                         </div>
-                    </header> : null }
+                    </header> : null}
                     <header class="section-header">
                         <h4 style={{ paddingTop: 50 }}>Past Events</h4>
                         {/* <p>

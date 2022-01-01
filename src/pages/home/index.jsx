@@ -92,7 +92,6 @@ export default function Home() {
                             src={gif}
                             alt=""
                             class="img-fluid"
-                            style={{ width: 400, height: 400 }}
                         />
                     </div>
                     <div

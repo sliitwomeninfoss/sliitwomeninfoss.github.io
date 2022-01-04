@@ -83,22 +83,26 @@ export default function PastEvents() {
                         <div class="container" style={{paddingBottom: 0}}>
                             <div class="row justify-content-center">
                                 {EventsData.Latest_Events.map((event, index) => (
-                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                        <a href="/">
-                                            <div class="card-flyer" style={{height: 500}}>
+                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 py-2">
+                                        {/* <a href="/"> */}
+                                            <div class="card-flyer h-100">
                                                 <div class="text-box">
                                                     <div class="image-box">
                                                         <img src={event.image} alt="" />
                                                     </div>
+                                                   
                                                     <div class="text-container">
                                                         <h6>{event.title}</h6>
                                                         <p>{event.description}</p>
+                                                       
                                                         <h5> <i class="fa fa-microphone"></i>{' '}{event.speaker}</h5>
                                                         <h5> <i class="fa fa-calendar"></i>{' '}{event.date}</h5>
+
+                                                        </div>
+                                                        </div>
+                                                        
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </a>
+                                        {/* </a> */}
                                     </div>
 
                                 ))}

@@ -7,7 +7,7 @@
             "date":"02nd January 2022",
             "time":"6.00PM",
             "speaker":"Angelica Hill",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "description":"The live quarantine tech talk, 'A chat with Angelica'."
         },
         {
             "title": "Modern DevOps",
@@ -15,7 +15,7 @@
             "date":"22nd March 2022",
             "time":"3.00PM",
             "speaker":"Nilesh Jayanandana",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "description":"A live quarantine tech talk, on 'Modern Devops'."
         },
         {
             "title": "Bridging the Gap between Graduation and your first UX Job",
@@ -23,7 +23,7 @@
             "date":"27th December 2022",
             "time":"4.30PM",
             "speaker":"Nadeeka Athukorala",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "description":"What it takes to cross over the bridge of a fresh graduate and a professional UX designer."
         },
         {
             "title": "Modern DevOps Phase2",
@@ -31,7 +31,7 @@
             "date":"",
             "time":"",
             "speaker":"Nadeeka Athukorala",
-            "description":""
+            "description":"A live quarantine tech talk, on 'Modern Devops'."
         }
     ],
     "__Comment_2": "Include four objects for 'Latest_Events'",

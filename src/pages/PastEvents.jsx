@@ -61,9 +61,9 @@ export default function PastEvents() {
             numberOfEmployeesVisited + eventsPerPage
         )
         .map((event, index) => (
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <a href="/">
-                    <div class="card-flyer" style={{ height: 500 }}>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                {/* <a href="/"> */}
+                    <div class="card-flyer" style={{height:550, overflow:'hidden'}}>
                         <div class="text-box">
                             <div class="image-box">
                                 <img src={event.image} alt="" />
@@ -83,7 +83,7 @@ export default function PastEvents() {
                             </div>
                         </div>
                     </div>
-                </a>
+                {/* </a> */}
             </div>
         ))
 
@@ -254,6 +254,7 @@ export default function PastEvents() {
                         containerClassName="pagination justify-content-end"
                         activeClassName="active"
                         renderOnZeroPageCount={null}
+                        
                     />
                     {/* <div class="row mt-5">
                         <div class="col-12 mt-4 text-center">
@@ -281,13 +282,13 @@ export default function PastEvents() {
                                 {WebinarsData.Latest_Webinars.map(
                                     (webinar, index) => (
                                         <div
-                                            class="col-xs-12 col-sm-6 col-md-3 col-lg-3"
+                                            class="col-xs-12 col-sm-6 col-md-6 col-lg-3"
                                             data-aos="zoom-out-down"
                                         >
                                             <a href={webinar.youtube_link}>
                                                 <div
                                                     class="card-flyer"
-                                                    style={{ height: 400 }}
+                                                    style={{ height: 420 }}
                                                 >
                                                     <div class="text-box">
                                                         <div class="image-box">

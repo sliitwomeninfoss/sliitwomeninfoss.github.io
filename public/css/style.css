@@ -137,6 +137,7 @@ h6 {
 #header.header-scrolled {
     height: 60px;
     padding: 10px 0;
+    box-shadow: 0px 0px 40px rgb(0, 0, 0);
 }
 
 @media (max-width: 991px) {
@@ -340,7 +341,7 @@ h6 {
 }
 
 #intro .intro-img {
-    /* width: 50%; */
+    width: 50%;
     float: right;
 }
 
@@ -355,6 +356,7 @@ h6 {
 #intro .intro-info {
     width: 50%;
     float: left;
+    margin-top: 90px
 }
 
 @media (max-width: 991px) {

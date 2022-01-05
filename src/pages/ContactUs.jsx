@@ -4,20 +4,44 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import logo from '../assets/img/logos/WIF-Dark.png'
 
-const success = () => toast.success("Your details have been successfully submitted! Expect to receive a response within 24 hours.")
-const failure = () => toast.error("There was a problem submitting the form - please try again later!")
+const success = () =>
+    toast.success(
+        'Your details have been successfully submitted! Expect to receive a response within 24 hours.'
+    )
+const failure = () =>
+    toast.error(
+        'There was a problem submitting the form - please try again later!'
+    )
 
 export default function ContactUs() {
     function sendEmail(e) {
-        e.preventDefault();
-        emailjs.sendForm("service_916fd9t", "template_xupiy9k", e.target, "user_AhOeO3pVJFeslV70OSsBk").then(res => {
-            success()
-        }).catch(err => { failure() });
+        e.preventDefault()
+        emailjs
+            .sendForm(
+                'service_916fd9t',
+                'template_xupiy9k',
+                e.target,
+                'user_AhOeO3pVJFeslV70OSsBk'
+            )
+            .then((res) => {
+                if (res.status === 200) {
+                    success()
+                    resetContactUsForm()
+                }else{
+                    failure()
+                }
+            })
+            .catch((err) => {
+                failure()
+            })
     }
 
     function customfunction(e) {
         sendEmail(e)
+    }
 
+    function resetContactUsForm() {
+        document.getElementById('contact-form').reset()
     }
     return (
         <div>
@@ -150,7 +174,8 @@ export default function ContactUs() {
                             <div class="contact-form pt-30">
                                 <form
                                     id="contact-form"
-                                    action="" onSubmit={customfunction}
+                                    action=""
+                                    onSubmit={customfunction}
                                 >
                                     <div class="single-form">
                                         <input

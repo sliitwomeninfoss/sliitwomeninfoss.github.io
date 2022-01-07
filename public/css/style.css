@@ -137,6 +137,7 @@ h6 {
 #header.header-scrolled {
     height: 60px;
     padding: 10px 0;
+    box-shadow: 0px 0px 40px rgb(0, 0, 0);
 }
 
 @media (max-width: 991px) {
@@ -340,7 +341,7 @@ h6 {
 }
 
 #intro .intro-img {
-    /* width: 50%; */
+    width: 50%;
     float: right;
 }
 
@@ -355,6 +356,7 @@ h6 {
 #intro .intro-info {
     width: 50%;
     float: left;
+    margin-top: 90px
 }
 
 @media (max-width: 991px) {
@@ -720,6 +722,8 @@ section {
 }
 
 .card-img {
+    height: 200px;
+    background-size: cover;
     position: relative;
     overflow: hidden;
     border-radius: 0;
@@ -754,7 +758,9 @@ section {
     line-height: 0;
 }
 .card-desc {
-    padding: 1.25rem;
+    padding: 20px;
+    height: 200px;
+    text-align: left;
 }
 
 .card-desc h3 {
@@ -768,19 +774,36 @@ section {
 }
 
 .card-desc p {
-    color: #747373;
     font-size: 14px;
     font-weight: 400;
     font-size: 1em;
     line-height: 1.5;
     margin: 0px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding: 0;
 }
 
+.card-desc span {
+    background: #6d008388;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 2px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%, -50%);
+}
+
 .read-btn {
+    margin-bottom: 30px;
     display: inline-block;
-    width: 150px;
+    width: 200px;
     font-weight: 400;
     text-align: center;
     white-space: nowrap;

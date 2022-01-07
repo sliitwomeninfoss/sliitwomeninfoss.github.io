@@ -5,7 +5,7 @@ import PastEvents from './PastEvents'
 import Hackathon from './Hackathon'
 import WeAre from './WeAre'
 import Webinars from './Webinars'
-import logo from '../../assets/img/logo/lo.PNG'
+import logo from '../../assets/img/logos/WIF-Dark.png'
 export default function Home() {
     return (
         <div>
@@ -55,11 +55,11 @@ export default function Home() {
                                         EVENTS
                                     </a>
                                 </li>
-                                {/* <li class="nav-item">
+                                <li class="nav-item">
                                     <a class="nav-link" href="/blogs">
                                         BLOGS
                                     </a>
-                                </li> */}
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/board-members">
                                         BOARD
@@ -92,7 +92,6 @@ export default function Home() {
                             src={gif}
                             alt=""
                             class="img-fluid"
-                            style={{ width: 400, height: 400 }}
                         />
                     </div>
                     <div
@@ -122,8 +121,8 @@ export default function Home() {
                                 class="btn-get-started scrollto">
                                 Become a Member
                             </a> */}
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNYep3jMJa3lO54Tvwzon-2jpxe4C7Fo4kKpWyDT7PV17_xQ/viewform?usp=sf_link" 
-                            target="_blank" rel="noopener noreferrer">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNYep3jMJa3lO54Tvwzon-2jpxe4C7Fo4kKpWyDT7PV17_xQ/viewform?usp=sf_link"
+                                target="_blank" rel="noopener noreferrer">
                                 <button class="main-btn" type="submit">
                                     Become A Member
                                 </button>

@@ -11,8 +11,6 @@ import S1 from '../../assets/img/team/Sewvandi.JPG'
 
 
 
-
-
 export const BOARD_MEMBER_DETAILS = {
     CLUB_LEAD: {
         NAME: 'Sewvandi',

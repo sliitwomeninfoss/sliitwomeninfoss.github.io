@@ -14,20 +14,19 @@ export default function Webinars() {
                                 {WebinarsData.Latest_Webinars.map((webinar, index) => (
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
                                         <a href={webinar.youtube_link}>
-                                            <div class="card-flyer" style={{ height: 400 }}>
+                                            <div class="card-flyer" style={{ height: 470 }}>
                                                 <div class="text-box">
                                                     <div class="image-box">
                                                         <img src={webinar.image} alt="" />
                                                     </div>
-
-                                                    <div class="text-container">
+                                                    <div class="text-container" style={{ height: 150 }}>
                                                         <h6>{webinar.title}</h6>
-                                                        <a href={webinar.youtube_link}>
-                                                            <button class="view-btn">
-                                                                View
-                                                            </button>
-                                                        </a>
                                                     </div>
+                                                    <a href={webinar.youtube_link}>
+                                                        <button class="view-btn">
+                                                            View
+                                                        </button>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </a>

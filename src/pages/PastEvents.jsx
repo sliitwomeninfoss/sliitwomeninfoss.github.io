@@ -62,28 +62,19 @@ export default function PastEvents() {
         )
         .map((event, index) => (
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <a href="/">
-                    <div class="card-flyer" style={{ height: 500 }}>
-                        <div class="text-box">
-                            <div class="image-box">
-                                <img src={event.image} alt="" />
-                            </div>
-                            <div class="text-container">
-                                <h6>{event.title}</h6>
-                                <p>{event.description}</p>
-                                <h5>
-                                    {' '}
-                                    <i class="fa fa-microphone"></i>{' '}
-                                    {event.speaker}
-                                </h5>
-                                <h5 class="date">
-                                    {' '}
-                                    <i class="fa fa-calendar"></i> {event.date}
-                                </h5>
-                            </div>
+                <div class="card-flyer">
+                    <div class="text-box">
+                        <div class="image-box">
+                            <img src={event.image} alt="" />
                         </div>
+                        <div class="text-container">
+                            <h6>{event.title}</h6>
+                            <p>{event.description}</p>
+                        </div>
+                        <h5> <i class="fa fa-microphone"></i>{' '}{event.speaker}</h5>
+                        <h5> <i class="fa fa-calendar"></i>{' '}{event.date}</h5>
                     </div>
-                </a>
+                </div>
             </div>
         ))
 
@@ -206,8 +197,8 @@ export default function PastEvents() {
                                         event.date !== "" && event.time !== "" ?
                                             <div
                                                 className={`slideshowDot ${index === cardIndex
-                                                        ? 'active'
-                                                        : ''
+                                                    ? 'active'
+                                                    : ''
                                                     }`}
                                                 key={cardIndex}
                                                 onClick={() => setIndex(cardIndex)}
@@ -217,6 +208,7 @@ export default function PastEvents() {
                             </div>
                         </div>
                     </header> : null}
+
                     <header class="section-header">
                         <h4 style={{ paddingTop: 50 }}>Past Events</h4>
                         {/* <p>
@@ -280,39 +272,21 @@ export default function PastEvents() {
                             <div class="row justify-content-center">
                                 {WebinarsData.Latest_Webinars.map(
                                     (webinar, index) => (
-                                        <div
-                                            class="col-xs-12 col-sm-6 col-md-3 col-lg-3"
-                                            data-aos="zoom-out-down"
-                                        >
+                                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
                                             <a href={webinar.youtube_link}>
-                                                <div
-                                                    class="card-flyer"
-                                                    style={{ height: 400 }}
-                                                >
+                                                <div class="card-flyer" style={{ height: 470 }}>
                                                     <div class="text-box">
                                                         <div class="image-box">
-                                                            <img
-                                                                src={
-                                                                    webinar.image
-                                                                }
-                                                                alt=""
-                                                            />
+                                                            <img src={webinar.image} alt="" />
                                                         </div>
-
-                                                        <div class="text-container">
-                                                            <h6>
-                                                                {webinar.title}
-                                                            </h6>
-                                                            <a
-                                                                href={
-                                                                    webinar.youtube_link
-                                                                }
-                                                            >
-                                                                <button class="view-btn">
-                                                                    View
-                                                                </button>
-                                                            </a>
+                                                        <div class="text-container" style={{ height: 150 }}>
+                                                            <h6>{webinar.title}</h6>
                                                         </div>
+                                                        <a href={webinar.youtube_link}>
+                                                            <button class="view-btn">
+                                                                View
+                                                            </button>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </a>

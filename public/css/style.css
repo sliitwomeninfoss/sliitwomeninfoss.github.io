@@ -722,6 +722,8 @@ section {
 }
 
 .card-img {
+    height: 200px;
+    background-size: cover;
     position: relative;
     overflow: hidden;
     border-radius: 0;
@@ -756,7 +758,9 @@ section {
     line-height: 0;
 }
 .card-desc {
-    padding: 1.25rem;
+    padding: 20px;
+    height: 200px;
+    text-align: left;
 }
 
 .card-desc h3 {
@@ -770,19 +774,36 @@ section {
 }
 
 .card-desc p {
-    color: #747373;
     font-size: 14px;
     font-weight: 400;
     font-size: 1em;
     line-height: 1.5;
     margin: 0px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding: 0;
 }
 
+.card-desc span {
+    background: #6d008388;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 2px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%, -50%);
+}
+
 .read-btn {
+    margin-bottom: 30px;
     display: inline-block;
-    width: 150px;
+    width: 200px;
     font-weight: 400;
     text-align: center;
     white-space: nowrap;
@@ -974,13 +995,14 @@ section {
     padding-top: 0px;
     padding-bottom: 30px;
 }
-#cards_landscape_wrap-2 a {
+/* #cards_landscape_wrap-2 a {
     text-decoration: none;
     outline: none;
-}
+} */
 #cards_landscape_wrap-2 .card-flyer {
     border-radius: 5px;
     margin-right: 5px;
+    height: 550px;
 }
 #cards_landscape_wrap-2 .card-flyer .image-box {
     background: #ffffff;
@@ -1009,6 +1031,7 @@ section {
 }
 #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
     padding: 30px 18px;
+    height: 240px;
 }
 #cards_landscape_wrap-2 .card-flyer {
     background: #ffffff;
@@ -1108,7 +1131,7 @@ section {
 .slideshow {
     margin: 0 auto;
     overflow: hidden;
-    max-width: 500px;
+    max-width: 350px;
 }
 
 .slideshowSlider {

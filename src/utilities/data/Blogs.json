@@ -2,27 +2,27 @@
     "__Comment_1": "Include three objects for 'Latest_Blogs'",
     "Latest_Blogs": [
         {
-            "blog_title": "Modern DevOps",
-            "image": "img/events/The State of Women in Tech-GroomUp Session.jpg",
-            "description": "A live quarantine tech talk, on 'Modern Devops'.",
-            "published_date": "15th September 2021",
-            "blog_url": "Nilesh Jayanandana",
+            "blog_title": "API, REST API and RESTful API",
+            "image": "https://miro.medium.com/max/1400/1*VtzBqZ-yYr_c6DpJsQkiyA.png",
+            "description": "REST API and RESTful API used in the modern state of client/server architecture in software development. In this article you will be introducing to APIs, Rest API and Restful APIs.",
+            "published_date": "Dec 30, 2021",
+            "blog_url": "https://medium.com/sliitwif/api-rest-api-and-restful-api-8979bdd64c61",
             "tags": [
-                "#First",
-                "#Second",
-                "#Third"
+                "API",
+                "REST API",
+                "RESTful-API"
             ]
         },
         {
-            "blog_title": "her <Hello World/> v1.0 Groom Up Sessions",
-            "image": "img/events/her_Hello World__ wareness Session.jpg",
-            "description": "The GROOM UP SESSIONS for her <Hello World/>v1.0 are here!",
-            "published_date": "8th August 2021",
-            "blog_url": "Hackathon",
+            "blog_title": "Organizing your React app’s code",
+            "image": "https://miro.medium.com/max/1400/1*r37IUV31xyVy3XHN9OYy_Q.jpeg",
+            "description": "Although everyone won’t agree on one way to structure and organize a React project, I’m sure most will agree that proper and logical structuring in the codebase of a project — especially when working with a team on large projects— makes development much more productive.",
+            "published_date": "Dec 25, 2021",
+            "blog_url": "https://medium.com/sliitwif/organizing-your-react-apps-code-32e584af7b1d",
             "tags": [
-                "#First",
-                "#Second",
-                "#Third"
+                "React",
+                "JavaScript",
+                "Organizing"
             ]
         },
         {
@@ -41,15 +41,27 @@
     "__Comment_2": "Add all blogs in sorted order.(Add new blogs at the beginning of an array.)",
     "Blogs": [
         {
-            "blog_title": "Modern DevOps",
-            "image": "img/events/A Chat with Angelica .jpg",
-            "description": "A live quarantine tech talk, on 'Modern Devops'.",
-            "published_date": "15-08-2021",
-            "blog_url": "!#",
+            "blog_title": "API, REST API and RESTful API",
+            "image": "https://miro.medium.com/max/1400/1*VtzBqZ-yYr_c6DpJsQkiyA.png",
+            "description": "REST API and RESTful API used in the modern state of client/server architecture in software development. In this article you will be introducing to APIs, Rest API and Restful APIs.",
+            "published_date": "Dec 30, 2021",
+            "blog_url": "https://medium.com/sliitwif/api-rest-api-and-restful-api-8979bdd64c61",
             "tags": [
-                "#First",
-                "#Second",
-                "#Third"
+                "API",
+                "REST API",
+                "RESTful-API"
+            ]
+        },
+        {
+            "blog_title": "Organizing your React app’s code",
+            "image": "https://miro.medium.com/max/1400/1*r37IUV31xyVy3XHN9OYy_Q.jpeg",
+            "description": "Although everyone won’t agree on one way to structure and organize a React project, I’m sure most will agree that proper and logical structuring in the codebase of a project — especially when working with a team on large projects— makes development much more productive.",
+            "published_date": "Dec 25, 2021",
+            "blog_url": "https://medium.com/sliitwif/organizing-your-react-apps-code-32e584af7b1d",
+            "tags": [
+                "React",
+                "JavaScript",
+                "Organizing"
             ]
         }
     ]

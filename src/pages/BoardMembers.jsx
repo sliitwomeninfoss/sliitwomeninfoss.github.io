@@ -44,7 +44,7 @@ export default function Team() {
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/blogs">
-                                        Blogs
+                                        BLOGS
                                     </a>
                                 </li>
                                 <li class="nav-item active">

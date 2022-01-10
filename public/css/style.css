@@ -1603,10 +1603,13 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 
 #team .member {
     text-align: center;
-    margin-bottom: 20px;
+    display: block;
+    margin: auto auto 20px auto;
     position: relative;
     border-radius: 50%;
     overflow: hidden;
+    height: 200px;
+    width: 200px;
 }
 
 #team .member .member-info {

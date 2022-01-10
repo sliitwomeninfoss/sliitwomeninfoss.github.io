@@ -1,6 +1,4 @@
 // Names and social media handles of all board members displayed in the 'BOARD' page of website
-import Team2 from '../../assets/img/team/team-2.jpg'
-import Team4 from '../../assets/img/team/team-4.jpg'
 import H1 from '../../assets/img/team/Hansi.jpg'
 import U1 from '../../assets/img/team/Uvini.jpg'
 import R1 from '../../assets/img/team/Renu.jpg'

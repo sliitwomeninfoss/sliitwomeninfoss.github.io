@@ -171,7 +171,7 @@ export default function AboutUs() {
                             <h4>Our Strategy</h4>
                             <p>
                                 Infrastructural and consulting support for FOSS-related initiatives and 
-                                groups in Sri Lanka.And to help tech weomen in the tech filed to develop
+                                groups in Sri Lanka. And to help tech weomen in the tech filed to develop
                                 their personalities.
                             </p>
                         </div>

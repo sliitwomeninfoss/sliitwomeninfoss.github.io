@@ -42,11 +42,11 @@ export default function Team() {
                                         EVENTS
                                     </a>
                                 </li>
-                                {/* <li class="nav-item">
-                                    <a class="nav-link" href="!#">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/blogs">
                                         Blogs
                                     </a>
-                                </li> */}
+                                </li>
                                 <li class="nav-item active">
                                     <a class="nav-link" href="/board-members">
                                         BOARD

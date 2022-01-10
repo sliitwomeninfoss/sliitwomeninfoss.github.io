@@ -1,4 +1,5 @@
 import BlogsData from '../utilities/data/Blogs.json'
+import logo from '../assets/img/logos/WIF-Dark.png'
 
 export default function Blogs() {
     return (
@@ -9,9 +10,16 @@ export default function Blogs() {
                     data-offset="500"
                 >
                     <div class="container">
-                        <a href="/" class="navbar-brand">
-                            SLIIT<span class="text-primary">WIF</span>
-                        </a>
+                        {/* <a href="/" class="navbar-brand"> */}
+                        {/* SLIIT<span class="text-primary">WIF</span> */}
+                        {/* <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" /> */}
+                        <div class="logo float-left">
+                            <a href="/">
+                                <img src={logo} alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                        {/* </a> */}
+                        {/* <img src={logo} alt="logo" height="50" width="100" class="img-fluid just" /> */}
                         <button
                             class="navbar-toggler"
                             data-toggle="collapse"
@@ -90,14 +98,22 @@ export default function Blogs() {
                                     </div>
                                     <div class="card-desc">
                                         <h3>{blog.blog_title}</h3>
-                                        <p>{blog.description}</p>
-                                        <a href={blog.blog_url} class="read-btn" target="_blank" rel="noreferrer">Read More</a>
+                                        <br />
+                                        {/* <p>{blog.description}</p> */}
+                                        <p> {blog.tags.length > 0 ?
+                                            blog.tags.map((tag, index) => (
+                                                <span>{tag}</span>
+                                            ))
+                                            : <div />
+                                        }
+                                        </p>
                                     </div>
+                                        <a href={blog.blog_url} class="read-btn" target="_blank" rel="noreferrer">Read More</a>
                                 </div>
                             </div>
                         ))}
                     </div>
-                    <a href="/blogs" rel="noreferrer" target="_blank">
+                    <a href="https://medium.com/sliitwif" rel="noreferrer" target="_blank">
                         <button class="main-btn" type="submit">
                             Read More on <b>Medium</b> {' '}
                             <i class="fa fa-arrow-circle-right" style={{ marginLeft: 8 }}></i>

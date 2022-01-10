@@ -1,19 +1,48 @@
 import contact from '../assets/img/logos/contact.png'
 import emailjs from 'emailjs-com'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import logo from '../assets/img/logos/WIF-Dark.png'
+
+const success = () =>
+    toast.success(
+        'Your details have been successfully submitted! Expect to receive a response within 24 hours.'
+    )
+const failure = () =>
+    toast.error(
+        'There was a problem submitting the form - please try again later!'
+    )
 
 export default function ContactUs() {
-    function sendEmail(e){
-        e.preventDefault();
-        emailjs.sendForm("service_916fd9t","template_xupiy9k",e.target,"user_AhOeO3pVJFeslV70OSsBk").then(res=>{
-                console.log(res);
-        }).catch(err=>console.log(err));
-}
+    function sendEmail(e) {
+        e.preventDefault()
+        emailjs
+            .sendForm(
+                'service_916fd9t',
+                'template_xupiy9k',
+                e.target,
+                'user_AhOeO3pVJFeslV70OSsBk'
+            )
+            .then((res) => {
+                if (res.status === 200) {
+                    success()
+                    resetContactUsForm()
+                }else{
+                    failure()
+                }
+            })
+            .catch((err) => {
+                failure()
+            })
+    }
 
-function customfunction(e)
-{
+    function customfunction(e) {
         sendEmail(e)
-    
-}
+    }
+
+    function resetContactUsForm() {
+        document.getElementById('contact-form').reset()
+    }
     return (
         <div>
             <header id="header" class="fixed-top">
@@ -22,9 +51,16 @@ function customfunction(e)
                     data-offset="500"
                 >
                     <div class="container">
-                        <a href="/" class="navbar-brand">
-                            SLIIT<span class="text-primary">WIF</span>
-                        </a>
+                        {/* <a href="/" class="navbar-brand"> */}
+                        {/* SLIIT<span class="text-primary">WIF</span> */}
+                        {/* <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" /> */}
+                        <div class="logo float-left">
+                            <a href="/">
+                                <img src={logo} alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                        {/* </a> */}
+                        {/* <img src={logo} alt="logo" height="50" width="100" class="img-fluid just" /> */}
                         <button
                             class="navbar-toggler"
                             data-toggle="collapse"
@@ -55,11 +91,11 @@ function customfunction(e)
                                         EVENTS
                                     </a>
                                 </li>
-                                {/* <li class="nav-item">
-                                    <a class="nav-link" href="!#">
-                                        Blog
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/blogs">
+                                        BLOGS
                                     </a>
-                                </li> */}
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/board-members">
                                         BOARD
@@ -80,6 +116,7 @@ function customfunction(e)
                     </div>
                 </nav>
             </header>
+
             <section id="contact" class="contact-area pt-125 pb-130 gray-bg">
                 <div class="container" data-aos="fade-up">
                     <div class="row justify-content-center">
@@ -137,13 +174,15 @@ function customfunction(e)
                             <div class="contact-form pt-30">
                                 <form
                                     id="contact-form"
-                                    action=""onSubmit={customfunction}
+                                    action=""
+                                    onSubmit={customfunction}
                                 >
                                     <div class="single-form">
                                         <input
                                             type="text"
                                             name="name"
                                             placeholder="Name"
+                                            required={true}
                                         />
                                     </div>
                                     <div class="single-form">
@@ -151,12 +190,14 @@ function customfunction(e)
                                             type="email"
                                             name="email"
                                             placeholder="Email"
+                                            required={true}
                                         />
                                     </div>
                                     <div class="single-form">
                                         <textarea
                                             name="message"
                                             placeholder="Message"
+                                            required={true}
                                         ></textarea>
                                     </div>
                                     <p class="form-message"></p>
@@ -184,6 +225,7 @@ function customfunction(e)
                     </div>
                 </div>
             </section>
+            <ToastContainer />
         </div>
     )
-                            }
+}

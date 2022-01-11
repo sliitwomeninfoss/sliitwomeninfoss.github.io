@@ -20,8 +20,6 @@ export default function Blogs() {
             .catch(err => setBlog({ error: err.message }))
     }, [axios])
 
-    console.log("jhfghe", blog.item)
-
     return (
         <div>
             <header id="header" class="fixed-top">

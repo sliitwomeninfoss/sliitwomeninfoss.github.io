@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
+import Config from '../../utilities/config'
 
 export default function Blogs() {
-    const mediumURL = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/sliitwif";
     const [blog, setBlog] = useState({
         item: [],
         error: null
@@ -10,7 +10,7 @@ export default function Blogs() {
     const axios = require('axios').default
 
     useEffect(() => {
-        axios.get(mediumURL)
+        axios.get(Config.MEDIUM_BLOG_URL)
             .then(info => {
                 const posts = info.data.items.filter(post => post.categories.length > 0);
                 setBlog({ item: posts })

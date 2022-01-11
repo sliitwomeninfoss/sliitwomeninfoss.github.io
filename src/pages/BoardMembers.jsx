@@ -94,7 +94,7 @@ export default function Team() {
                                             .MEMBERSHIP_AND_RECRUITING_LEAD
                                             .IMAGE_SRC
                                     }
-                                    class="img-fluid"
+                                    class="img-fluid team-member-img"
                                     alt=""
                                 />
                                 <div class="member-info">

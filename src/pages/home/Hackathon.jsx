@@ -29,7 +29,7 @@ export default function Hackathon() {
                                     The Her Hello World v1.0 : A Hackathon for 
                                     enthusiastic techie girls who desire to take on 
                                     the world by code. It's the time where                                 
-                                    passionate women take on the lead as empowered 
+                                    passionate women take the lead as empowered 
                                     innovators, and bring out their inner frontend 
                                     development and creativity skills.                                                       
                                 </p>

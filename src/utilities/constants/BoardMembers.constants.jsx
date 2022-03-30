@@ -13,25 +13,25 @@ export const BOARD_MEMBER_DETAILS = {
     CLUB_LEAD: {
         NAME: 'Sewvandi',
         IMAGE_SRC: S1,
-        FACEBOOK: '#',
-        LINKEDIN: '#',
+        FACEBOOK: 'https://www.facebook.com/sewvandi.wickramasinghe.3',
+        LINKEDIN: 'https://www.linkedin.com/in/sewvandi-promodya-wickramasinghe/',
     },
     MEMBERSHIP_AND_RECRUITING_LEAD: {
         NAME: 'Nishiki',
         IMAGE_SRC: N1,
-        FACEBOOK: '#',
-        LINKEDIN: '#',
+        FACEBOOK: 'https://www.facebook.com/nishiki.yapa.7',
+        LINKEDIN: 'https://www.linkedin.com/in/nishiki-yapa-361778168/',
     },
     WEB_AND_GRAPHIC_TEAM_LEAD: {
         NAME: 'Uvini',
         IMAGE_SRC: U1,
         FACEBOOK: '#',
-        LINKEDIN: '#',
+        LINKEDIN: 'https://www.linkedin.com/in/uvini-wijesinghe/',
     },
     MARKETING_AND_PUBLICITY_LEAD: {
         NAME: 'Oshadi',
         IMAGE_SRC: O1,
-        FACEBOOK: '#',
+        FACEBOOK: 'https://www.facebook.com/dilini.ranathunga.520',
         LINKEDIN: '#',
     },
     DEVELOPING_TEAM_LEAD: {
@@ -43,13 +43,13 @@ export const BOARD_MEMBER_DETAILS = {
     CONTENT_WRITING_TEAM_LEAD: {
         NAME: 'Thathsarani',
         IMAGE_SRC: T1,
-        FACEBOOK: '#',
-        LINKEDIN: '#',
+        FACEBOOK: 'https://www.facebook.com/thathsarani.wickramaarachchi',
+        LINKEDIN: 'https://www.linkedin.com/in/thathsarani-wickramaarachchi/',
     },
     TECHNICAL_LEAD: {
         NAME: 'Renu',
         IMAGE_SRC: R1,
-        FACEBOOK: '#',
-        LINKEDIN: '#',
+        FACEBOOK: 'https://www.facebook.com/renu.harshatha',
+        LINKEDIN: 'https://www.linkedin.com/in/renu-harshatha/',
     },
 }

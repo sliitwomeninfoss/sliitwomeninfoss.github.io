@@ -270,7 +270,7 @@ export default function PastEvents() {
                     <div id="cards_landscape_wrap-2">
                         <div class="container">
                             <div class="row justify-content-center">
-                                {WebinarsData.Latest_Webinars.map(
+                                {WebinarsData.Webinars.map(
                                     (webinar, index) => (
                                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
                                             <a href={webinar.youtube_link}>

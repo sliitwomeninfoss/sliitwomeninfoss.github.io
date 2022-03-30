@@ -11,7 +11,7 @@ export default function Webinars() {
                     <div id="cards_landscape_wrap-2">
                         <div class="container" style={{ paddingBottom: 0 }}>
                             <div class="row justify-content-center">
-                                {WebinarsData.Latest_Webinars.map((webinar, index) => (
+                                {WebinarsData.Webinars.slice(0, 4).map((webinar, index) => (
                                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
                                         <a href={webinar.youtube_link}>
                                             <div class="card-flyer" style={{ height: 470 }}>

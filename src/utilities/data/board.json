@@ -1,0 +1,111 @@
+{
+    "2021": [
+        {
+            "ROLE": "CLUB LEAD",
+            "NAME": "Sewvandi Wickramasinghe",
+            "IMAGE_SRC": "img/team/2021/Sewvandi.JPG",
+            "FACEBOOK": "https://www.facebook.com/sewvandi.wickramasinghe.3",
+            "LINKEDIN": "https://www.linkedin.com/in/sewvandi-promodya-wickramasinghe/"
+        },
+        {
+            "ROLE": "DEVELOPING TEAM LEAD",
+            "NAME": "Hansi Pabasara",
+            "IMAGE_SRC": "img/team/2021/Hansi.jpg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "#"
+        },
+        {
+            "ROLE": "WEB AND GRAPHIC TEAM LEAD",
+            "NAME": "Uvini Wijesinghe",
+            "IMAGE_SRC": "img/team/2021/Uvini.jpg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/uvini-wijesinghe/"
+        },
+        {
+            "ROLE": "CONTENT WRITING TEAM LEAD",
+            "NAME": "Thathsarani Wickramaarachchi",
+            "IMAGE_SRC": "img/team/2021/Thathsarani.jpg",
+            "FACEBOOK": "https://www.facebook.com/thathsarani.wickramaarachchi",
+            "LINKEDIN": "https://www.linkedin.com/in/thathsarani-wickramaarachchi/"
+        },
+        {
+            "ROLE": "MEMBERSHIP AND RECRUITING LEAD",
+            "NAME": "Nishiki Yapa",
+            "IMAGE_SRC": "img/team/2021/Nishiki.jpeg",
+            "FACEBOOK": "https://www.facebook.com/nishiki.yapa.7",
+            "LINKEDIN": "https://www.linkedin.com/in/nishiki-yapa-361778168/"
+        },
+        {
+            "ROLE": "TECHNICAL_LEAD",
+            "NAME": "Renu Harshatha",
+            "IMAGE_SRC": "img/team/2021/Renu.jpg",
+            "FACEBOOK": "https://www.facebook.com/renu.harshatha",
+            "LINKEDIN": "https://www.linkedin.com/in/renu-harshatha/"
+        },
+        {
+            "ROLE": "MARKETING_AND_PUBLICITY_LEAD",
+            "NAME": "Oshadi Ranathunga",
+            "IMAGE_SRC": "img/team/2021/Oshadi.jpeg",
+            "FACEBOOK": "https://www.facebook.com/dilini.ranathunga.520",
+            "LINKEDIN": "#"
+        }
+    ],
+    "2022": [
+        {
+            "ROLE": "CLUB LEAD",
+            "NAME": "Bhagya Indimagedara",
+            "IMAGE_SRC": "img/team/2022/Bhagya.jpeg",
+            "FACEBOOK": "https://web.facebook.com/kithminiii/",
+            "LINKEDIN": "https://www.linkedin.com/in/bhagya-indimagedara/"
+        },
+        {
+            "ROLE": "DEVELOPMENT LEAD",
+            "NAME": "Dulya Perera",
+            "IMAGE_SRC": "img/team/2022/Dulya.jpg",
+            "FACEBOOK": "https://www.facebook.com/dul.perera.56/",
+            "LINKEDIN": "https://www.linkedin.com/in/dulya-perera-188ab31b9"
+        },
+        {
+            "ROLE": "DESIGN LEAD",
+            "NAME": "Sandali Kalavitigoda",
+            "IMAGE_SRC": "img/team/2022/Sanali.jpg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/sandali-kalavitigoda/"
+        },
+        {
+            "ROLE": "CONTENT WRITING LEAD",
+            "NAME": "Sheikha Hanna",
+            "IMAGE_SRC": "img/team/2022/Sheikha hannah.jpeg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/sheikha-hanna-7127761b5/"
+        },
+        {
+            "ROLE": "PROJECT COORDINATOR",
+            "NAME": "Dulakshi Hansani",
+            "IMAGE_SRC": "img/team/2022/Dulakshi.jpeg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/dulakshi-senevirathne-439bb1215"
+        },
+        {
+            "ROLE": "EVENT COORDINATOR",
+            "NAME": "Methmi Nugawela",
+            "IMAGE_SRC": "img/team/2022/Methmi.png",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/methmi-nugawela/"
+        },
+        {
+            "ROLE": "MEMBERSHIP AND RECRUITMENT LEAD",
+            "NAME": "Senara Perera",
+            "IMAGE_SRC": "img/team/2022/Senara.jpg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/senaraperera/"
+        },
+        {
+            "ROLE": "MARKETING LEAD",
+            "NAME": "Modeesha Kalani",
+            "IMAGE_SRC": "img/team/2022/Modeesha.jpeg",
+            "FACEBOOK": "https://www.facebook.com/modeesha.kalani.3",
+            "LINKEDIN": "https://www.linkedin.com/in/modeesha-kalani-b22043199"
+        }
+    ]
+}

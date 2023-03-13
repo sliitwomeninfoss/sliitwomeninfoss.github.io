@@ -116,7 +116,7 @@ export default function Footer() {
                             <div class="col-xl-12 col-lg-12">
                                 <div class="copyright-text">
                                     <p>
-                                        Copyright &copy; 2021 | All Rights Reserved
+                                        Copyright &copy; {new Date().getFullYear()} | All Rights Reserved
                                         <a href="!#"> SLIIT Women In FOSS</a>
                                     </p>
                                 </div>

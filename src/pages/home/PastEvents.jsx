@@ -82,10 +82,9 @@ export default function PastEvents() {
                     <div id="cards_landscape_wrap-2">
                         <div class="container" style={{ paddingBottom: 0 }}>
                             <div class="row justify-content-center">
-                                {EventsData.Events.slice(0, 4).map((event, index) => (
-                                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                        {/* <a href="/"> */}
-                                        <div class="card-flyer">
+                                {EventsData.Events.slice(0, 4).map((event) => (
+                                    <div class="col-xs-12 col-sm-6 col-lg-3">
+                                        <div class="card-flyer card-shadow">
                                             <div class="text-box">
                                                 <div class="image-box">
                                                     <img src={event.image} alt="" />

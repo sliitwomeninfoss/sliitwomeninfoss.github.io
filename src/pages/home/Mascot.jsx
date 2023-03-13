@@ -16,7 +16,7 @@ export default function Mascot() {
                                 />
                             </div>
                             <div
-                                class="col-lg-6 pt-5 pt-lg-0"
+                                class="col-lg-6 pt-5 pt-lg-0 px-5"
                                 data-aos="fade-left"
                             >
                                 <header class="section-header">

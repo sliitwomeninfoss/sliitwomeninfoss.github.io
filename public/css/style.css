@@ -716,9 +716,8 @@ section {
 .card-content {
     background: #ffffff;
     border: 4px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-        0 2px 10px 0 rgba(0, 0, 0, 0.12);
     margin-bottom: 50px;
+    position: relative;
 }
 
 .card-img {
@@ -738,8 +737,8 @@ section {
 
 .card-img span {
     position: absolute;
-    top: 15%;
-    left: 25%;
+    top: 0px;
+    left: 0px;
     background: #6d0083;
     padding: 6px;
     color: #fff;
@@ -749,7 +748,6 @@ section {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    transform: translate(-50%, -50%);
 }
 .card-img span h4 {
     font-size: 12px;
@@ -779,13 +777,20 @@ section {
     font-size: 1em;
     line-height: 1.5;
     margin: 0px;
-    /* margin-bottom: 20px; */
     padding: 0;
+}
+
+.card-desc div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .card-desc span {
     background: #6d008388;
-    padding: 1px;
+    padding: 3px;
     padding-left: 5px;
     padding-right: 5px;
     margin: 2px;
@@ -797,7 +802,6 @@ section {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    transform: translate(-50%, -50%);
 }
 
 .read-btn {
@@ -863,6 +867,10 @@ section {
     border-radius: 10px;
     box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.1);
     height: 220px;
+}
+
+.card-shadow {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 #event-date {
@@ -990,15 +998,13 @@ section {
 /* Past events & webinar card */
 #cards_landscape_wrap-2 {
     text-align: center;
+    cursor: default;
 }
 #cards_landscape_wrap-2 .container {
     padding-top: 0px;
     padding-bottom: 30px;
 }
-/* #cards_landscape_wrap-2 a {
-    text-decoration: none;
-    outline: none;
-} */
+
 #cards_landscape_wrap-2 .card-flyer {
     border-radius: 5px;
     margin-right: 5px;
@@ -1007,7 +1013,7 @@ section {
 #cards_landscape_wrap-2 .card-flyer .image-box {
     background: #ffffff;
     overflow: hidden;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
 }
 #cards_landscape_wrap-2 .card-flyer .image-box img {
@@ -1017,14 +1023,15 @@ section {
     -ms-transition: all 0.9s ease;
     width: 100%;
     height: 250px;
+    object-fit: cover;
 }
 #cards_landscape_wrap-2 .card-flyer:hover .image-box img {
-    opacity: 0.7;
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    -o-transform: scale(1.15);
-    transform: scale(1.15);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transform: scale(1.03);
+    filter: brightness(125%)
 }
 #cards_landscape_wrap-2 .card-flyer .text-box {
     text-align: center;
@@ -1041,11 +1048,10 @@ section {
     -ms-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
 }
 #cards_landscape_wrap-2 .card-flyer:hover {
     background: #fff;
-    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -ms-transition: all 0.2s ease-in;
@@ -1817,23 +1823,22 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
 .contact-box {
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 10px 20px;
+    padding: 40px 20px;
+    border-radius: 5px;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
+
 }
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .contact-box {
-        padding: 30px 25px;
-    }
-}
+
 @media (max-width: 767px) {
     .contact-box {
-        padding: 30px 25px;
+        border-radius: 0px;
     }
 }
+
 .contact-box .contact-icon i {
     font-size: 48px;
     color: #754ef9;
@@ -1850,6 +1855,9 @@ background: radial-gradient(ellipse farthest-corner at bottom left, #9505E3 0%, 
     -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
     -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
     box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+}
+.contact-content > p {
+    margin: 0;
 }
 
 p.form-message.success,

@@ -2,7 +2,7 @@
     "__Comment_1": "Add all the webinars in sorted order.(Add new events at the beginning of an array.)",
     "Webinars": [
         {
-            "title": "Bridging the gender gap by bridging more women into Open source contributions",
+            "title": "Bringing more women into Open source contributions",
             "image": "img/events/women into open source.jpg",
             "youtube_link": "https://www.youtube.com/watch?v=NBni9QeRAUE"
         },

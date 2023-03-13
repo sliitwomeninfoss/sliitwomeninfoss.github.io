@@ -45,9 +45,9 @@ export default function Blogs() {
                     <br />
                     <br />
                     <div class="row">
-                        {blog.item.slice(0, 3).map((blog, index) => (
+                        {blog.item.slice(0, 3).map((blog) => (
                             <div class="col-md-4">
-                                <div class="card-content">
+                                <div class="card-content card-shadow">
                                     <div class="card-img">
                                         <img src={blog.thumbnail} alt="" />
                                         <span><h4>Published On: {blog.pubDate.split(' ', 1)}</h4></span>
@@ -55,14 +55,11 @@ export default function Blogs() {
                                     <div class="card-desc">
                                         <h3>{blog.title}</h3>
                                         <br />
-                                        {/* <p>{blog.description}</p> */}
-                                        <p> {blog.categories.length > 0 ?
-                                            blog.categories.map((tag, index) => (
-                                                <span>{tag}</span>
-                                            ))
-                                            : <div />
-                                        }
-                                        </p>
+                                        <div>
+                                            {
+                                                blog.categories.length && blog.categories.map((tag) => <span>{tag}</span>)
+                                            }
+                                        </div>
                                     </div>
                                     <a href={blog.link} class="read-btn" target="_blank" rel="noreferrer">Read More</a>
                                 </div>

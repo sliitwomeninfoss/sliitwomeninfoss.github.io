@@ -1,6 +1,6 @@
 # SLIIT Women In FOSS Community Website
 
-## Technology Stack
+## Technology Stack 
 ![ReactJs](https://img.shields.io/badge/FrontEnd-ReactJs-blue)
 ![Bootstrap](https://img.shields.io/badge/Style-Bootstrap-purple)
 ![Firebase](https://img.shields.io/badge/Host%20In-Firebase-yellow)

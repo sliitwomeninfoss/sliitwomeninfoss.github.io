@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sliitwomeninfoss.github.io/static/css/main.59f200af.css",
-    "main.js": "/sliitwomeninfoss.github.io/static/js/main.070e5c8b.js",
+    "main.js": "/sliitwomeninfoss.github.io/static/js/main.64e1d91c.js",
     "static/js/787.17237bdc.chunk.js": "/sliitwomeninfoss.github.io/static/js/787.17237bdc.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/sliitwomeninfoss.github.io/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Innovation.gif": "/sliitwomeninfoss.github.io/static/media/Innovation.0b4a0c485d169f59107b.gif",
@@ -20,11 +20,11 @@
     "static/media/footer-logo.png": "/sliitwomeninfoss.github.io/static/media/footer-logo.3bee5925ea0391499d2c.png",
     "index.html": "/sliitwomeninfoss.github.io/index.html",
     "main.59f200af.css.map": "/sliitwomeninfoss.github.io/static/css/main.59f200af.css.map",
-    "main.070e5c8b.js.map": "/sliitwomeninfoss.github.io/static/js/main.070e5c8b.js.map",
+    "main.64e1d91c.js.map": "/sliitwomeninfoss.github.io/static/js/main.64e1d91c.js.map",
     "787.17237bdc.chunk.js.map": "/sliitwomeninfoss.github.io/static/js/787.17237bdc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59f200af.css",
-    "static/js/main.070e5c8b.js"
+    "static/js/main.64e1d91c.js"
   ]
 }

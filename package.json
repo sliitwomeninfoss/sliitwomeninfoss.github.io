@@ -1,7 +1,8 @@
 {
     "name": "web",
+    "homepage": "https://sliitwomeninfoss.github.io/sliitwomeninfoss.github.io",
     "version": "0.1.0",
-    "private": true,
+    "private": false,
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.36",
         "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -14,6 +15,7 @@
         "axios": "^0.24.0",
         "emailjs-com": "^3.2.0",
         "font-awesome": "^4.7.0",
+        "gh-pages": "^5.0.0",
         "react": "^17.0.2",
         "react-bootstrap": "^1.6.1",
         "react-dom": "^17.0.2",
@@ -26,9 +28,10 @@
         "web-vitals": "^1.1.2"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "homepage": "/sliitwomeninfoss.github.io/#",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "prettier": "prettier --write .",

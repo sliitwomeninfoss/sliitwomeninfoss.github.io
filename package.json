@@ -28,6 +28,8 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
+        "build-localhost": "PUBLIC_URL=/ react-scripts build",
+        "homepage": ".",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "prettier": "prettier --write .",

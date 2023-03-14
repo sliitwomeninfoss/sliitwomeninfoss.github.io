@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, HashRouter } from 'react-router-dom'
 import Footer from './components/common/footer'
 import Home from './pages/home'
 import AboutUs from './pages/AboutUs'
@@ -21,7 +21,7 @@ function App() {
     return (
         <div className="App">
             {/* <NavBar /> */}
-            <BrowserRouter>
+            <HashRouter>
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/about-us" component={AboutUs} />
@@ -39,7 +39,7 @@ function App() {
                         component={CodeOfConduct}
                     />
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
             <br />
             <Footer />
         </div>

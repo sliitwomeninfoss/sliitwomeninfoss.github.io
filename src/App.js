@@ -21,13 +21,9 @@ function App() {
     return (
         <div className="App">
             {/* <NavBar /> */}
-            <BrowserRouter basename="/sliitwomeninfoss.github.io">
+            <BrowserRouter>
                 <Switch>
-                    <Route
-                        exact
-                        path="/sliitwomeninfoss.github.io"
-                        component={Home}
-                    />
+                    <Route exact path="/" component={Home} />
                     <Route exact path="/about-us" component={AboutUs} />
                     <Route exact path="/past-events" component={PastEvents} />
                     <Route exact path="/blogs" component={Blogs} />

@@ -19,7 +19,7 @@ export default function Hackathon() {
                                 />
                             </div>
                             <div
-                                class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1"
+                                class="col-lg-6 pt-4 pt-lg-0 px-5 order-2 order-lg-1"
                                 data-aos="fade-right"
                             >
                                 <header class="section-header">

@@ -1,7 +1,7 @@
 export default function WeAre() {
     return (
         <div>
-            <section id="we-are" class="section-bg">
+            <section id="we-are" class="section-bg px-4">
                 <div class="container" data-aos="zoom-in">
                     <header class="section-header">
                         <h3>Who We Are?</h3>

@@ -95,7 +95,7 @@ export default function Home() {
                         />
                     </div>
                     <div
-                        class="intro-info"
+                        class="intro-info px-4"
                         data-aos="zoom-in"
                         data-aos-delay="100"
                     >

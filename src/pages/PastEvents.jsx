@@ -62,7 +62,7 @@ export default function PastEvents() {
         )
         .map((event, index) => (
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <div class="card-flyer">
+                <div class="card-flyer card-shadow">
                     <div class="text-box">
                         <div class="image-box">
                             <img src={event.image} alt="" />
@@ -274,7 +274,7 @@ export default function PastEvents() {
                                     (webinar, index) => (
                                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" data-aos="zoom-out-down">
                                             <a href={webinar.youtube_link}>
-                                                <div class="card-flyer" style={{ height: 470 }}>
+                                                <div class="card-flyer card-shadow" style={{ height: 470 }}>
                                                     <div class="text-box">
                                                         <div class="image-box">
                                                             <img src={webinar.image} alt="" />

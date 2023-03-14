@@ -109,7 +109,7 @@ export default function Blogs() {
                     <div class="row">
                         {blog.item.map((blog, index) => (
                             <div class="col-md-4">
-                                <div class="card-content">
+                                <div class="card-content card-shadow">
                                     <div class="card-img">
                                         <img src={blog.thumbnail} alt="" />
                                         <span><h4>Published On: {blog.pubDate.split(' ', 1)}</h4></span>

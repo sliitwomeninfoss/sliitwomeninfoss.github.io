@@ -7,7 +7,7 @@ import { HashRouter } from 'react-router-dom'
 
 ReactDOM.render(
     <React.StrictMode>
-        <HashRouter>
+        <HashRouter basename="/sliitwomeninfoss.github.io">
             <App />
         </HashRouter>
     </React.StrictMode>,

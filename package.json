@@ -28,7 +28,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "homepage": ".",
+        "homepage": "/sliitwomeninfoss.github.io/#",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "prettier": "prettier --write .",

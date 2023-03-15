@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom'
+import logo from '../../assets/img/logos/WIF-Dark.png'
+
 export default function NavBar() {
     return (
         <div>
@@ -7,10 +10,16 @@ export default function NavBar() {
                     data-offset="500"
                 >
                     <div class="container">
-                        <a href="/" class="navbar-brand">
-                            SLIIT<span class="text-primary">WIF</span>
-                        </a>
-
+                        {/* <a href="/" class="navbar-brand"> */}
+                        {/* SLIIT<span class="text-primary">WIF</span> */}
+                        {/* <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" /> */}
+                        <div class="logo float-left">
+                            <a href="/">
+                                <img src={logo} alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                        {/* </a> */}
+                        {/* <img src={logo} alt="logo" height="50" width="100" class="img-fluid just" /> */}
                         <button
                             class="navbar-toggler"
                             data-toggle="collapse"
@@ -27,46 +36,64 @@ export default function NavBar() {
                         >
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="/">
-                                        Home
-                                    </a>
+                                    {/* <a class="nav-link" href="/">
+                                        HOME
+                                    </a> */}
+                                    <Link to="/" class="nav-link">
+                                        HOME
+                                    </Link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/about-us">
-                                        About
-                                    </a>
+                                    {/* <a class="nav-link" href="/about-us">
+                                        ABOUT
+                                    </a> */}
+                                    <Link to="/about-us" class="nav-link">
+                                        ABOUT
+                                    </Link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/past-events">
-                                        Past Events
-                                    </a>
+                                    {/* <a class="nav-link" href="/past-events">
+                                        EVENTS
+                                    </a> */}
+                                    <Link to="/past-events" class="nav-link">
+                                        EVENTS
+                                    </Link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/blogs">
-                                        Blog
-                                    </a>
+                                    {/* <a class="nav-link" href="/blogs">
+                                        BLOGS
+                                    </a> */}
+                                    <Link to="/blogs" class="nav-link">
+                                        BLOGS
+                                    </Link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/board-members">
-                                        Board
-                                    </a>
-                                </li>
-                                {/* <li class="nav-item">
-                                    <a class="btn btn-primary ml-lg-2" href="#">Board</a>
-                                </li> */}
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/code-of-conduct">
-                                        Code of Conduct
-                                    </a>
+                                    {/* <a class="nav-link" href="/board-members">
+                                        BOARD
+                                    </a> */}
+                                    <Link to="/board-members" class="nav-link">
+                                        BOARD
+                                    </Link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/contact-us">
-                                        Contact Us
-                                    </a>
+                                    {/* <a class="nav-link" href="/code-of-conduct">
+                                        CODE OF CONDUCT
+                                    </a> */}
+                                    <Link
+                                        to="/code-of-conduct"
+                                        class="nav-link"
+                                    >
+                                        CODE OF CONDUCT
+                                    </Link>
                                 </li>
-                                {/* <li class="nav-item">
-                                    <a class="btn btn-primary ml-lg-2" href="#">Contact Us</a>
-                                </li> */}
+                                <li class="nav-item">
+                                    {/* <a class="nav-link" href="/contact-us">
+                                        CONTACT
+                                    </a> */}
+                                    <Link to="/contact-us" class="nav-link">
+                                        CONTACT
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>

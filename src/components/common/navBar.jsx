@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import logo from '../../assets/img/logos/WIF-Dark.png'
+import { NavLink } from 'react-router-dom'
 
 export default function NavBar() {
     return (
@@ -10,16 +9,10 @@ export default function NavBar() {
                     data-offset="500"
                 >
                     <div class="container">
-                        {/* <a href="/" class="navbar-brand"> */}
-                        {/* SLIIT<span class="text-primary">WIF</span> */}
-                        {/* <img src={logo} alt="logo" height="80" width="130" class="img-fluid just" /> */}
-                        <div class="logo float-left">
-                            <a href="/">
-                                <img src={logo} alt="" class="img-fluid" />
-                            </a>
-                        </div>
-                        {/* </a> */}
-                        {/* <img src={logo} alt="logo" height="50" width="100" class="img-fluid just" /> */}
+                        <a href="/" class="navbar-brand">
+                            SLIIT<span class="text-primary">WIF</span>
+                        </a>
+
                         <button
                             class="navbar-toggler"
                             data-toggle="collapse"
@@ -35,64 +28,91 @@ export default function NavBar() {
                             id="navbarContent"
                         >
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active">
-                                    {/* <a class="nav-link" href="/">
+                                <li>
+                                    <NavLink
+                                        to="/"
+                                        className={({ isActive }) =>
+                                            isActive
+                                                ? 'nav-link active'
+                                                : 'nav-link'
+                                        }
+                                    >
                                         HOME
-                                    </a> */}
-                                    <Link to="/" class="nav-link">
-                                        HOME
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li class="nav-item">
-                                    {/* <a class="nav-link" href="/about-us">
-                                        ABOUT
-                                    </a> */}
-                                    <Link to="/about-us" class="nav-link">
-                                        ABOUT
-                                    </Link>
+                                <li>
+                                    <NavLink
+                                        to="/about-us"
+                                        className={({ isActive }) =>
+                                            isActive
+                                                ? 'nav-link active'
+                                                : 'nav-link'
+                                        }
+                                    >
+                                        ABOUT US
+                                    </NavLink>
                                 </li>
-                                <li class="nav-item">
-                                    {/* <a class="nav-link" href="/past-events">
+
+                                <li>
+                                    <NavLink
+                                        to="/past-events"
+                                        className={({ isActive }) =>
+                                            isActive
+                                                ? 'nav-link active'
+                                                : 'nav-link'
+                                        }
+                                    >
                                         EVENTS
-                                    </a> */}
-                                    <Link to="/past-events" class="nav-link">
-                                        EVENTS
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li class="nav-item">
-                                    {/* <a class="nav-link" href="/blogs">
-                                        BLOGS
-                                    </a> */}
-                                    <Link to="/blogs" class="nav-link">
-                                        BLOGS
-                                    </Link>
+
+                                <li>
+                                    <NavLink
+                                        to="/blogs"
+                                        className={({ isActive }) =>
+                                            isActive
+                                                ? 'nav-link active'
+                                                : 'nav-link'
+                                        }
+                                    >
+                                        BLOG
+                                    </NavLink>
                                 </li>
-                                <li class="nav-item">
-                                    {/* <a class="nav-link" href="/board-members">
+                                <li>
+                                    <NavLink
+                                        to="/board-members"
+                                        className={({ isActive }) =>
+                                            isActive
+                                                ? 'nav-link active'
+                                                : 'nav-link'
+                                        }
+                                    >
                                         BOARD
-                                    </a> */}
-                                    <Link to="/board-members" class="nav-link">
-                                        BOARD
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li class="nav-item">
-                                    {/* <a class="nav-link" href="/code-of-conduct">
-                                        CODE OF CONDUCT
-                                    </a> */}
-                                    <Link
+                                <li>
+                                    <NavLink
                                         to="/code-of-conduct"
-                                        class="nav-link"
+                                        className={({ isActive }) =>
+                                            isActive
+                                                ? 'nav-link active'
+                                                : 'nav-link'
+                                        }
                                     >
                                         CODE OF CONDUCT
-                                    </Link>
+                                    </NavLink>
                                 </li>
-                                <li class="nav-item">
-                                    {/* <a class="nav-link" href="/contact-us">
-                                        CONTACT
-                                    </a> */}
-                                    <Link to="/contact-us" class="nav-link">
-                                        CONTACT
-                                    </Link>
+                                <li>
+                                    <NavLink
+                                        to="/contact-us"
+                                        className={({ isActive }) =>
+                                            isActive
+                                                ? 'nav-link active'
+                                                : 'nav-link'
+                                        }
+                                    >
+                                        CONTACT US
+                                    </NavLink>
                                 </li>
                             </ul>
                         </div>

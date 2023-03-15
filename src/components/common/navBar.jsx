@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import logo from '../../assets/img/logos/WIF-Dark.png'
 
 export default function NavBar() {
     return (
@@ -9,9 +10,11 @@ export default function NavBar() {
                     data-offset="500"
                 >
                     <div class="container">
-                        <a href="/" class="navbar-brand">
-                            SLIIT<span class="text-primary">WIF</span>
-                        </a>
+                        <div class="logo float-left">
+                            <a href="/">
+                                <img src={logo} alt="" class="img-fluid" />
+                            </a>
+                        </div>
 
                         <button
                             class="navbar-toggler"

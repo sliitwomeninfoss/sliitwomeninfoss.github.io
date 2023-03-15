@@ -1,5 +1,5 @@
+import { Link } from 'react-router-dom'
 import EventsData from '../../utilities/data/Events.json'
-
 
 export default function PastEvents() {
     return (
@@ -87,31 +87,44 @@ export default function PastEvents() {
                                         <div class="card-flyer card-shadow">
                                             <div class="text-box">
                                                 <div class="image-box">
-                                                    <img src={event.image} alt="" />
+                                                    <img
+                                                        src={event.image}
+                                                        alt=""
+                                                    />
                                                 </div>
                                                 <div class="text-container">
                                                     <h6>{event.title}</h6>
                                                     <p>{event.description}</p>
                                                 </div>
-                                                <h5> <i class="fa fa-microphone"></i>{' '}{event.speaker}</h5>
-                                                <h5> <i class="fa fa-calendar"></i>{' '}{event.date}</h5>
+                                                <h5>
+                                                    {' '}
+                                                    <i class="fa fa-microphone"></i>{' '}
+                                                    {event.speaker}
+                                                </h5>
+                                                <h5>
+                                                    {' '}
+                                                    <i class="fa fa-calendar"></i>{' '}
+                                                    {event.date}
+                                                </h5>
                                             </div>
                                         </div>
                                         {/* </a> */}
                                     </div>
-
                                 ))}
                             </div>
                         </div>
                     </div>
                     <div class="row mt-5">
                         <div class="col-12 mt-4 text-center">
-                            <a href="/past-events">
+                            <Link to="/past-events">
                                 <button class="main-btn" type="submit">
-                                    View More {' '}
-                                    <i class="fa fa-arrow-circle-right" style={{ marginLeft: 8 }}></i>
+                                    View More{' '}
+                                    <i
+                                        class="fa fa-arrow-circle-right"
+                                        style={{ marginLeft: 8 }}
+                                    ></i>
                                 </button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

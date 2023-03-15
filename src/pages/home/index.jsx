@@ -5,7 +5,7 @@ import PastEvents from './PastEvents'
 import Hackathon from './Hackathon'
 import WeAre from './WeAre'
 import Webinars from './Webinars'
-import logo from '../../assets/img/logos/WIF-Dark.png'
+// import logo from '../../assets/img/logos/WIF-Dark.png'
 // import { Link } from 'react-router-dom'
 import NavBar from '../../components/common/navBar'
 export default function Home() {

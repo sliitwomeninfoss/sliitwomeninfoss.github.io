@@ -23,7 +23,6 @@ function App() {
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    <Route exact path="/home" component={Home} />
                     <Route exact path="/about-us" component={AboutUs} />
                     <Route exact path="/past-events" component={PastEvents} />
                     <Route exact path="/blogs" component={Blogs} />

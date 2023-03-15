@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import logo from '../../assets/img/logos/WIF-Dark.png'
 
 export default function NavBar() {
@@ -11,7 +11,7 @@ export default function NavBar() {
                 >
                     <div class="container">
                         <div class="logo float-left">
-                            <a href="/home">
+                            <a href="/">
                                 <img src={logo} alt="" class="img-fluid" />
                             </a>
                         </div>
@@ -33,7 +33,8 @@ export default function NavBar() {
                             <ul class="navbar-nav ml-auto">
                                 <li>
                                     <NavLink
-                                        to="/home"
+                                        exact
+                                        to="/"
                                         className={({ isActive }) =>
                                             isActive
                                                 ? 'nav-link active'

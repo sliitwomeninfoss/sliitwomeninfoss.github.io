@@ -1,5 +1,6 @@
 {
     "name": "web",
+    "homepage": ".",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -31,7 +32,9 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "prettier": "prettier --write .",
-        "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
+        "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
@@ -52,6 +55,7 @@
         ]
     },
     "devDependencies": {
+        "gh-pages": "^5.0.0",
         "onchange": "^7.1.0",
         "prettier": "2.4.1"
     }

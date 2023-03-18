@@ -43,7 +43,10 @@ export default function NavBar() {
                                     >
                                         HOME
                                     </Link> */}
-                                    <Link to="/" class="nav-link active">
+                                    <Link
+                                        to="https://wif.sliitfoss.org/"
+                                        class="nav-link active"
+                                    >
                                         HOME
                                     </Link>
                                 </li>

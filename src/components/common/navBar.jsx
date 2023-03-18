@@ -59,16 +59,13 @@ export default function NavBar() {
                                         ABOUT US
                                     </Link> */}
 
-                                    <Link
-                                        to="/about-us"
-                                        class="nav-link active"
-                                    >
+                                    <Link to="/about-us" class="nav-link">
                                         ABOUT US
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link
+                                    {/* <Link
                                         to="/past-events"
                                         className={({ isActive }) =>
                                             isActive
@@ -77,11 +74,14 @@ export default function NavBar() {
                                         }
                                     >
                                         EVENTS
+                                    </Link> */}
+                                    <Link to="/past-events" class="nav-link">
+                                        EVENTS
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link
+                                    {/* <Link
                                         to="/blogs"
                                         className={({ isActive }) =>
                                             isActive
@@ -90,10 +90,13 @@ export default function NavBar() {
                                         }
                                     >
                                         BLOG
+                                    </Link> */}
+                                    <Link to="/blogs" class="nav-link">
+                                        BLOG
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link
+                                    {/* <Link
                                         to="/board-members"
                                         className={({ isActive }) =>
                                             isActive
@@ -102,10 +105,13 @@ export default function NavBar() {
                                         }
                                     >
                                         BOARD
+                                    </Link> */}
+                                    <Link to="/board-members" class="nav-link">
+                                        BOARD
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link
+                                    {/* <Link
                                         to="/code-of-conduct"
                                         className={({ isActive }) =>
                                             isActive
@@ -114,10 +120,16 @@ export default function NavBar() {
                                         }
                                     >
                                         CODE OF CONDUCT
+                                    </Link> */}
+                                    <Link
+                                        to="/code-of-conduct"
+                                        class="nav-link"
+                                    >
+                                        CODE OF CONDUCT
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link
+                                    {/* <Link
                                         to="/contact-us"
                                         className={({ isActive }) =>
                                             isActive
@@ -125,6 +137,9 @@ export default function NavBar() {
                                                 : 'nav-link'
                                         }
                                     >
+                                        CONTACT US
+                                    </Link> */}
+                                    <Link to="/contact-us" class="nav-link">
                                         CONTACT US
                                     </Link>
                                 </li>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './components/common/footer'
 import Home from './pages/home'
 import AboutUs from './pages/AboutUs'
@@ -20,16 +20,20 @@ library.add(fab, faCheckSquare, faCoffee)
 function App() {
     return (
         <div className="App">
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about-us" element={<AboutUs />} />
-                <Route path="/past-events" element={<PastEvents />} />
-                <Route path="/blogs" element={<Blogs />} />
-                <Route path="/board-members" element={<BoardMembers />} />
-                <Route path="/contact-us" element={<ContactUs />} />
-                <Route path="/code-of-conduct" element={<CodeOfConduct />} />
-            </Routes>
-
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about-us" element={<AboutUs />} />
+                    <Route path="/past-events" element={<PastEvents />} />
+                    <Route path="/blogs" element={<Blogs />} />
+                    <Route path="/board-members" element={<BoardMembers />} />
+                    <Route path="/contact-us" element={<ContactUs />} />
+                    <Route
+                        path="/code-of-conduct"
+                        element={<CodeOfConduct />}
+                    />
+                </Routes>
+            </Router>
             <br />
             <Footer />
         </div>

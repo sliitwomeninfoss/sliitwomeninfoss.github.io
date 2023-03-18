@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import logo from '../../assets/img/logos/WIF-Dark.png'
 
 export default function NavBar() {
@@ -32,7 +32,7 @@ export default function NavBar() {
                         >
                             <ul class="navbar-nav ml-auto">
                                 <li>
-                                    <NavLink
+                                    {/* <Link
                                         exact
                                         to="/"
                                         className={({ isActive }) =>
@@ -42,10 +42,13 @@ export default function NavBar() {
                                         }
                                     >
                                         HOME
-                                    </NavLink>
+                                    </Link> */}
+                                    <Link to="/" class="nav-link active">
+                                        HOME
+                                    </Link>
                                 </li>
                                 <li>
-                                    <NavLink
+                                    {/* <Link
                                         to="/about-us"
                                         className={({ isActive }) =>
                                             isActive
@@ -54,11 +57,18 @@ export default function NavBar() {
                                         }
                                     >
                                         ABOUT US
-                                    </NavLink>
+                                    </Link> */}
+
+                                    <Link
+                                        to="/about-us"
+                                        class="nav-link active"
+                                    >
+                                        ABOUT US
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <NavLink
+                                    <Link
                                         to="/past-events"
                                         className={({ isActive }) =>
                                             isActive
@@ -67,11 +77,11 @@ export default function NavBar() {
                                         }
                                     >
                                         EVENTS
-                                    </NavLink>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <NavLink
+                                    <Link
                                         to="/blogs"
                                         className={({ isActive }) =>
                                             isActive
@@ -80,10 +90,10 @@ export default function NavBar() {
                                         }
                                     >
                                         BLOG
-                                    </NavLink>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <NavLink
+                                    <Link
                                         to="/board-members"
                                         className={({ isActive }) =>
                                             isActive
@@ -92,10 +102,10 @@ export default function NavBar() {
                                         }
                                     >
                                         BOARD
-                                    </NavLink>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <NavLink
+                                    <Link
                                         to="/code-of-conduct"
                                         className={({ isActive }) =>
                                             isActive
@@ -104,10 +114,10 @@ export default function NavBar() {
                                         }
                                     >
                                         CODE OF CONDUCT
-                                    </NavLink>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <NavLink
+                                    <Link
                                         to="/contact-us"
                                         className={({ isActive }) =>
                                             isActive
@@ -116,7 +126,7 @@ export default function NavBar() {
                                         }
                                     >
                                         CONTACT US
-                                    </NavLink>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

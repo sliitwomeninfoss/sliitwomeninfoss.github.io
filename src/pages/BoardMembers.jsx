@@ -6,6 +6,7 @@ import BoardMembers from '../utilities/data/board.json'
 import NavBar from '../components/common/navBar'
 
 const options = [
+    { value: '2023', label: '2023' },
     { value: '2022', label: '2022' },
     { value: '2021', label: '2021' },
 ]
@@ -23,8 +24,8 @@ export default class Team extends Component {
     }
 
     componentDidMount = () => {
-        this.setState({ year: '2022' })
-        this.setState({ members: BoardMembers['2022'] })
+        this.setState({ year: '2023' })
+        this.setState({ members: BoardMembers['2023'] })
     }
 
     changeYear = (e) => {

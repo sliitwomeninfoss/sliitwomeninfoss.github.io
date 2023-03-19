@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Config from '../utilities/config'
 // import logo from '../assets/img/logos/WIF-Dark.png'
 import NavBar from '../components/common/navBar'
+import Footer from '../components/common/footer'
 
 export default function Blogs() {
     const [blog, setBlog] = useState({
@@ -95,6 +96,8 @@ export default function Blogs() {
                     </a>
                 </div>
             </section>
+            <br />
+            <Footer />
         </div>
     )
 }

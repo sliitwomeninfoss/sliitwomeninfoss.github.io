@@ -3,6 +3,7 @@ import mission from '../assets/img/logos/mission.png'
 import strategy from '../assets/img/logos/strategy.png'
 // import logo from '../assets/img/logos/WIF-Dark.png'
 import NavBar from '../components/common/navBar'
+import Footer from '../components/common/footer'
 export default function AboutUs() {
     return (
         <div>
@@ -118,6 +119,8 @@ export default function AboutUs() {
                     </div>
                 </div>
             </section>
+            <br />
+            <Footer />
         </div>
     )
 }

@@ -4,6 +4,7 @@ import Select from 'react-select'
 import BoardMembers from '../utilities/data/board.json'
 // import logo from '../assets/img/logos/WIF-Dark.png'
 import NavBar from '../components/common/navBar'
+import Footer from '../components/common/footer'
 
 const options = [
     { value: '2023', label: '2023' },
@@ -90,6 +91,8 @@ export default class Team extends Component {
                         </div>
                     </div>
                 </section>
+                <br />
+                <Footer />
             </div>
         )
     }

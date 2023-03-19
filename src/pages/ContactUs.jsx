@@ -4,6 +4,7 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 // import logo from '../assets/img/logos/WIF-Dark.png'
 import NavBar from '../components/common/navBar'
+import Footer from '../components/common/footer'
 
 const success = () =>
     toast.success(
@@ -84,7 +85,7 @@ export default function ContactUs() {
                                 </div>
                                 <div class="contact-content">
                                     <h6 class="contact-title">Call Us</h6>
-                                    <p>+94 70 322 6877 </p>
+                                    <p>+94 74 178 9977 </p>
                                 </div>
                             </div>
                         </div>
@@ -157,6 +158,8 @@ export default function ContactUs() {
                 </div>
             </section>
             <ToastContainer />
+            <br />
+            <Footer />
         </div>
     )
 }

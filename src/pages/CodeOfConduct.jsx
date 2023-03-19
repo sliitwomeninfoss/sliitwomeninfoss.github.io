@@ -1,4 +1,5 @@
 // import logo from '../assets/img/logos/WIF-Dark.png'
+import Footer from '../components/common/footer'
 import NavBar from '../components/common/navBar'
 
 export default function CodeOfConduct() {
@@ -150,6 +151,8 @@ export default function CodeOfConduct() {
                     </div>
                 </div>
             </section>
+            <br />
+            <Footer />
         </div>
     )
 }

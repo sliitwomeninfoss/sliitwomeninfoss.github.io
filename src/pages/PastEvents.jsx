@@ -5,6 +5,7 @@ import ReactPaginate from 'react-paginate'
 import UpcomingEventCard from '../components/events/upcomingEventCard'
 // import logo from '../assets/img/logos/WIF-Dark.png'
 import NavBar from '../components/common/navBar'
+import Footer from '../components/common/footer'
 
 // Upcoming events card change delay
 const delay = 7000
@@ -271,6 +272,8 @@ export default function PastEvents() {
                     </div> */}
                 </div>
             </section>
+            <br />
+            <Footer />
         </div>
     )
 }

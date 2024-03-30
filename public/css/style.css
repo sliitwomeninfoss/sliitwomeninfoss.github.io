@@ -1088,6 +1088,19 @@ section {
     color: #9505e3;
 }
 
+.page-link{
+    color: #9505e3;
+}
+
+.paginateButtons a{
+    background-color: #9505e3;
+    color: #ffffff;
+}
+
+.pagination a:hover {
+    color: #6c55f9;
+}
+
 /* Pagination */
 /* .navigationButtons {
   width: 80%;
@@ -1107,7 +1120,7 @@ section {
   color: red;
   cursor: pointer;
 }
- 
+
 .navigationButtons a:hover {
   color: white;
   background-color: red;

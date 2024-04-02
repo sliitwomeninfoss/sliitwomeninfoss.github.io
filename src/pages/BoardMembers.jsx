@@ -7,6 +7,7 @@ import NavBar from '../components/common/navBar'
 import Footer from '../components/common/footer'
 
 const options = [
+    { value: '2024', label: '2024' },
     { value: '2023', label: '2023' },
     { value: '2022', label: '2022' },
     { value: '2021', label: '2021' },
@@ -25,8 +26,8 @@ export default class Team extends Component {
     }
 
     componentDidMount = () => {
-        this.setState({ year: '2023' })
-        this.setState({ members: BoardMembers['2023'] })
+        this.setState({ year: '2024' })
+        this.setState({ members: BoardMembers['2024'] })
     }
 
     changeYear = (e) => {

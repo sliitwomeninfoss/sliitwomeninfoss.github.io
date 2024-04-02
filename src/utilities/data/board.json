@@ -151,5 +151,50 @@
             "FACEBOOK": "#",
             "LINKEDIN": "#"
         }
+    ],
+    "2024": [
+        {
+            "ROLE": "COMMUNITY LEAD",
+            "NAME": "AKILA PERERA",
+            "IMAGE_SRC": "img/team/2023/AkilaPerera.jpeg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "#"
+        },
+        {
+            "ROLE": "DEVELOPMENT LEAD",
+            "NAME": "Sandalika Ariyarathna",
+            "IMAGE_SRC": "img/team/2023/Sandalika.jpg",
+            "FACEBOOK": "https://www.facebook.com/profile.php?id=100009407160156",
+            "LINKEDIN": "https://www.linkedin.com/in/dilini-sandalika96"
+        },
+        {
+            "ROLE": "DESIGN LEAD",
+            "NAME": "Shavidini Ekanayake",
+            "IMAGE_SRC": "img/team/2023/Shavidini.png",
+            "FACEBOOK": "https://web.facebook.com/shavi.dilunika/",
+            "LINKEDIN": "https://www.linkedin.com/in/shavidini-ekanayake-9368a51ba/"
+        },
+        {
+            "ROLE": "CONTENT WRITING LEAD",
+            "NAME": "Sarah Iyoob",
+            "IMAGE_SRC": "img/team/2023/Sarah.jpeg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "#"
+        },
+        {
+            "ROLE": "EVENT COORDINATOR",
+            "NAME": "Dhanushi Piyaratne",
+            "IMAGE_SRC": "img/team/2023/Dhanushi.jpg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "#"
+        },
+        {
+            "ROLE": "MARKETING LEAD",
+            "NAME": "Irushi Gunawardana",
+            "IMAGE_SRC": "img/team/2023/Irushi .jpg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "#"
+        }
+       
     ]
 }

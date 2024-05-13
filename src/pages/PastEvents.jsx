@@ -194,7 +194,7 @@ export default function PastEvents() {
                         breakClassName="page-item"
                         breakLinkClassName="page-link"
                         containerClassName="pagination justify-content-end"
-                        activeClassName="active"
+                        activeClassName="paginateButtons"
                         renderOnZeroPageCount={null}
                     />
                     {/* <div class="row mt-5">

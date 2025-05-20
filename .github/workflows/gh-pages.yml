@@ -28,15 +28,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          yarn install --frozen-lockfile
-          # Temporary fix if you have dependency conflicts:
-          # yarn install --ignore-engines || echo "Continuing with potential dependency conflicts"
+          if [ -f "yarn.lock" ]; then
+            yarn install --frozen-lockfile
+          else
+            yarn install
+          fi
 
       - name: Build project
         run: yarn build
-
-      - name: Verify build output
-        run: ls -la ./build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

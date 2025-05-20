@@ -12,12 +12,13 @@ permissions:
 
 jobs:
   build-and-upload:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04  
+
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3  
 
       - name: Install Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3  
         with:
           node-version: 16
 
@@ -36,8 +37,10 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+
+    runs-on: ubuntu-22.04  
     needs: build-and-upload
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

@@ -196,5 +196,63 @@
             "LINKEDIN": "linkedin.com/in/irushi-gunawardana- 941893250"
         }
        
+    ],
+    "2025": [
+        {
+            "ROLE": "PRESIDENT",
+            "NAME": "Irushi Gunawardana",
+            "IMAGE_SRC": "img/team/2025/irushi.jpeg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/irushigunawardana/"
+        },
+        {
+            "ROLE": "VICE PRESIDENT",
+            "NAME": "Leashaniya Krishnapillai",
+            "IMAGE_SRC": "img/team/2025/Leashaniya Krishnapillai.jpg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/leashaniya-krishnapillai-36b20a247/"
+        },
+        {
+            "ROLE": "SECRETARY",
+            "NAME": "Dinithi Wickramaarachchi",
+            "IMAGE_SRC": "img/team/2025/Dinithi_Wickramaarachchi_cvphoto.png",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/dinithi-wickramaarachchi/"
+        },
+        {
+            "ROLE": "ASSITANT SECRETARY",
+            "NAME": "Maleesha Wijerathne",
+            "IMAGE_SRC": "img/team/2025/Maleesha_Photo.jpg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/maleesha-wijerathne-46b397249"
+        },
+        {
+            "ROLE": "DEV LEAD",
+            "NAME": "Nujaba Irfan",
+            "IMAGE_SRC": "img/team/2025/Nujaba_Irfan.jpeg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/nujaba-irfan/"
+        },
+        {
+            "ROLE": "DESIGN LEAD",
+            "NAME": "Gimhani Navodya",
+            "IMAGE_SRC": "img/team/2025/Gimhani navodya.jpg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/gimhaninavodya/"
+        }, {
+            "ROLE": "PROJECT COORDINATOR",
+            "NAME": "Manushi Katipearachchi",
+            "IMAGE_SRC": "img/team/2025/ManushiKatipearachchi.jpg",
+            "FACEBOOK": "https://www.facebook.com/profile.php?id=100092984103364",
+            "LINKEDIN": " https://www.linkedin.com/in/manushi-katipearachchi-b8481627a/?trk=opento_sprofile_goalscard"
+        },
+         {
+            "ROLE": "EVENT COORDINATOR",
+            "NAME": "Dilni Nishshanka ",
+            "IMAGE_SRC": "img/team/2025/Dilni Nishshanka.jpg",
+            "FACEBOOK": "#",
+            "LINKEDIN": "https://www.linkedin.com/in/dilni-nishshanka-b889b82b1/"
+        }
+       
     ]
 }

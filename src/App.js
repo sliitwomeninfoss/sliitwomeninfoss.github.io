@@ -19,7 +19,7 @@ library.add(fab, faCheckSquare, faCoffee)
 function App() {
     return (
         <div className="App">
-           <Router basename="/">
+           <Router>
 
                 <Routes>
                     <Route path="/" element={<Home />} />

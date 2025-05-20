@@ -31,7 +31,8 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: './build'
-          name:  github-pages-${{ github.run_id }}
+          name: github-pages-${{ github.run_id }}
+
 
   deploy:
     environment:

@@ -27,15 +27,13 @@ jobs:
           cache: 'yarn'
 
       - name: Install dependencies
-        run: |
-          if [ -f "yarn.lock" ]; then
-            yarn install --frozen-lockfile
-          else
-            yarn install
-          fi
+        run: yarn install
 
       - name: Build project
         run: yarn build
+
+      - name: Verify build output
+        run: ls -la ./build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

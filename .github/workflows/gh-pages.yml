@@ -33,6 +33,7 @@ jobs:
       - name: Upload build to GitHub Pages artifact store
         uses: actions/upload-pages-artifact@v2
         with:
+          name: custom-pages-artifact
           path: './build'
 
   deploy:
@@ -46,3 +47,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: custom-pages-artifact

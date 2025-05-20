@@ -1,4 +1,4 @@
-name: github pages
+name: Deploy React App to GitHub Pages
 
 on:
   push:
@@ -11,35 +11,33 @@ permissions:
   id-token: write
 
 jobs:
-  build-and-upload:
-    runs-on: ubuntu-20.04
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: Install Node.js
-        uses: actions/setup-node@v1
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
-      - name: Install project
-        run: yarn install
+      - name: Install dependencies
+        run: npm install
 
-      - name: Build project
-        run: CI=false yarn build
+      - name: Build React app
+        run: npm run build
 
-      - name: Upload artifact
+      - name: Upload build output
         uses: actions/upload-pages-artifact@v2
         with:
-          path: './build'
-          name: github-pages-${{ github.run_id }}
-
+          path: ./build
 
   deploy:
+    runs-on: ubuntu-latest
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build-and-upload
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

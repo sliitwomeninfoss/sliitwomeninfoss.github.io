@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: write          # Changed from 'read' to 'write'
+  contents: write
   pages: write
   id-token: write
 
@@ -32,7 +32,7 @@ jobs:
         run: CI=false yarn build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v2  # Note the correct spelling
         with:
           path: './build'
           name: github-pages-${{ github.run_id }}

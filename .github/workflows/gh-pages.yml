@@ -2,7 +2,7 @@ name: Deploy React App to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 permissions:
   contents: write
@@ -18,21 +18,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Updated to v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4  # Updated to v4
         with:
-          node-version: 16
+          node-version: 20  # Updated from 16 (LTS as of 2024)
 
       - name: Install dependencies
-        run: yarn install
+        run: yarn install --frozen-lockfile  # More reliable install
 
       - name: Build project
-        run: CI=false yarn build
+        run: yarn build  # Removed CI=false as it's usually not needed with modern React
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2  # Note the correct spelling
+        uses: actions/upload-pages-artifact@v3  # Updated to v3
         with:
           path: './build'
           name: github-pages-${{ github.run_id }}

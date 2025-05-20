@@ -4,9 +4,10 @@
   functions = "functions/"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "18"  # Downgrade to LTS version
   NPM_FLAGS = "--legacy-peer-deps"
-  
+  NODE_OPTIONS = "--openssl-legacy-provider"  # Critical fix for React
+
 [[redirects]]
   from = "/*"
   to = "/index.html"

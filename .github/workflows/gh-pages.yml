@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source code
+      - name: Checkout source
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -32,7 +32,7 @@ jobs:
       - name: Build React app
         run: npm run build
 
-      - name: Upload build output
+      - name: Upload static files
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./build

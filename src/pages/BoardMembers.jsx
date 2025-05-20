@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import Select from 'react-select'
-// import { BOARD_MEMBER_DETAILS } from '../utilities/constants/BoardMembers.constants';
 import BoardMembers from '../utilities/data/board.json'
-// import logo from '../assets/img/logos/WIF-Dark.png'
 import NavBar from '../components/common/navBar'
 import Footer from '../components/common/footer'
 
 const options = [
+    { value: '2025', label: '2025' },
     { value: '2024', label: '2024' },
     { value: '2023', label: '2023' },
     { value: '2022', label: '2022' },
@@ -14,29 +13,29 @@ const options = [
 ]
 
 const initialState = {
-    year: '',
+    year: '2025',
     members: [],
 }
 
 export default class Team extends Component {
     constructor(props) {
         super(props)
-        this.changeYear = this.changeYear.bind(this)
         this.state = initialState
+        this.changeYear = this.changeYear.bind(this)
     }
 
-    componentDidMount = () => {
-        this.setState({ year: '2024' })
-        this.setState({ members: BoardMembers['2024'] })
+    componentDidMount() {
+        this.setState({
+            members: BoardMembers['2025'] || []
+        })
     }
 
     changeYear = (e) => {
-        this.setState({ year: e.value })
-
-        setTimeout(
-            () => this.setState({ members: BoardMembers[this.state.year] }),
-            10
-        )
+        const year = e.value
+        this.setState({
+            year,
+            members: BoardMembers[year] || []
+        })
     }
 
     render() {
@@ -45,11 +44,11 @@ export default class Team extends Component {
                 <NavBar />
 
                 <section id="team">
-                    <div class="container" data-aos="fade-up">
-                        <div class="section-header">
+                    <div className="container" data-aos="fade-up">
+                        <div className="section-header">
                             <h3>Board of Executives {this.state.year}</h3>
                         </div>
-                        <div class="d-flex justify-content-center">
+                        <div className="d-flex justify-content-center mb-4">
                             <Select
                                 defaultValue={options[0]}
                                 options={options}
@@ -57,33 +56,38 @@ export default class Team extends Component {
                             />
                         </div>
 
-                        <div class="row member-row">
+                        <div className="row member-row">
                             {this.state.members.map((member, index) => (
                                 <div
-                                    class="col-lg-3 col-md-6 team-card"
+                                    className="col-lg-3 col-md-6 team-card"
+                                    key={index}
                                     data-aos="zoom-out"
                                     data-aos-delay="100"
                                 >
-                                    <div class="member">
+                                    <div className="member">
                                         <img
                                             src={member.IMAGE_SRC}
-                                            class="img-fluid team-member-img"
-                                            alt=""
+                                            className="img-fluid team-member-img"
+                                            alt={`${member.NAME}`}
                                         />
-                                        <div class="member-info">
-                                            <div class="member-info-content">
-                                                <div class="social">
-                                                    <a href={member.FACEBOOK}>
-                                                        <i class="fa fa-facebook"></i>
-                                                    </a>
-                                                    <a href={member.LINKEDIN}>
-                                                        <i class="fa fa-linkedin"></i>
-                                                    </a>
+                                        <div className="member-info">
+                                            <div className="member-info-content">
+                                                <div className="social">
+                                                    {member.FACEBOOK && (
+                                                        <a href={member.FACEBOOK} target="_blank" rel="noopener noreferrer">
+                                                            <i className="fa fa-facebook"></i>
+                                                        </a>
+                                                    )}
+                                                    {member.LINKEDIN && (
+                                                        <a href={member.LINKEDIN} target="_blank" rel="noopener noreferrer">
+                                                            <i className="fa fa-linkedin"></i>
+                                                        </a>
+                                                    )}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="member-text">
+                                    <div className="member-text">
                                         <h4>{member.NAME}</h4>
                                         <span>{member.ROLE}</span>
                                     </div>

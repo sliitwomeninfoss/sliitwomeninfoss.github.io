@@ -1,0 +1,8 @@
+[build]
+  command = "yarn build"
+  publish = "build/"
+  functions = "functions/"
+
+[build.environment]
+  NODE_VERSION = "20"
+  YARN_VERSION = "1.22.22"

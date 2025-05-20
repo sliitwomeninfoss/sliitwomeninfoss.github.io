@@ -31,7 +31,6 @@ jobs:
       - name: Build project
         run: CI=false yarn build
 
-      # 🔧 Fix for missing upload-artifact reference
       - name: Workaround for missing upload-artifact
         uses: actions/upload-artifact@v3
         with:

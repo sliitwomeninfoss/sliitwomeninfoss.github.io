@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: read
+  contents: write          # Changed from 'read' to 'write'
   pages: write
   id-token: write
 
@@ -30,12 +30,6 @@ jobs:
 
       - name: Build project
         run: CI=false yarn build
-
-      - name: Workaround for missing upload-artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: dummy
-          path: README.md
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2

@@ -17,25 +17,31 @@ jobs:
   build-and-upload:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v4  # Updated to v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4  # Updated to v4
+        uses: actions/setup-node@v4
         with:
-          node-version: 20  # Updated from 16 (LTS as of 2024)
+          node-version: 20
+          cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile  # More reliable install
+        run: |
+          yarn install --frozen-lockfile
+          # Temporary fix if you have dependency conflicts:
+          # yarn install --ignore-engines || echo "Continuing with potential dependency conflicts"
 
       - name: Build project
-        run: yarn build  # Removed CI=false as it's usually not needed with modern React
+        run: yarn build
+
+      - name: Verify build output
+        run: ls -la ./build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3  # Updated to v3
+        uses: actions/upload-pages-artifact@v3
         with:
           path: './build'
-          name: github-pages-${{ github.run_id }}
 
   deploy:
     needs: build-and-upload
@@ -47,5 +53,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          artifact_name: github-pages-${{ github.run_id }}

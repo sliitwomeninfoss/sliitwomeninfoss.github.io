@@ -12,32 +12,36 @@ permissions:
 
 jobs:
   build-and-upload:
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: actions/checkout@v2
+    runs-on: ubuntu-latest
 
-      - name: Install Node.js
-        uses: actions/setup-node@v1
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'npm'
 
-      - name: Install project
-        run: yarn install
+      - name: Install dependencies
+        run: npm ci
 
       - name: Build project
-        run: CI=false yarn build
-        
-      - name: Upload artifact
+        run: npm run build
+
+      - name: Upload artifact for deployment
         uses: actions/upload-pages-artifact@v1
         with:
           path: './build'
 
   deploy:
+    runs-on: ubuntu-latest
+    needs: build-and-upload
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build-and-upload
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

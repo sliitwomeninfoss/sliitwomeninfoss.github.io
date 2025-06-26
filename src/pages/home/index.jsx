@@ -51,7 +51,7 @@ export default function Home() {
                                 Become a Member
                             </a> */}
                                 <a
-                                    href="https://forms.gle/VSPz9ZmXNYtpCwAQ8"
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLScvxGw5toisHPA3XtBPzerk6x9C9UElIK8wiAw3SIdQ09ssIg/viewform"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
